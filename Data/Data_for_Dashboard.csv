@@ -1,1047 +1,784 @@
-"Country","Year","Region","Capital city population (as a percentage of total population)","Capital city population (as a percentage of total urban population)","Capital city population (thousands)","Rural population (percent growth rate per annum)","Urban population (percent growth rate per annum)","Urban population (percent)","Capital City","Population (million)"
-"Afghanistan",2005,"South Asia",11.6,51,2905,4.3,5,22.7,"Kabul",25.0431034482759
-"Afghanistan",2010,"South Asia",11.4,48.1,3289,2.5,3.7,23.7,"Kabul",28.8508771929825
-"Afghanistan",2015,"South Asia",11,44.5,3724,2.9,4,24.8,"Kabul",33.8545454545455
-"Afghanistan",2018,"South Asia",NA,NA,4012,NA,NA,25.5,"Kabul",NA
-"Africa",2005,NA,NA,NA,NA,1.9,3.5,36.9,NA,NA
-"Africa",2010,NA,NA,NA,NA,1.9,3.6,38.9,NA,NA
-"Africa",2015,NA,NA,NA,NA,1.8,3.7,41.2,NA,NA
-"Africa",2018,NA,NA,NA,NA,NA,NA,42.5,NA,NA
-"Albania",2005,"Europe & Central Asia",12.1,25.8,372,-2.1,2,46.7,"Tirana",3.07438016528926
-"Albania",2010,"Europe & Central Asia",13.9,26.6,409,-3.1,1.3,52.2,"Tirana",2.94244604316547
-"Albania",2015,"Europe & Central Asia",15.4,26.8,449,-2.5,1.8,57.4,"Tirana",2.91558441558442
-"Albania",2018,"Europe & Central Asia",NA,NA,476,NA,NA,60.3,"Tirana",NA
-"Algeria",2005,"Middle East & North Africa",6.9,10.7,2282,-0.7,2.6,63.8,"Algiers",33.0724637681159
-"Algeria",2010,"Middle East & North Africa",6.7,10,2432,-0.5,2.8,67.5,"Algiers",36.2985074626866
-"Algeria",2015,"Middle East & North Africa",6.5,9.2,2592,-0.2,2.9,70.8,"Algiers",39.8769230769231
-"Algeria",2018,"Middle East & North Africa",NA,NA,2694,NA,NA,72.6,"Algiers",NA
-"American Samoa",2005,"East Asia & Pacific",NA,NA,NA,1.4,0.4,88.1,"Pago Pago",NA
-"American Samoa",2010,"East Asia & Pacific",NA,NA,NA,-0.4,-1.3,87.6,"Pago Pago",NA
-"American Samoa",2015,"East Asia & Pacific",NA,NA,NA,0.5,-0.1,87.2,"Pago Pago",NA
-"American Samoa",2018,"East Asia & Pacific",NA,NA,49,NA,NA,87.2,"Pago Pago",NA
-"Andorra",2005,"Europe & Central Asia",NA,NA,NA,8.6,3.3,90.3,"Andorra la Vella",NA
-"Andorra",2010,"Europe & Central Asia",NA,NA,NA,4.2,1,88.8,"Andorra la Vella",NA
-"Andorra",2015,"Europe & Central Asia",NA,NA,NA,-0.8,-1.7,88.3,"Andorra la Vella",NA
-"Andorra",2018,"Europe & Central Asia",NA,NA,23,NA,NA,88.1,"Andorra la Vella",NA
-"Angola",2005,"Sub-Saharan Africa",19.8,35.4,3872,0.9,5.7,56,"Luanda",19.5555555555556
-"Angola",2010,"Sub-Saharan Africa",22.7,37.9,5300,1.8,4.9,59.8,"Luanda",23.3480176211454
-"Angola",2015,"Sub-Saharan Africa",25.2,39.7,7023,1.6,4.7,63.4,"Luanda",27.8690476190476
-"Angola",2018,"Sub-Saharan Africa",NA,NA,7774,NA,NA,65.5,"Luanda",NA
-"Anguilla",2005,"Latin America & Caribbean",NA,NA,NA,0,2.6,100,"The Valley",NA
-"Anguilla",2010,"Latin America & Caribbean",NA,NA,NA,0,1.7,100,"The Valley",NA
-"Anguilla",2015,"Latin America & Caribbean",NA,NA,NA,0,1.2,100,"The Valley",NA
-"Anguilla",2018,"Latin America & Caribbean",NA,NA,1,NA,NA,100,"The Valley",NA
-"Antigua and Barbuda",2005,"Latin America & Caribbean",NA,NA,NA,2.2,-0.6,29.2,"Saint John's",NA
-"Antigua and Barbuda",2010,"Latin America & Caribbean",NA,NA,NA,2,-1,26.2,"Saint John's",NA
-"Antigua and Barbuda",2015,"Latin America & Caribbean",NA,NA,NA,1.4,0.1,25,"Saint John's",NA
-"Antigua and Barbuda",2018,"Latin America & Caribbean",NA,NA,21,NA,NA,24.6,"Saint John's",NA
-"Argentina",2005,"Latin America & Caribbean",34.1,37.8,13330,-0.6,1.3,90,"Buenos Aires",39.0909090909091
-"Argentina",2010,"Latin America & Caribbean",34.6,38,14246,-0.7,1.2,90.8,"Buenos Aires",41.1734104046243
-"Argentina",2015,"Latin America & Caribbean",33.9,37,14706,-0.4,1.2,91.5,"Buenos Aires",43.3805309734513
-"Argentina",2018,"Latin America & Caribbean",NA,NA,14967,NA,NA,91.9,"Buenos Aires",NA
-"Armenia",2005,"Europe & Central Asia",36.5,57,1087,-0.2,-0.8,63.9,"Yerevan",2.97808219178082
-"Armenia",2010,"Europe & Central Asia",37,58.4,1066,-0.4,-0.9,63.4,"Yerevan",2.88108108108108
-"Armenia",2015,"Europe & Central Asia",36.7,58.2,1071,0.5,0.2,63.1,"Yerevan",2.91825613079019
-"Armenia",2018,"Europe & Central Asia",NA,NA,1080,NA,NA,63.1,"Yerevan",NA
-"Aruba",2005,"Latin America & Caribbean",NA,NA,NA,2.6,1.1,44.9,"Oranjestad",NA
-"Aruba",2010,"Latin America & Caribbean",NA,NA,NA,1,-0.5,43.1,"Oranjestad",NA
-"Aruba",2015,"Latin America & Caribbean",NA,NA,NA,0.5,0.5,43.1,"Oranjestad",NA
-"Aruba",2018,"Latin America & Caribbean",NA,NA,30,NA,NA,43.4,"Oranjestad",NA
-"Asia",2005,NA,NA,NA,NA,0,3.1,41.2,NA,NA
-"Asia",2010,NA,NA,NA,NA,-0.1,2.8,44.8,NA,NA
-"Asia",2015,NA,NA,NA,NA,-0.2,2.4,48,NA,NA
-"Asia",2018,NA,NA,NA,NA,NA,NA,49.9,NA,NA
-"Australia",2005,"East Asia & Pacific",1.8,2.1,366,0.7,1.3,84.6,"Canberra",20.3333333333333
-"Australia",2010,"East Asia & Pacific",1.8,2.1,398,1,1.9,85.2,"Canberra",22.1111111111111
-"Australia",2015,"East Asia & Pacific",1.8,2.1,429,0.8,1.6,85.7,"Canberra",23.8333333333333
-"Australia",2018,"East Asia & Pacific",NA,NA,448,NA,NA,86,"Canberra",NA
-"Australia and New Zealand",2005,NA,NA,NA,NA,0.8,1.3,84.9,NA,NA
-"Australia and New Zealand",2010,NA,NA,NA,NA,1,1.8,85.3,NA,NA
-"Australia and New Zealand",2015,NA,NA,NA,NA,0.8,1.5,85.8,NA,NA
-"Australia and New Zealand",2018,NA,NA,NA,NA,NA,NA,86.1,NA,NA
-"Austria",2005,"Europe & Central Asia",19.9,33.8,1641,1.1,0,58.8,"Vienna",8.24623115577889
-"Austria",2010,"Europe & Central Asia",20.6,35.9,1731,1.1,-0.1,57.4,"Vienna",8.40291262135922
-"Austria",2015,"Europe & Central Asia",21.1,36.6,1835,0.5,0.7,57.7,"Vienna",8.69668246445498
-"Austria",2018,"Europe & Central Asia",NA,NA,1901,NA,NA,58.3,"Vienna",NA
-"Azerbaijan",2005,"Europe & Central Asia",21.9,41.7,1867,0.6,1.4,52.4,"Baku",8.52511415525114
-"Azerbaijan",2010,"Europe & Central Asia",22.8,42.7,2062,0.7,1.5,53.4,"Baku",9.0438596491228
-"Azerbaijan",2015,"Europe & Central Asia",22.9,41.9,2206,0.7,1.7,54.7,"Baku",9.63318777292577
-"Azerbaijan",2018,"Europe & Central Asia",NA,NA,2286,NA,NA,55.7,"Baku",NA
-"Bahamas",2005,"Latin America & Caribbean",NA,NA,NA,1.8,2.1,82.2,"Nassau",NA
-"Bahamas",2010,"Latin America & Caribbean",NA,NA,NA,1.6,1.9,82.4,"Nassau",NA
-"Bahamas",2015,"Latin America & Caribbean",NA,NA,NA,1,1.5,82.7,"Nassau",NA
-"Bahamas",2018,"Latin America & Caribbean",NA,NA,280,NA,NA,83,"Nassau",NA
-"Bahrain",2005,"Middle East & North Africa",22.3,25.2,198,5.7,5.8,88.4,"Manama",0.887892376681614
-"Bahrain",2010,"Middle East & North Africa",23.5,26.6,292,6.3,6.7,88.6,"Manama",1.24255319148936
-"Bahrain",2015,"Middle East & North Africa",32.1,36.1,441,1.4,2.1,89,"Manama",1.37383177570093
-"Bahrain",2018,"Middle East & North Africa",NA,NA,565,NA,NA,89.3,"Manama",NA
-"Bangladesh",2005,"South Asia",8.6,32.1,12331,0.9,4.3,26.8,"Dhaka",143.383720930233
-"Bangladesh",2010,"South Asia",9.7,31.8,14731,0.2,3.7,30.5,"Dhaka",151.865979381443
-"Bangladesh",2015,"South Asia",10.9,31.8,17597,0,3.5,34.3,"Dhaka",161.440366972477
-"Bangladesh",2018,"South Asia",NA,NA,19578,NA,NA,36.6,"Dhaka",NA
-"Barbados",2005,"Latin America & Caribbean",NA,NA,NA,0.6,-0.3,32.8,"Bridgetown",NA
-"Barbados",2010,"Latin America & Caribbean",NA,NA,NA,0.7,-0.2,31.9,"Bridgetown",NA
-"Barbados",2015,"Latin America & Caribbean",NA,NA,NA,0.5,-0.1,31.2,"Bridgetown",NA
-"Barbados",2018,"Latin America & Caribbean",NA,NA,89,NA,NA,31.1,"Bridgetown",NA
-"Belarus",2005,"Europe & Central Asia",18.4,25.5,1775,-2.3,0,72.4,"Minsk",9.64673913043478
-"Belarus",2010,"Europe & Central Asia",19.5,26.2,1850,-2.1,0.3,74.7,"Minsk",9.48717948717949
-"Belarus",2015,"Europe & Central Asia",20.5,26.6,1945,-2.1,0.7,77.2,"Minsk",9.48780487804878
-"Belarus",2018,"Europe & Central Asia",NA,NA,2005,NA,NA,78.6,"Minsk",NA
-"Belgium",2005,"Europe & Central Asia",17.6,18,1853,-1.5,0.6,97.4,"Brussels",10.5284090909091
-"Belgium",2010,"Europe & Central Asia",17.6,18,1926,-1.3,0.8,97.7,"Brussels",10.9431818181818
-"Belgium",2015,"Europe & Central Asia",17.7,18.1,2002,-1.4,0.7,97.9,"Brussels",11.3107344632768
-"Belgium",2018,"Europe & Central Asia",NA,NA,2050,NA,NA,98,"Brussels",NA
-"Belize",2005,"Latin America & Caribbean",NA,NA,NA,2.7,2.7,45.3,"Belmopan",NA
-"Belize",2010,"Latin America & Caribbean",NA,NA,NA,2.6,2.5,45.2,"Belmopan",NA
-"Belize",2015,"Latin America & Caribbean",NA,NA,NA,2.2,2.3,45.4,"Belmopan",NA
-"Belize",2018,"Latin America & Caribbean",NA,NA,23,NA,NA,45.7,"Belmopan",NA
-"Benin",2005,"Sub-Saharan Africa",NA,NA,NA,2.3,4.1,40.5,"Porto-Novo",NA
-"Benin",2010,"Sub-Saharan Africa",NA,NA,NA,2,4.1,43.1,"Porto-Novo",NA
-"Benin",2015,"Sub-Saharan Africa",NA,NA,NA,1.9,4,45.7,"Porto-Novo",NA
-"Benin",2018,"Sub-Saharan Africa",NA,NA,285,NA,NA,47.3,"Porto-Novo",NA
-"Bermuda",2005,"North America",NA,NA,NA,0,0.3,100,"Hamilton",NA
-"Bermuda",2010,"North America",NA,NA,NA,0,-0.4,100,"Hamilton",NA
-"Bermuda",2015,"North America",NA,NA,NA,0,-0.6,100,"Hamilton",NA
-"Bermuda",2018,"North America",NA,NA,10,NA,NA,100,"Hamilton",NA
-"Bhutan",2005,"South Asia",NA,NA,NA,1.2,6.7,31,"Thimphu",NA
-"Bhutan",2010,"South Asia",NA,NA,NA,0.9,4.4,34.8,"Thimphu",NA
-"Bhutan",2015,"South Asia",NA,NA,NA,0.3,3.7,38.7,"Thimphu",NA
-"Bhutan",2018,"South Asia",NA,NA,203,NA,NA,40.9,"Thimphu",NA
-"Bolivia",2005,"Latin America & Caribbean",NA,NA,NA,0.5,2.6,64.2,"Sucre",NA
-"Bolivia",2010,"Latin America & Caribbean",NA,NA,NA,0.4,2.4,66.4,"Sucre",NA
-"Bolivia",2015,"Latin America & Caribbean",NA,NA,NA,0.4,2.1,68.4,"Sucre",NA
-"Bolivia",2018,"Latin America & Caribbean",NA,NA,278,NA,NA,69.4,"Sucre",NA
-"Bonaire, Saint Eustatius and Saba",2005,"Latin America & Caribbean",NA,NA,NA,0.2,0,74.8,"Kralendijk",NA
-"Bonaire, Saint Eustatius and Saba",2010,"Latin America & Caribbean",NA,NA,NA,7.5,7.5,74.7,"Kralendijk",NA
-"Bonaire, Saint Eustatius and Saba",2015,"Latin America & Caribbean",NA,NA,NA,3.2,3.2,74.8,"Kralendijk",NA
-"Bonaire, Saint Eustatius and Saba",2018,"Latin America & Caribbean",NA,NA,11,NA,NA,74.9,"Kralendijk",NA
-"Bosnia and Herzegovina",2005,"Europe & Central Asia",9,20.6,342,-0.5,0.8,44,"Sarajevo",3.8
-"Bosnia and Herzegovina",2010,"Europe & Central Asia",9.2,20.2,342,-0.9,0.4,45.6,"Sarajevo",3.71739130434783
-"Bosnia and Herzegovina",2015,"Europe & Central Asia",9.7,20.5,342,-1.6,-0.3,47.2,"Sarajevo",3.52577319587629
-"Bosnia and Herzegovina",2018,"Europe & Central Asia",NA,NA,343,NA,NA,48.2,"Sarajevo",NA
-"Botswana",2005,"Sub-Saharan Africa",NA,NA,NA,0.2,2.4,55.9,"Gaborone",NA
-"Botswana",2010,"Sub-Saharan Africa",NA,NA,NA,-1.5,3.8,62.4,"Gaborone",NA
-"Botswana",2015,"Sub-Saharan Africa",NA,NA,NA,-0.9,3.3,67.2,"Gaborone",NA
-"Botswana",2018,"Sub-Saharan Africa",NA,NA,269,NA,NA,69.4,"Gaborone",NA
-"Brazil",2005,"Latin America & Caribbean",1.8,2.1,3301,-0.5,1.7,82.8,"Brasilia",183.388888888889
-"Brazil",2010,"Latin America & Caribbean",1.9,2.2,3710,-0.8,1.4,84.3,"Brasilia",195.263157894737
-"Brazil",2015,"Latin America & Caribbean",2,2.4,4168,-1,1.2,85.8,"Brasilia",208.4
-"Brazil",2018,"Latin America & Caribbean",NA,NA,4470,NA,NA,86.6,"Brasilia",NA
-"British Virgin Islands",2005,"Latin America & Caribbean",NA,NA,NA,1.8,3,43.2,"Road Town",NA
-"British Virgin Islands",2010,"Latin America & Caribbean",NA,NA,NA,2.7,4,44.8,"Road Town",NA
-"British Virgin Islands",2015,"Latin America & Caribbean",NA,NA,NA,1.4,2.8,46.6,"Road Town",NA
-"British Virgin Islands",2018,"Latin America & Caribbean",NA,NA,15,NA,NA,47.7,"Road Town",NA
-"Brunei Darussalam",2005,"East Asia & Pacific",NA,NA,NA,0.4,2.4,73.2,"Bandar Seri Begawan",NA
-"Brunei Darussalam",2010,"East Asia & Pacific",NA,NA,NA,-0.1,1.7,75,"Bandar Seri Begawan",NA
-"Brunei Darussalam",2015,"East Asia & Pacific",NA,NA,NA,0,1.9,76.7,"Bandar Seri Begawan",NA
-"Brunei Darussalam",2018,"East Asia & Pacific",NA,NA,41,NA,NA,77.6,"Bandar Seri Begawan",NA
-"Bulgaria",2005,"Europe & Central Asia",15.2,21.6,1169,-1.9,-0.3,70.6,"Sofia",7.69078947368421
-"Bulgaria",2010,"Europe & Central Asia",16.4,22.7,1216,-1.9,-0.3,72.3,"Sofia",7.41463414634146
-"Bulgaria",2015,"Europe & Central Asia",17.5,23.6,1256,-1.9,-0.2,74,"Sofia",7.17714285714286
-"Bulgaria",2018,"Europe & Central Asia",NA,NA,1272,NA,NA,75,"Sofia",NA
-"Burkina Faso",2005,"Sub-Saharan Africa",9.9,45.9,1328,2,6.7,21.5,"Ouagadougou",13.4141414141414
-"Burkina Faso",2010,"Sub-Saharan Africa",11.2,45.3,1742,2.2,5.7,24.6,"Ouagadougou",15.5535714285714
-"Burkina Faso",2015,"Sub-Saharan Africa",12.2,44.1,2200,2.2,5.2,27.5,"Ouagadougou",18.0327868852459
-"Burkina Faso",2018,"Sub-Saharan Africa",NA,NA,2531,NA,NA,29.4,"Ouagadougou",NA
-"Burundi",2005,"Sub-Saharan Africa",5.6,59.2,412,2.7,5.5,9.4,"Bujumbura",7.35714285714286
-"Burundi",2010,"Sub-Saharan Africa",6.3,59.6,556,3,5.9,10.6,"Bujumbura",8.82539682539682
-"Burundi",2015,"Sub-Saharan Africa",7.4,61,751,2.7,5.6,12.1,"Bujumbura",10.1486486486486
-"Burundi",2018,"Sub-Saharan Africa",NA,NA,899,NA,NA,13,"Bujumbura",NA
-"Côte d’Ivoire",2005,NA,NA,NA,NA,1.1,2.8,45.2,"Yamoussoukro",NA
-"Côte d’Ivoire",2010,NA,NA,NA,NA,1.4,3,47.3,"Yamoussoukro",NA
-"Côte d’Ivoire",2015,NA,NA,NA,NA,1.7,3.4,49.4,"Yamoussoukro",NA
-"Côte d’Ivoire",2018,NA,NA,NA,231,NA,NA,50.8,"Yamoussoukro",NA
-"Cabo Verde",2005,"Sub-Saharan Africa",NA,NA,NA,-0.2,3.3,57.7,"Praia",NA
-"Cabo Verde",2010,"Sub-Saharan Africa",NA,NA,NA,-0.9,2.5,61.8,"Praia",NA
-"Cabo Verde",2015,"Sub-Saharan Africa",NA,NA,NA,-0.2,2,64.3,"Praia",NA
-"Cabo Verde",2018,"Sub-Saharan Africa",NA,NA,168,NA,NA,65.7,"Praia",NA
-"Cambodia",2005,"East Asia & Pacific",9.9,51.8,1317,1.6,2.4,19.2,"Phnom Penh",13.3030303030303
-"Cambodia",2010,"East Asia & Pacific",10.6,52.4,1523,1.2,2.6,20.3,"Phnom Penh",14.3679245283019
-"Cambodia",2015,"East Asia & Pacific",11.5,51.7,1779,1.1,3.4,22.2,"Phnom Penh",15.4695652173913
-"Cambodia",2018,"East Asia & Pacific",NA,NA,1952,NA,NA,23.4,"Phnom Penh",NA
-"Cameroon",2005,"Sub-Saharan Africa",10.2,21.1,1781,1.5,3.9,48.5,"Yaoundé",17.4607843137255
-"Cameroon",2010,"Sub-Saharan Africa",11.8,22.8,2349,1.5,3.9,51.6,"Yaoundé",19.9067796610169
-"Cameroon",2015,"Sub-Saharan Africa",13.6,24.8,3097,1.4,3.8,54.6,"Yaoundé",22.7720588235294
-"Cameroon",2018,"Sub-Saharan Africa",NA,NA,3656,NA,NA,56.4,"Yaoundé",NA
-"Canada",2005,"North America",3.5,4.3,1122,0.3,1.1,80.1,"Ottawa",32.0571428571429
-"Canada",2010,"North America",3.6,4.4,1218,0.3,1.3,80.9,"Ottawa",33.8333333333333
-"Canada",2015,"North America",3.6,4.5,1308,0.7,1.1,81.3,"Ottawa",36.3333333333333
-"Canada",2018,"North America",NA,NA,1363,NA,NA,81.4,"Ottawa",NA
-"Caribbean",2005,NA,NA,NA,NA,-0.6,1.7,65.4,NA,NA
-"Caribbean",2010,NA,NA,NA,NA,-0.6,1.5,67.8,NA,NA
-"Caribbean",2015,NA,NA,NA,NA,-0.7,1.4,70,NA,NA
-"Caribbean",2018,NA,NA,NA,NA,NA,NA,71.3,NA,NA
-"Cayman Islands",2005,"Latin America & Caribbean",NA,NA,NA,0,3.1,100,"George Town",NA
-"Cayman Islands",2010,"Latin America & Caribbean",NA,NA,NA,0,2.6,100,"George Town",NA
-"Cayman Islands",2015,"Latin America & Caribbean",NA,NA,NA,0,1.5,100,"George Town",NA
-"Cayman Islands",2018,"Latin America & Caribbean",NA,NA,35,NA,NA,100,"George Town",NA
-"Central African Republic",2005,"Sub-Saharan Africa",15.6,41,644,1.8,2.1,38.1,"Bangui",4.12820512820513
-"Central African Republic",2010,"Sub-Saharan Africa",16.1,41.4,717,1.2,1.9,38.9,"Bangui",4.45341614906832
-"Central African Republic",2015,"Sub-Saharan Africa",17.6,43.6,798,0,1.1,40.3,"Bangui",4.53409090909091
-"Central African Republic",2018,"Sub-Saharan Africa",NA,NA,851,NA,NA,41.4,"Bangui",NA
-"Central America",2005,NA,NA,NA,NA,0.3,1.9,70.3,NA,NA
-"Central America",2010,NA,NA,NA,NA,0.4,2.1,72.1,NA,NA
-"Central America",2015,NA,NA,NA,NA,0.2,1.9,73.7,NA,NA
-"Central America",2018,NA,NA,NA,NA,NA,NA,74.7,NA,NA
-"Central Asia",2005,NA,NA,NA,NA,0.7,1.6,46.8,NA,NA
-"Central Asia",2010,NA,NA,NA,NA,1,1.9,48,NA,NA
-"Central Asia",2015,NA,NA,NA,NA,1.6,1.7,48.1,NA,NA
-"Central Asia",2018,NA,NA,NA,NA,NA,NA,48.2,NA,NA
-"Chad",2005,"Sub-Saharan Africa",8.2,37.7,827,3.7,3.9,21.8,"N'Djamena",10.0853658536585
-"Chad",2010,"Sub-Saharan Africa",8.3,37.9,991,3.3,3.5,22,"N'Djamena",11.9397590361446
-"Chad",2015,"Sub-Saharan Africa",8.5,37.6,1187,3.1,3.8,22.5,"N'Djamena",13.9647058823529
-"Chad",2018,"Sub-Saharan Africa",NA,NA,1323,NA,NA,23.1,"N'Djamena",NA
-"Channel Islands",2005,"Europe & Central Asia",NA,NA,NA,0.7,0.9,30.7,"Saint Helier",NA
-"Channel Islands",2010,"Europe & Central Asia",NA,NA,NA,0.6,0.9,31.1,"Saint Helier",NA
-"Channel Islands",2015,"Europe & Central Asia",NA,NA,NA,0.5,0.5,31,"Saint Helier",NA
-"Channel Islands",2018,"Europe & Central Asia",NA,NA,34,NA,NA,30.9,"Saint Helier",NA
-"Chile",2005,"Latin America & Caribbean",37.3,43,6025,0.1,1.3,86.8,"Santiago",16.1528150134048
-"Chile",2010,"Latin America & Caribbean",36.9,42.4,6269,0.6,1.1,87.1,"Santiago",16.9891598915989
-"Chile",2015,"Latin America & Caribbean",36.7,42,6523,0.4,1,87.4,"Santiago",17.7738419618529
-"Chile",2018,"Latin America & Caribbean",NA,NA,6680,NA,NA,87.6,"Santiago",NA
-"China",2005,"East Asia & Pacific",1,2.3,12991,-1.6,4,42.5,"Beijing",1299.1
-"China",2010,"East Asia & Pacific",1.2,2.5,16441,-1.9,3.5,49.2,"Beijing",1370.08333333333
-"China",2015,"East Asia & Pacific",1.3,2.4,18421,-2.1,2.9,55.5,"Beijing",1417
-"China",2018,"East Asia & Pacific",NA,NA,19618,NA,NA,59.2,"Beijing",NA
-"China, Hong Kong SAR",2005,"East Asia & Pacific",100,100,6828,0,0.5,100,"Hong Kong",6.828
-"China, Hong Kong SAR",2010,"East Asia & Pacific",100,100,7025,0,0.6,100,"Hong Kong",7.025
-"China, Hong Kong SAR",2015,"East Asia & Pacific",100,100,7246,0,0.6,100,"Hong Kong",7.246
-"China, Hong Kong SAR",2018,"East Asia & Pacific",NA,NA,7429,NA,NA,100,"Hong Kong",NA
-"China, Macao SAR",2005,"East Asia & Pacific",100,100,483,0,2.4,100,"Macao",0.483
-"China, Macao SAR",2010,"East Asia & Pacific",100,100,537,0,2.1,100,"Macao",0.537
-"China, Macao SAR",2015,"East Asia & Pacific",100,100,601,0,2.3,100,"Macao",0.601
-"China, Macao SAR",2018,"East Asia & Pacific",NA,NA,632,NA,NA,100,"Macao",NA
-"Colombia",2005,"Latin America & Caribbean",16.9,22.2,7299,-0.3,1.9,76,"Bogota",43.189349112426
-"Colombia",2010,"Latin America & Caribbean",18.3,23.5,8418,-0.5,1.7,78,"Bogota",46
-"Colombia",2015,"Latin America & Caribbean",20.1,25.2,9708,-0.7,1.4,79.8,"Bogota",48.2985074626866
-"Colombia",2018,"Latin America & Caribbean",NA,NA,10574,NA,NA,80.8,"Bogota",NA
-"Comoros",2005,"Sub-Saharan Africa",NA,NA,NA,2.5,2.3,27.9,"Moroni",NA
-"Comoros",2010,"Sub-Saharan Africa",NA,NA,NA,2.4,2.5,28,"Moroni",NA
-"Comoros",2015,"Sub-Saharan Africa",NA,NA,NA,2.3,2.7,28.5,"Moroni",NA
-"Comoros",2018,"Sub-Saharan Africa",NA,NA,62,NA,NA,29,"Moroni",NA
-"Congo",2005,"Sub-Saharan Africa",34.1,56,1269,1.7,3.6,61,"Brazzaville",3.72140762463343
-"Congo",2010,"Sub-Saharan Africa",35.9,56.8,1576,2.1,4,63.3,"Brazzaville",4.3899721448468
-"Congo",2015,"Sub-Saharan Africa",39.2,59.8,1958,1.3,3.3,65.5,"Brazzaville",4.99489795918367
-"Congo",2018,"Sub-Saharan Africa",NA,NA,2230,NA,NA,66.9,"Brazzaville",NA
-"Cook Islands",2005,"East Asia & Pacific",NA,NA,NA,-2,3.4,71,"Avarua",NA
-"Cook Islands",2010,"East Asia & Pacific",NA,NA,NA,-2.8,-0.6,73.3,"Avarua",NA
-"Cook Islands",2015,"East Asia & Pacific",NA,NA,NA,-2.1,-0.9,74.4,"Avarua",NA
-"Cook Islands",2018,"East Asia & Pacific",NA,NA,13,NA,NA,75.1,"Avarua",NA
-"Costa Rica",2005,"Latin America & Caribbean",26.2,39.9,1114,-1.9,3.7,65.7,"San José",4.25190839694656
-"Costa Rica",2010,"Latin America & Caribbean",26.4,36.9,1202,-2.5,3.1,71.7,"San José",4.5530303030303
-"Costa Rica",2015,"Latin America & Caribbean",27,35.1,1297,-2.9,2.5,76.9,"San José",4.8037037037037
-"Costa Rica",2018,"Latin America & Caribbean",NA,NA,1358,NA,NA,79.3,"San José",NA
-"Croatia",2005,"Europe & Central Asia",15.8,29,690,-0.6,0.1,54.3,"Zagreb",4.36708860759494
-"Croatia",2010,"Europe & Central Asia",15.9,28.8,688,-0.6,0.1,55.2,"Zagreb",4.32704402515723
-"Croatia",2015,"Europe & Central Asia",16.2,28.9,687,-0.9,-0.1,56.2,"Zagreb",4.24074074074074
-"Croatia",2018,"Europe & Central Asia",NA,NA,686,NA,NA,56.9,"Zagreb",NA
-"Cuba",2005,"Latin America & Caribbean",19.3,25.4,2180,-0.4,0.5,76.1,"Havana",11.2953367875648
-"Cuba",2010,"Latin America & Caribbean",18.9,24.7,2143,-0.3,0.2,76.6,"Havana",11.3386243386243
-"Cuba",2015,"Latin America & Caribbean",18.5,24.1,2124,0,0.3,76.9,"Havana",11.4810810810811
-"Cuba",2018,"Latin America & Caribbean",NA,NA,2136,NA,NA,77,"Havana",NA
-"Curaçao",2005,NA,NA,NA,NA,0.1,-0.5,90.5,"Willemstad",NA
-"Curaçao",2010,NA,NA,NA,NA,3.9,2.5,89.9,"Willemstad",NA
-"Curaçao",2015,NA,NA,NA,NA,2.4,1.2,89.4,"Willemstad",NA
-"Curaçao",2018,NA,NA,NA,144,NA,NA,89.1,"Willemstad",NA
-"Cyprus",2005,"Europe & Central Asia",NA,NA,NA,2,1.6,68.3,"Nicosia",NA
-"Cyprus",2010,"Europe & Central Asia",NA,NA,NA,2,1.4,67.6,"Nicosia",NA
-"Cyprus",2015,"Europe & Central Asia",NA,NA,NA,1.2,0.7,66.9,"Nicosia",NA
-"Cyprus",2018,"Europe & Central Asia",NA,NA,269,NA,NA,66.8,"Nicosia",NA
-"Czechia",2005,"Europe & Central Asia",11.7,15.9,1199,0.2,-0.2,73.6,"Prague",10.2478632478632
-"Czechia",2010,"Europe & Central Asia",11.7,16,1234,0.8,0.4,73.3,"Prague",10.5470085470085
-"Czechia",2015,"Europe & Central Asia",12,16.3,1269,0,0.2,73.5,"Prague",10.575
-"Czechia",2018,"Europe & Central Asia",NA,NA,1292,NA,NA,73.8,"Prague",NA
-"Democratic Republic of Congo",2005,"Sub-Saharan Africa",13.9,37,7589,2.3,4.3,37.5,"Kinshasa",54.5971223021583
-"Democratic Republic of Congo",2010,"Sub-Saharan Africa",14.5,36.3,9382,2.5,4.6,40,"Kinshasa",64.7034482758621
-"Democratic Republic of Congo",2015,"Sub-Saharan Africa",15.2,35.6,11598,2.4,4.6,42.7,"Kinshasa",76.3026315789474
-"Democratic Republic of Congo",2018,"Sub-Saharan Africa",NA,NA,13171,NA,NA,44.5,"Kinshasa",NA
-"Denmark",2005,"Europe & Central Asia",20.8,24.2,1127,-0.7,0.5,85.9,"Copenhagen",5.41826923076923
-"Denmark",2010,"Europe & Central Asia",21.5,24.7,1192,-0.9,0.7,86.8,"Copenhagen",5.54418604651163
-"Denmark",2015,"Europe & Central Asia",22.3,25.5,1271,-0.7,0.6,87.5,"Copenhagen",5.69955156950673
-"Denmark",2018,"Europe & Central Asia",NA,NA,1321,NA,NA,87.9,"Copenhagen",NA
-"Djibouti",2005,"Middle East & North Africa",56.5,73.6,442,1.6,1.8,76.8,"Djibouti",0.782300884955752
-"Djibouti",2010,"Middle East & North Africa",57,74,485,1.5,1.7,77,"Djibouti",0.850877192982456
-"Djibouti",2015,"Middle East & North Africa",57.3,74,531,1.4,1.8,77.4,"Djibouti",0.926701570680628
-"Djibouti",2018,"Middle East & North Africa",NA,NA,562,NA,NA,77.8,"Djibouti",NA
-"Dominica",2005,"Latin America & Caribbean",NA,NA,NA,-0.5,0.7,66.6,"Roseau",NA
-"Dominica",2010,"Latin America & Caribbean",NA,NA,NA,-0.7,0.7,68.1,"Roseau",NA
-"Dominica",2015,"Latin America & Caribbean",NA,NA,NA,-0.5,0.9,69.6,"Roseau",NA
-"Dominica",2018,"Latin America & Caribbean",NA,NA,15,NA,NA,70.5,"Roseau",NA
-"Dominican Republic",2005,"Latin America & Caribbean",24.9,36.9,2297,-1.7,3.3,67.4,"Santo Domingo",9.22489959839358
-"Dominican Republic",2010,"Latin America & Caribbean",26.3,35.6,2601,-3,3.2,73.8,"Santo Domingo",9.88973384030418
-"Dominican Republic",2015,"Latin America & Caribbean",28,35.6,2945,-2.8,2.5,78.6,"Santo Domingo",10.5178571428571
-"Dominican Republic",2018,"Latin America & Caribbean",NA,NA,3172,NA,NA,81.1,"Santo Domingo",NA
-"Eastern Africa",2005,NA,NA,NA,NA,2.4,4.2,22.5,NA,NA
-"Eastern Africa",2010,NA,NA,NA,NA,2.4,4.4,24.4,NA,NA
-"Eastern Africa",2015,NA,NA,NA,NA,2.2,4.6,26.6,NA,NA
-"Eastern Africa",2018,NA,NA,NA,NA,NA,NA,28,NA,NA
-"Eastern Asia",2005,NA,NA,NA,NA,-1.7,3.3,48.3,NA,NA
-"Eastern Asia",2010,NA,NA,NA,NA,-2,2.9,54.4,NA,NA
-"Eastern Asia",2015,NA,NA,NA,NA,-2,2.4,59.8,NA,NA
-"Eastern Asia",2018,NA,NA,NA,NA,NA,NA,62.9,NA,NA
-"Eastern Europe",2005,NA,NA,NA,NA,-0.6,-0.4,68.5,NA,NA
-"Eastern Europe",2010,NA,NA,NA,NA,-0.5,-0.1,68.9,NA,NA
-"Eastern Europe",2015,NA,NA,NA,NA,-0.3,0,69.3,NA,NA
-"Eastern Europe",2018,NA,NA,NA,NA,NA,NA,69.6,NA,NA
-"Ecuador",2005,"Latin America & Caribbean",10.8,17.5,1479,1,2.1,61.7,"Quito",13.6944444444444
-"Ecuador",2010,"Latin America & Caribbean",10.7,17.1,1598,1.2,2,62.7,"Quito",14.9345794392523
-"Ecuador",2015,"Latin America & Caribbean",10.7,16.9,1734,1.2,1.8,63.4,"Quito",16.2056074766355
-"Ecuador",2018,"Latin America & Caribbean",NA,NA,1822,NA,NA,63.8,"Quito",NA
-"Egypt",2005,"Middle East & North Africa",19.8,45.9,15174,1.8,2,43,"Cairo",76.6363636363636
-"Egypt",2010,"Middle East & North Africa",20.1,46.7,16899,1.8,1.8,43,"Cairo",84.0746268656716
-"Egypt",2015,"Middle East & North Africa",20.1,46.9,18820,2.3,2.1,42.8,"Cairo",93.6318407960199
-"Egypt",2018,"Middle East & North Africa",NA,NA,20076,NA,NA,42.7,"Cairo",NA
-"El Salvador",2005,"Latin America & Caribbean",17.8,28.9,1074,-0.8,1.5,61.6,"San Salvador",6.03370786516854
-"El Salvador",2010,"Latin America & Caribbean",17.6,26.9,1086,-1.6,1.6,65.5,"San Salvador",6.17045454545454
-"El Salvador",2015,"Latin America & Caribbean",17.4,25,1099,-2.1,1.7,69.7,"San Salvador",6.31609195402299
-"El Salvador",2018,"Latin America & Caribbean",NA,NA,1107,NA,NA,72,"San Salvador",NA
-"Equatorial Guinea",2005,"Sub-Saharan Africa",NA,NA,NA,0.5,7.4,57.7,"Malabo",NA
-"Equatorial Guinea",2010,"Sub-Saharan Africa",NA,NA,NA,0.2,7.2,65.9,"Malabo",NA
-"Equatorial Guinea",2015,"Sub-Saharan Africa",NA,NA,NA,1.3,5.6,70.6,"Malabo",NA
-"Equatorial Guinea",2018,"Sub-Saharan Africa",NA,NA,297,NA,NA,72.1,"Malabo",NA
-"Eritrea",2005,"Sub-Saharan Africa",14.1,45.2,558,1.9,6.3,31.1,"Asmara",3.95744680851064
-"Eritrea",2010,"Sub-Saharan Africa",15.3,43.4,670,0.8,4.5,35.2,"Asmara",4.37908496732026
-"Eritrea",2015,"Sub-Saharan Africa",16.6,43.4,803,1,3.6,38.2,"Asmara",4.83734939759036
-"Eritrea",2018,"Sub-Saharan Africa",NA,NA,896,NA,NA,40.1,"Asmara",NA
-"Estonia",2005,"Europe & Central Asia",29.3,42.6,397,-0.2,-0.8,68.7,"Tallinn",1.35494880546075
-"Estonia",2010,"Europe & Central Asia",29.6,43.5,394,0.1,-0.5,68.1,"Tallinn",1.33108108108108
-"Estonia",2015,"Europe & Central Asia",31.6,46.3,416,-0.5,-0.2,68.4,"Tallinn",1.31645569620253
-"Estonia",2018,"Europe & Central Asia",NA,NA,437,NA,NA,68.9,"Tallinn",NA
-"Eswatini",2005,"Sub-Saharan Africa",NA,NA,NA,1,0.2,22,"Mbabane",NA
-"Eswatini",2010,"Sub-Saharan Africa",NA,NA,NA,1.6,2.1,22.5,"Mbabane",NA
-"Eswatini",2015,"Sub-Saharan Africa",NA,NA,NA,1.6,2.6,23.3,"Mbabane",NA
-"Eswatini",2018,"Sub-Saharan Africa",NA,NA,68,NA,NA,23.8,"Mbabane",NA
-"Ethiopia",2005,"Sub-Saharan Africa",3.4,21.9,2634,2.6,4.1,15.7,"Addis Ababa",77.4705882352941
-"Ethiopia",2010,"Sub-Saharan Africa",3.6,20.6,3126,2.3,4.6,17.3,"Addis Ababa",86.8333333333333
-"Ethiopia",2015,"Sub-Saharan Africa",3.9,19.9,3871,2.1,4.9,19.4,"Addis Ababa",99.2564102564103
-"Ethiopia",2018,"Sub-Saharan Africa",NA,NA,4400,NA,NA,20.8,"Addis Ababa",NA
-"Europe",2005,NA,NA,NA,NA,-0.5,0.3,71.9,NA,NA
-"Europe",2010,NA,NA,NA,NA,-0.5,0.5,72.9,NA,NA
-"Europe",2015,NA,NA,NA,NA,-0.6,0.3,73.9,NA,NA
-"Europe",2018,NA,NA,NA,NA,NA,NA,74.5,NA,NA
-"Falkland Islands (Malvinas)",2005,"Latin America & Caribbean",NA,NA,NA,-1.7,1.3,70.8,"Stanley",NA
-"Falkland Islands (Malvinas)",2010,"Latin America & Caribbean",NA,NA,NA,-2.6,0.2,73.7,"Stanley",NA
-"Falkland Islands (Malvinas)",2015,"Latin America & Caribbean",NA,NA,NA,-1.8,1,76.3,"Stanley",NA
-"Falkland Islands (Malvinas)",2018,"Latin America & Caribbean",NA,NA,2,NA,NA,77.7,"Stanley",NA
-"Faroe Islands",2005,"Europe & Central Asia",NA,NA,NA,-0.7,2.2,39.8,"Tórshavn",NA
-"Faroe Islands",2010,"Europe & Central Asia",NA,NA,NA,-0.3,0.7,40.9,"Tórshavn",NA
-"Faroe Islands",2015,"Europe & Central Asia",NA,NA,NA,-0.1,0.5,41.6,"Tórshavn",NA
-"Faroe Islands",2018,"Europe & Central Asia",NA,NA,21,NA,NA,42.1,"Tórshavn",NA
-"Fiji",2005,"East Asia & Pacific",NA,NA,NA,-0.5,1.1,49.9,"Suva",NA
-"Fiji",2010,"East Asia & Pacific",NA,NA,NA,0,1.8,52.2,"Suva",NA
-"Fiji",2015,"East Asia & Pacific",NA,NA,NA,-0.4,1.7,54.7,"Suva",NA
-"Fiji",2018,"East Asia & Pacific",NA,NA,178,NA,NA,56.2,"Suva",NA
-"Finland",2005,"Europe & Central Asia",20.3,24.5,1067,-0.6,0.4,82.9,"Helsinki",5.25615763546798
-"Finland",2010,"Europe & Central Asia",21,25.1,1126,-0.6,0.6,83.8,"Helsinki",5.36190476190476
-"Finland",2015,"Europe & Central Asia",22.3,26.2,1222,-1.5,0.8,85.2,"Helsinki",5.47982062780269
-"Finland",2018,"Europe & Central Asia",NA,NA,1279,NA,NA,85.4,"Helsinki",NA
-"France",2005,"Europe & Central Asia",16.5,21.4,10092,-0.5,0.9,77.1,"Paris",61.1636363636364
-"France",2010,"Europe & Central Asia",16.6,21.2,10460,-0.5,0.9,78.4,"Paris",63.0120481927711
-"France",2015,"Europe & Central Asia",16.7,20.9,10734,-0.8,0.8,79.7,"Paris",64.2754491017964
-"France",2018,"Europe & Central Asia",NA,NA,10901,NA,NA,80.4,"Paris",NA
-"French Guiana",2005,"Latin America & Caribbean",NA,NA,NA,2.4,5,81.1,"Cayenne",NA
-"French Guiana",2010,"Latin America & Caribbean",NA,NA,NA,0.8,3.2,82.9,"Cayenne",NA
-"French Guiana",2015,"Latin America & Caribbean",NA,NA,NA,0.8,3.1,84.5,"Cayenne",NA
-"French Guiana",2018,"Latin America & Caribbean",NA,NA,58,NA,NA,85.3,"Cayenne",NA
-"French Polynesia",2005,"East Asia & Pacific",NA,NA,NA,0.8,1.9,57.4,"Papeete",NA
-"French Polynesia",2010,"East Asia & Pacific",NA,NA,NA,-0.4,2,60.3,"Papeete",NA
-"French Polynesia",2015,"East Asia & Pacific",NA,NA,NA,0,1.2,61.7,"Papeete",NA
-"French Polynesia",2018,"East Asia & Pacific",NA,NA,136,NA,NA,61.8,"Papeete",NA
-"Gabon",2005,"Sub-Saharan Africa",40.1,48.7,563,-1.1,3.5,82.5,"Libreville",1.40399002493766
-"Gabon",2010,"Sub-Saharan Africa",39.5,46.2,649,-0.7,3.9,85.5,"Libreville",1.64303797468354
-"Gabon",2015,"Sub-Saharan Africa",38.7,43.9,747,-0.7,3.9,88.1,"Libreville",1.93023255813953
-"Gabon",2018,"Sub-Saharan Africa",NA,NA,813,NA,NA,89.4,"Libreville",NA
-"Gambia",2005,"Sub-Saharan Africa",25.5,49,368,1.5,4.8,52,"Banjul",1.44313725490196
-"Gambia",2010,"Sub-Saharan Africa",23.3,41.8,393,1.6,4.5,55.7,"Banjul",1.68669527896996
-"Gambia",2015,"Sub-Saharan Africa",21.3,35.9,420,1.4,4.4,59.2,"Banjul",1.97183098591549
-"Gambia",2018,"Sub-Saharan Africa",NA,NA,437,NA,NA,61.3,"Banjul",NA
-"Georgia",2005,"Europe & Central Asia",24.1,44.9,1081,-1.4,-0.7,53.6,"Tbilisi",4.48547717842324
-"Georgia",2010,"Europe & Central Asia",25.5,45.9,1079,-2,-0.5,55.5,"Tbilisi",4.23137254901961
-"Georgia",2015,"Europe & Central Asia",27.3,47.5,1078,-2.2,-0.7,57.4,"Tbilisi",3.94871794871795
-"Georgia",2018,"Europe & Central Asia",NA,NA,1077,NA,NA,58.6,"Tbilisi",NA
-"Germany",2005,"Europe & Central Asia",4.2,5.5,3391,-0.8,0.3,76,"Berlin",80.7380952380952
-"Germany",2010,"Europe & Central Asia",4.3,5.5,3450,-1,0.1,77,"Berlin",80.2325581395349
-"Germany",2015,"Europe & Central Asia",4.3,5.6,3514,0,0.3,77.2,"Berlin",81.7209302325581
-"Germany",2018,"Europe & Central Asia",NA,NA,3552,NA,NA,77.3,"Berlin",NA
-"Ghana",2005,"Sub-Saharan Africa",8.6,18.2,1854,1.3,4.1,47.3,"Accra",21.5581395348837
-"Ghana",2010,"Sub-Saharan Africa",8.4,16.6,2060,1.2,4,50.7,"Accra",24.5238095238095
-"Ghana",2015,"Sub-Saharan Africa",8.3,15.3,2290,0.9,3.6,54.1,"Accra",27.5903614457831
-"Ghana",2018,"Sub-Saharan Africa",NA,NA,2439,NA,NA,56.1,"Accra",NA
-"Gibraltar",2005,"Europe & Central Asia",NA,NA,NA,0,0.6,100,"Gibraltar",NA
-"Gibraltar",2010,"Europe & Central Asia",NA,NA,NA,0,0.7,100,"Gibraltar",NA
-"Gibraltar",2015,"Europe & Central Asia",NA,NA,NA,0,0.6,100,"Gibraltar",NA
-"Gibraltar",2018,"Europe & Central Asia",NA,NA,35,NA,NA,100,"Gibraltar",NA
-"Greece",2005,"Europe & Central Asia",28.1,37.8,3180,-1,0.8,74.5,"Athens",11.3167259786477
-"Greece",2010,"Europe & Central Asia",27.7,36.3,3170,-1.2,0.7,76.3,"Athens",11.4440433212996
-"Greece",2015,"Europe & Central Asia",28.2,36.1,3161,-1.9,0.1,78,"Athens",11.209219858156
-"Greece",2018,"Europe & Central Asia",NA,NA,3156,NA,NA,79.1,"Athens",NA
-"Greenland",2005,"Europe & Central Asia",NA,NA,NA,-1.1,0.6,82.9,"Nuuk",NA
-"Greenland",2010,"Europe & Central Asia",NA,NA,NA,-2,0.3,84.4,"Nuuk",NA
-"Greenland",2015,"Europe & Central Asia",NA,NA,NA,-2.4,0.3,86.1,"Nuuk",NA
-"Greenland",2018,"Europe & Central Asia",NA,NA,18,NA,NA,86.8,"Nuuk",NA
-"Grenada",2005,"Latin America & Caribbean",NA,NA,NA,0.2,0.4,35.9,"Saint George's",NA
-"Grenada",2010,"Latin America & Caribbean",NA,NA,NA,0.3,0.3,35.9,"Saint George's",NA
-"Grenada",2015,"Latin America & Caribbean",NA,NA,NA,0.4,0.5,36,"Saint George's",NA
-"Grenada",2018,"Latin America & Caribbean",NA,NA,39,NA,NA,36.3,"Saint George's",NA
-"Guadeloupe",2005,"Latin America & Caribbean",NA,NA,NA,0.7,0.7,98.4,"Basse-Terre",NA
-"Guadeloupe",2010,"Latin America & Caribbean",NA,NA,NA,0.4,0.5,98.4,"Basse-Terre",NA
-"Guadeloupe",2015,"Latin America & Caribbean",NA,NA,NA,-0.4,0,98.4,"Basse-Terre",NA
-"Guadeloupe",2018,"Latin America & Caribbean",NA,NA,58,NA,NA,98.5,"Basse-Terre",NA
-"Guam",2005,"East Asia & Pacific",NA,NA,NA,-1.1,0.5,93.6,"Hagåtña",NA
-"Guam",2010,"East Asia & Pacific",NA,NA,NA,-1.4,0.2,94.1,"Hagåtña",NA
-"Guam",2015,"East Asia & Pacific",NA,NA,NA,-1.2,0.4,94.5,"Hagåtña",NA
-"Guam",2018,"East Asia & Pacific",NA,NA,147,NA,NA,94.8,"Hagåtña",NA
-"Guatemala",2005,"Latin America & Caribbean",17.6,37.5,2302,1.8,3,46.9,"Guatemala City",13.0795454545455
-"Guatemala",2010,"Latin America & Caribbean",17.5,36.2,2560,1.6,2.8,48.4,"Guatemala City",14.6285714285714
-"Guatemala",2015,"Latin America & Caribbean",16.8,33.7,2738,1.5,2.7,50,"Guatemala City",16.297619047619
-"Guatemala",2018,"Latin America & Caribbean",NA,NA,2851,NA,NA,51.1,"Guatemala City",NA
-"Guinea",2005,"Sub-Saharan Africa",13.9,43.1,1345,1.5,2.8,32.3,"Conakry",9.67625899280575
-"Guinea",2010,"Sub-Saharan Africa",14.1,41.8,1518,1.8,3,33.7,"Conakry",10.7659574468085
-"Guinea",2015,"Sub-Saharan Africa",14.2,40.3,1714,1.8,3.1,35.1,"Conakry",12.0704225352113
-"Guinea",2018,"Sub-Saharan Africa",NA,NA,1843,NA,NA,36.1,"Conakry",NA
-"Guinea-Bissau",2005,"Sub-Saharan Africa",24.3,63.8,336,1.5,3.1,38.2,"Bissau",1.38271604938272
-"Guinea-Bissau",2010,"Sub-Saharan Africa",26.3,65.5,409,1.7,3.4,40.1,"Bissau",1.55513307984791
-"Guinea-Bissau",2015,"Sub-Saharan Africa",28.1,66.6,497,1.9,3.6,42.1,"Bissau",1.76868327402135
-"Guinea-Bissau",2018,"Sub-Saharan Africa",NA,NA,558,NA,NA,43.4,"Bissau",NA
-"Guyana",2005,"Latin America & Caribbean",NA,NA,NA,0.2,-0.7,27.8,"Georgetown",NA
-"Guyana",2010,"Latin America & Caribbean",NA,NA,NA,0.2,-1,26.6,"Georgetown",NA
-"Guyana",2015,"Latin America & Caribbean",NA,NA,NA,0.6,0.4,26.4,"Georgetown",NA
-"Guyana",2018,"Latin America & Caribbean",NA,NA,110,NA,NA,26.6,"Georgetown",NA
-"Haiti",2005,"Latin America & Caribbean",23.4,55,2171,-0.7,5.2,42.6,"Port-au-Prince",9.27777777777778
-"Haiti",2010,"Latin America & Caribbean",21.4,45.1,2141,-0.2,3.7,47.5,"Port-au-Prince",10.0046728971963
-"Haiti",2015,"Latin America & Caribbean",22.8,43.4,2439,-0.6,3.3,52.4,"Port-au-Prince",10.6973684210526
-"Haiti",2018,"Latin America & Caribbean",NA,NA,2637,NA,NA,55.3,"Port-au-Prince",NA
-"Holy See",2005,"Europe & Central Asia",NA,NA,NA,0,0.3,100,"Vatican City",NA
-"Holy See",2010,"Europe & Central Asia",NA,NA,NA,0,-0.1,100,"Vatican City",NA
-"Holy See",2015,"Europe & Central Asia",NA,NA,NA,0,0.2,100,"Vatican City",NA
-"Holy See",2018,"Europe & Central Asia",NA,NA,1,NA,NA,100,"Vatican City",NA
-"Honduras",2005,"Latin America & Caribbean",12,24.6,882,1.3,3.8,48.6,"Tegucigalpa",7.35
-"Honduras",2010,"Latin America & Caribbean",12.7,24.5,1043,0.8,3.4,51.9,"Tegucigalpa",8.21259842519685
-"Honduras",2015,"Latin America & Caribbean",13.8,24.9,1233,0.4,3,55.2,"Tegucigalpa",8.93478260869565
-"Honduras",2018,"Latin America & Caribbean",NA,NA,1363,NA,NA,57.1,"Tegucigalpa",NA
-"Hungary",2005,"Europe & Central Asia",17.4,26.2,1756,-1.3,0.3,66.4,"Budapest",10.0919540229885
-"Hungary",2010,"Europe & Central Asia",17.5,25.4,1734,-1.9,0.4,68.9,"Budapest",9.90857142857143
-"Hungary",2015,"Europe & Central Asia",17.8,25.3,1746,-1.3,0.2,70.5,"Budapest",9.80898876404494
-"Hungary",2018,"Europe & Central Asia",NA,NA,1759,NA,NA,71.4,"Budapest",NA
-"Iceland",2005,"Europe & Central Asia",NA,NA,NA,-0.7,1.1,93,"Reykjavik",NA
-"Iceland",2010,"Europe & Central Asia",NA,NA,NA,0,1.8,93.6,"Reykjavik",NA
-"Iceland",2015,"Europe & Central Asia",NA,NA,NA,0.2,0.6,93.7,"Reykjavik",NA
-"Iceland",2018,"Europe & Central Asia",NA,NA,216,NA,NA,93.8,"Reykjavik",NA
-"India",2005,"South Asia",1.6,5.6,18691,1.2,2.8,29.2,"New Delhi",1168.1875
-"India",2010,"South Asia",1.8,5.8,21988,1,2.6,30.9,"New Delhi",1221.55555555556
-"India",2015,"South Asia",2,6,25866,0.7,2.4,32.8,"New Delhi",1293.3
-"India",2018,"South Asia",NA,NA,28514,NA,NA,34,"New Delhi",NA
-"Indonesia",2005,"East Asia & Pacific",4,8.6,8988,0,3.2,45.9,"Jakarta",224.7
-"Indonesia",2010,"East Asia & Pacific",4,8,9626,-0.2,3,49.9,"Jakarta",240.65
-"Indonesia",2015,"East Asia & Pacific",3.9,7.4,10173,-0.2,2.6,53.3,"Jakarta",260.846153846154
-"Indonesia",2018,"East Asia & Pacific",NA,NA,10517,NA,NA,55.3,"Jakarta",NA
-"Iran (Islamic Republic of)",2005,"Middle East & North Africa",10.9,16.1,7652,-0.8,2.3,67.6,"Tehran",70.2018348623853
-"Iran (Islamic Republic of)",2010,"Middle East & North Africa",10.8,15.3,8059,-0.8,2,70.6,"Tehran",74.6203703703704
-"Iran (Islamic Republic of)",2015,"Middle East & North Africa",10.8,14.7,8555,-0.7,2,73.4,"Tehran",79.212962962963
-"Iran (Islamic Republic of)",2018,"Middle East & North Africa",NA,NA,8896,NA,NA,74.9,"Tehran",NA
-"Iraq",2005,"Middle East & North Africa",19.7,28.7,5327,2.6,2.8,68.8,"Baghdad",27.0406091370558
-"Iraq",2010,"Middle East & North Africa",18.4,26.6,5652,2.4,2.7,69.1,"Baghdad",30.7173913043478
-"Iraq",2015,"Middle East & North Africa",17.6,25.2,6351,2.7,3.4,69.9,"Baghdad",36.0852272727273
-"Iraq",2018,"Middle East & North Africa",NA,NA,6812,NA,NA,70.5,"Baghdad",NA
-"Ireland",2005,"Europe & Central Asia",24.6,40.7,1037,1.2,2.3,60.5,"Dublin",4.21544715447154
-"Ireland",2010,"Europe & Central Asia",23.8,38.6,1100,1.3,2.2,61.5,"Dublin",4.6218487394958
-"Ireland",2015,"Europe & Central Asia",24.7,39.6,1163,-0.2,0.6,62.5,"Dublin",4.7085020242915
-"Ireland",2018,"Europe & Central Asia",NA,NA,1201,NA,NA,63.2,"Dublin",NA
-"Isle of Man",2005,"Europe & Central Asia",NA,NA,NA,0.9,1,51.9,"Douglas",NA
-"Isle of Man",2010,"Europe & Central Asia",NA,NA,NA,1,1,52,"Douglas",NA
-"Isle of Man",2015,"Europe & Central Asia",NA,NA,NA,0.7,0.9,52.2,"Douglas",NA
-"Isle of Man",2018,"Europe & Central Asia",NA,NA,27,NA,NA,52.6,"Douglas",NA
-"Israel",2005,"Middle East & North Africa",10.9,11.9,719,1.1,1.9,91.5,"Jerusalem",6.59633027522936
-"Israel",2010,"Middle East & North Africa",10.5,11.5,781,1.6,2.4,91.8,"Jerusalem",7.43809523809524
-"Israel",2015,"Middle East & North Africa",10.6,11.5,858,0.8,1.7,92.2,"Jerusalem",8.09433962264151
-"Israel",2018,"Middle East & North Africa",NA,NA,907,NA,NA,92.4,"Jerusalem",NA
-"Italy",2005,"Europe & Central Asia",6.5,9.6,3807,0.2,0.7,67.7,"Rome",58.5692307692308
-"Italy",2010,"Europe & Central Asia",6.6,9.7,3957,-0.1,0.5,68.3,"Rome",59.9545454545455
-"Italy",2015,"Europe & Central Asia",6.9,9.9,4113,-0.9,0.3,69.6,"Rome",59.6086956521739
-"Italy",2018,"Europe & Central Asia",NA,NA,4210,NA,NA,70.4,"Rome",NA
-"Jamaica",2005,"Latin America & Caribbean",21.2,40.1,581,0.2,1,52.8,"Kingston",2.74056603773585
-"Jamaica",2010,"Latin America & Caribbean",20.7,38.6,584,0.1,0.9,53.7,"Kingston",2.82125603864734
-"Jamaica",2015,"Latin America & Caribbean",20.4,37.3,587,-0.1,0.8,54.8,"Kingston",2.87745098039216
-"Jamaica",2018,"Latin America & Caribbean",NA,NA,589,NA,NA,55.7,"Kingston",NA
-"Japan",2005,"East Asia & Pacific",27.8,32.3,35622,-8.3,1.9,86,"Tokyo",128.136690647482
-"Japan",2010,"East Asia & Pacific",28.7,31.6,36860,-8.4,1.1,90.8,"Tokyo",128.432055749129
-"Japan",2015,"East Asia & Pacific",29.1,31.9,37256,-1.4,0,91.4,"Tokyo",128.027491408935
-"Japan",2018,"East Asia & Pacific",NA,NA,37468,NA,NA,91.6,"Tokyo",NA
-"Jordan",2005,"Middle East & North Africa",19.2,24.1,1094,1.1,2.6,79.5,"Amman",5.69791666666667
-"Jordan",2010,"Middle East & North Africa",19.4,22.6,1397,-3.2,6.2,86.1,"Amman",7.20103092783505
-"Jordan",2015,"Middle East & North Africa",19.5,21.6,1783,-2.3,5.8,90.3,"Amman",9.14358974358974
-"Jordan",2018,"Middle East & North Africa",NA,NA,2065,NA,NA,91,"Amman",NA
-"Kazakhstan",2005,"Europe & Central Asia",3.5,6.1,538,0.5,0.8,56.5,"Astana",15.3714285714286
-"Kazakhstan",2010,"Europe & Central Asia",4,7.1,664,0.9,1.2,56.8,"Astana",16.6
-"Kazakhstan",2015,"Europe & Central Asia",5,8.8,894,1.4,1.7,57.2,"Astana",17.88
-"Kazakhstan",2018,"Europe & Central Asia",NA,NA,1068,NA,NA,57.4,"Astana",NA
-"Kenya",2005,"Sub-Saharan Africa",7.4,34.3,2677,2.3,4.4,21.7,"Nairobi",36.1756756756757
-"Kenya",2010,"Sub-Saharan Africa",7.8,33.2,3237,2.3,4.4,23.6,"Nairobi",41.5
-"Kenya",2015,"Sub-Saharan Africa",8.3,32.3,3914,2.1,4.4,25.7,"Nairobi",47.1566265060241
-"Kenya",2018,"Sub-Saharan Africa",NA,NA,4386,NA,NA,27,"Nairobi",NA
-"Kiribati",2005,"East Asia & Pacific",NA,NA,NA,1.6,2.1,43.6,"Bairiki",NA
-"Kiribati",2010,"East Asia & Pacific",NA,NA,NA,0.7,3.8,47.4,"Bairiki",NA
-"Kiribati",2015,"East Asia & Pacific",NA,NA,3,0.1,3.5,51.6,"Bairiki",NA
-"Kiribati",2018,"East Asia & Pacific",NA,NA,NA,NA,NA,54.1,"Bairiki",NA
-"Kuwait",2005,"Middle East & North Africa",68,68,1548,0,2.3,100,"Kuwait City",2.27647058823529
-"Kuwait",2010,"Middle East & North Africa",66.5,66.5,1994,0,5.5,100,"Kuwait City",2.9984962406015
-"Kuwait",2015,"Middle East & North Africa",65.3,65.3,2568,0,5.4,100,"Kuwait City",3.93261868300153
-"Kuwait",2018,"Middle East & North Africa",NA,NA,2989,NA,NA,100,"Kuwait City",NA
-"Kyrgyzstan",2005,"Europe & Central Asia",15.7,44.5,798,0.6,0.6,35.3,"Bishkek",5.0828025477707
-"Kyrgyzstan",2010,"Europe & Central Asia",15.6,44.1,844,1.3,1.3,35.3,"Bishkek",5.41025641025641
-"Kyrgyzstan",2015,"Europe & Central Asia",16,44.6,936,1.4,1.8,35.8,"Bishkek",5.85
-"Kyrgyzstan",2018,"Europe & Central Asia",NA,NA,996,NA,NA,36.4,"Bishkek",NA
-"Laos",2005,"East Asia & Pacific",9.9,36.6,572,0.2,5.8,27.2,"Vientiane",5.77777777777778
-"Laos",2010,"East Asia & Pacific",9.7,32.3,606,0.8,3.7,30.1,"Vientiane",6.24742268041237
-"Laos",2015,"East Asia & Pacific",9.6,29.1,642,0.4,3.2,33.1,"Vientiane",6.6875
-"Laos",2018,"East Asia & Pacific",NA,NA,665,NA,NA,35,"Vientiane",NA
-"Latin America & the Caribbean",2005,NA,NA,NA,NA,-0.1,1.7,77.1,NA,NA
-"Latin America & the Caribbean",2010,NA,NA,NA,NA,-0.1,1.6,78.6,NA,NA
-"Latin America & the Caribbean",2015,NA,NA,NA,NA,-0.2,1.5,79.9,NA,NA
-"Latin America & the Caribbean",2018,NA,NA,NA,NA,NA,NA,80.7,NA,NA
-"Latvia",2005,"Europe & Central Asia",31.6,46.5,712,-1.1,-1.2,68,"Riga",2.25316455696203
-"Latvia",2010,"Europe & Central Asia",31.4,46.2,665,-1.1,-1.3,67.8,"Riga",2.11783439490446
-"Latvia",2015,"Europe & Central Asia",32.4,47.7,646,-1.3,-1.2,68,"Riga",1.99382716049383
-"Latvia",2018,"Europe & Central Asia",NA,NA,637,NA,NA,68.1,"Riga",NA
-"Lebanon",2005,"Middle East & North Africa",44.6,51.5,1777,3.3,4.3,86.6,"Beirut",3.98430493273543
-"Lebanon",2010,"Middle East & North Africa",45.9,52.5,1990,0.6,1.8,87.3,"Beirut",4.33551198257081
-"Lebanon",2015,"Middle East & North Africa",38.1,43.2,2229,4.7,6.2,88.1,"Beirut",5.8503937007874
-"Lebanon",2018,"Middle East & North Africa",NA,NA,2385,NA,NA,88.6,"Beirut",NA
-"Lesotho",2005,"Sub-Saharan Africa",NA,NA,NA,0.2,3.4,22.2,"Maseru",NA
-"Lesotho",2010,"Sub-Saharan Africa",NA,NA,NA,0.2,3.1,24.8,"Maseru",NA
-"Lesotho",2015,"Sub-Saharan Africa",NA,NA,NA,0.7,2.9,26.9,"Maseru",NA
-"Lesotho",2018,"Sub-Saharan Africa",NA,NA,202,NA,NA,28.2,"Maseru",NA
-"Liberia",2005,"Sub-Saharan Africa",36.9,80,1202,1.8,3.2,46.1,"Monrovia",3.25745257452574
-"Liberia",2010,"Sub-Saharan Africa",26.7,55.9,1056,3.2,4.6,47.8,"Monrovia",3.95505617977528
-"Liberia",2015,"Sub-Saharan Africa",28.2,56.6,1270,1.8,3.4,49.8,"Monrovia",4.50354609929078
-"Liberia",2018,"Sub-Saharan Africa",NA,NA,1418,NA,NA,51.2,"Monrovia",NA
-"Libya",2005,"Middle East & North Africa",18.3,23.7,1058,1,1.7,77.1,"Tripoli",5.78142076502732
-"Libya",2010,"Middle East & North Africa",17.8,22.7,1095,0.4,1.5,78.1,"Tripoli",6.15168539325843
-"Libya",2015,"Middle East & North Africa",18.2,22.9,1134,-0.9,0.5,79.3,"Tripoli",6.23076923076923
-"Libya",2018,"Middle East & North Africa",NA,NA,1158,NA,NA,80.1,"Tripoli",NA
-"Liechtenstein",2005,"Europe & Central Asia",NA,NA,NA,1,0.4,14.7,"Vaduz",NA
-"Liechtenstein",2010,"Europe & Central Asia",NA,NA,NA,0.7,0.3,14.5,"Vaduz",NA
-"Liechtenstein",2015,"Europe & Central Asia",NA,NA,NA,0.8,0.5,14.3,"Vaduz",NA
-"Liechtenstein",2018,"Europe & Central Asia",NA,NA,5,NA,NA,14.3,"Vaduz",NA
-"Lithuania",2005,"Europe & Central Asia",16,24,535,-0.7,-1,66.6,"Vilnius",3.34375
-"Lithuania",2010,"Europe & Central Asia",16.8,25.2,526,-1.4,-1.3,66.8,"Vilnius",3.13095238095238
-"Lithuania",2015,"Europe & Central Asia",18.1,27,531,-1.6,-1.1,67.2,"Vilnius",2.93370165745856
-"Lithuania",2018,"Europe & Central Asia",NA,NA,536,NA,NA,67.7,"Vilnius",NA
-"Luxembourg",2005,"Europe & Central Asia",NA,NA,NA,-2.3,1.5,86.6,"Luxembourg",NA
-"Luxembourg",2010,"Europe & Central Asia",NA,NA,NA,-1.1,2.5,88.5,"Luxembourg",NA
-"Luxembourg",2015,"Europe & Central Asia",NA,NA,NA,-0.9,2.6,90.2,"Luxembourg",NA
-"Luxembourg",2018,"Europe & Central Asia",NA,NA,120,NA,NA,91,"Luxembourg",NA
-"Madagascar",2005,"Sub-Saharan Africa",8.5,29.5,1561,2.6,4.2,28.8,"Antananarivo",18.3647058823529
-"Madagascar",2010,"Sub-Saharan Africa",9.6,29.9,2021,2,4.9,31.9,"Antananarivo",21.0520833333333
-"Madagascar",2015,"Sub-Saharan Africa",10.8,30.7,2618,1.7,4.7,35.2,"Antananarivo",24.2407407407407
-"Madagascar",2018,"Sub-Saharan Africa",NA,NA,3058,NA,NA,37.2,"Antananarivo",NA
-"Malawi",2005,"Sub-Saharan Africa",4.5,30.1,590,2.6,3.3,15.1,"Lilongwe",13.1111111111111
-"Malawi",2010,"Sub-Saharan Africa",4.8,31,731,2.9,3.7,15.5,"Lilongwe",15.2291666666667
-"Malawi",2015,"Sub-Saharan Africa",5.2,31.6,905,2.8,3.9,16.3,"Lilongwe",17.4038461538462
-"Malawi",2018,"Sub-Saharan Africa",NA,NA,1030,NA,NA,16.9,"Lilongwe",NA
-"Malaysia",2005,"East Asia & Pacific",19.2,28.8,4927,-0.6,3.5,66.6,"Kuala Lumpur",25.6614583333333
-"Malaysia",2010,"East Asia & Pacific",20.7,29.1,5810,-0.9,3.1,70.9,"Kuala Lumpur",28.0676328502415
-"Malaysia",2015,"East Asia & Pacific",22.3,30,6851,-0.6,2.7,74.2,"Kuala Lumpur",30.7219730941704
-"Malaysia",2018,"East Asia & Pacific",NA,NA,7564,NA,NA,76,"Kuala Lumpur",NA
-"Maldives",2005,"South Asia",NA,NA,NA,0.8,6.5,33.8,"Male",NA
-"Maldives",2010,"South Asia",NA,NA,NA,1.9,4.2,36.4,"Male",NA
-"Maldives",2015,"South Asia",NA,NA,NA,2.1,3.9,38.5,"Male",NA
-"Maldives",2018,"South Asia",NA,NA,177,NA,NA,39.8,"Male",NA
-"Mali",2005,"Sub-Saharan Africa",11.6,36.2,1486,2,5.5,32.1,"Bamako",12.8103448275862
-"Mali",2010,"Sub-Saharan Africa",12.5,34.7,1886,2.1,5.6,36,"Bamako",15.088
-"Mali",2015,"Sub-Saharan Africa",12.7,31.8,2219,1.7,5,40,"Bamako",17.4724409448819
-"Mali",2018,"Sub-Saharan Africa",NA,NA,2447,NA,NA,42.4,"Bamako",NA
-"Malta",2005,"Middle East & North Africa",NA,NA,NA,-3.2,0.8,93.6,"Valletta",NA
-"Malta",2010,"Middle East & North Africa",NA,NA,NA,-0.9,0.5,94.1,"Valletta",NA
-"Malta",2015,"Middle East & North Africa",NA,NA,NA,-0.6,0.6,94.4,"Valletta",NA
-"Malta",2018,"Middle East & North Africa",NA,NA,213,NA,NA,94.6,"Valletta",NA
-"Marshall Islands",2005,"East Asia & Pacific",NA,NA,NA,-1.7,0.7,71.1,"Majuro",NA
-"Marshall Islands",2010,"East Asia & Pacific",NA,NA,NA,-1.6,0.8,73.6,"Majuro",NA
-"Marshall Islands",2015,"East Asia & Pacific",NA,NA,NA,-1.6,0.8,75.8,"Majuro",NA
-"Marshall Islands",2018,"East Asia & Pacific",NA,NA,31,NA,NA,77,"Majuro",NA
-"Martinique",2005,"Latin America & Caribbean",NA,NA,NA,1.2,0.4,89.3,"Fort-de-France",NA
-"Martinique",2010,"Latin America & Caribbean",NA,NA,NA,0.4,-0.2,89.1,"Fort-de-France",NA
-"Martinique",2015,"Latin America & Caribbean",NA,NA,NA,-0.3,-0.5,89,"Fort-de-France",NA
-"Martinique",2018,"Latin America & Caribbean",NA,NA,79,NA,NA,89,"Fort-de-France",NA
-"Mauritania",2005,"Sub-Saharan Africa",21.8,51.9,684,1.5,4.9,42.1,"Nouakchott",3.13761467889908
-"Mauritania",2010,"Sub-Saharan Africa",23.6,50.6,851,1.2,4.9,46.6,"Nouakchott",3.60593220338983
-"Mauritania",2015,"Sub-Saharan Africa",25.3,49.5,1058,1.2,4.8,51.1,"Nouakchott",4.18181818181818
-"Mauritania",2018,"Sub-Saharan Africa",NA,NA,1205,NA,NA,53.7,"Nouakchott",NA
-"Mauritius",2005,"Sub-Saharan Africa",NA,NA,NA,0.8,0.3,42.1,"Port Louis",NA
-"Mauritius",2010,"Sub-Saharan Africa",NA,NA,NA,0.6,0.2,41.6,"Port Louis",NA
-"Mauritius",2015,"Sub-Saharan Africa",NA,NA,NA,0.4,-0.1,41,"Port Louis",NA
-"Mauritius",2018,"Sub-Saharan Africa",NA,NA,149,NA,NA,40.8,"Port Louis",NA
-"Mayotte",2005,"Sub-Saharan Africa",NA,NA,NA,2.4,4.4,50.2,"Mamoudzou",NA
-"Mayotte",2010,"Sub-Saharan Africa",NA,NA,NA,3.7,2.7,49,"Mamoudzou",NA
-"Mayotte",2015,"Sub-Saharan Africa",NA,NA,NA,3.6,2,47,"Mamoudzou",NA
-"Mayotte",2018,"Sub-Saharan Africa",NA,NA,6,NA,NA,46.1,"Mamoudzou",NA
-"Melanesia",2005,NA,NA,NA,NA,2.3,2.2,18.9,NA,NA
-"Melanesia",2010,NA,NA,NA,NA,2.2,2.3,19,NA,NA
-"Melanesia",2015,NA,NA,NA,NA,2,2.2,19.2,NA,NA
-"Melanesia",2018,NA,NA,NA,NA,NA,NA,19.4,NA,NA
-"Mexico",2005,"Latin America & Caribbean",17.8,23.3,19276,0,1.7,76.3,"Mexico City",108.292134831461
-"Mexico",2010,"Latin America & Caribbean",17.2,22.1,20137,0.3,2,77.8,"Mexico City",117.075581395349
-"Mexico",2015,"Latin America & Caribbean",17,21.4,21340,0,1.8,79.3,"Mexico City",125.529411764706
-"Mexico",2018,"Latin America & Caribbean",NA,NA,21581,NA,NA,80.2,"Mexico City",NA
-"Micronesia",2005,NA,NA,NA,NA,0,0.3,65.9,NA,NA
-"Micronesia",2010,NA,NA,NA,NA,-0.4,0.2,66.6,NA,NA
-"Micronesia",2015,NA,NA,NA,NA,-0.2,1,67.9,NA,NA
-"Micronesia",2018,NA,NA,NA,NA,NA,NA,68.7,NA,NA
-"Micronesia (Fed. States of)",2005,"East Asia & Pacific",NA,NA,NA,-0.2,-0.2,22.3,"Palikir",NA
-"Micronesia (Fed. States of)",2010,"East Asia & Pacific",NA,NA,NA,-0.5,-0.5,22.3,"Palikir",NA
-"Micronesia (Fed. States of)",2015,"East Asia & Pacific",NA,NA,NA,0.1,0.3,22.5,"Palikir",NA
-"Micronesia (Fed. States of)",2018,"East Asia & Pacific",NA,NA,7,NA,NA,22.7,"Palikir",NA
-"Middle Africa",2005,NA,NA,NA,NA,2.1,4.4,42.6,NA,NA
-"Middle Africa",2010,NA,NA,NA,NA,2.3,4.4,45.2,NA,NA
-"Middle Africa",2015,NA,NA,NA,NA,2.1,4.3,47.9,NA,NA
-"Middle Africa",2018,NA,NA,NA,NA,NA,NA,49.5,NA,NA
-"Monaco",2005,"Europe & Central Asia",NA,NA,NA,0,1,100,"Monaco",NA
-"Monaco",2010,"Europe & Central Asia",NA,NA,NA,0,1.9,100,"Monaco",NA
-"Monaco",2015,"Europe & Central Asia",NA,NA,NA,0,0.6,100,"Monaco",NA
-"Monaco",2018,"Europe & Central Asia",NA,NA,39,NA,NA,100,"Monaco",NA
-"Mongolia",2005,"East Asia & Pacific",36.9,59.1,933,-1.6,2.8,62.5,"Ulaanbaatar",2.52845528455285
-"Mongolia",2010,"East Asia & Pacific",41.9,62.1,1138,-1.5,3,67.6,"Ulaanbaatar",2.71599045346062
-"Mongolia",2015,"East Asia & Pacific",45.8,67.2,1365,1.4,2.1,68.2,"Ulaanbaatar",2.98034934497817
-"Mongolia",2018,"East Asia & Pacific",NA,NA,1520,NA,NA,68.4,"Ulaanbaatar",NA
-"Montenegro",2005,"Europe & Central Asia",NA,NA,NA,-1.9,1.4,62.5,"Podgorica",NA
-"Montenegro",2010,"Europe & Central Asia",NA,NA,NA,-0.7,0.8,64.1,"Podgorica",NA
-"Montenegro",2015,"Europe & Central Asia",NA,NA,NA,-0.8,0.6,65.8,"Podgorica",NA
-"Montenegro",2018,"Europe & Central Asia",NA,NA,177,NA,NA,66.8,"Podgorica",NA
-"Montserrat",2005,"Latin America & Caribbean",NA,NA,NA,-2.3,29.3,9.3,"Brades Estate",NA
-"Montserrat",2010,"Latin America & Caribbean",NA,NA,NA,0.7,0.3,9.2,"Brades Estate",NA
-"Montserrat",2015,"Latin America & Caribbean",NA,NA,NA,0.7,0.5,9,"Brades Estate",NA
-"Montserrat",2018,"Latin America & Caribbean",NA,NA,0,NA,NA,9.1,"Brades Estate",NA
-"Morocco",2005,"Middle East & North Africa",5.4,9.7,1635,0.3,1.8,55.2,"Rabat",30.2777777777778
-"Morocco",2010,"Middle East & North Africa",5.3,9.1,1714,-0.1,2.2,58,"Rabat",32.3396226415094
-"Morocco",2015,"Middle East & North Africa",5.2,8.5,1796,0,2.4,60.8,"Rabat",34.5384615384615
-"Morocco",2018,"Middle East & North Africa",NA,NA,1847,NA,NA,62.5,"Rabat",NA
-"Mozambique",2005,"Sub-Saharan Africa",5.1,17.1,1072,2.7,3.5,30,"Maputo",21.0196078431373
-"Mozambique",2010,"Sub-Saharan Africa",4.5,14.2,1097,2.4,4.1,31.8,"Maputo",24.3777777777778
-"Mozambique",2015,"Sub-Saharan Africa",3.9,11.4,1100,2.1,4.5,34.4,"Maputo",28.2051282051282
-"Mozambique",2018,"Sub-Saharan Africa",NA,NA,1102,NA,NA,36,"Maputo",NA
-"Myanmar",2005,"East Asia & Pacific",0.3,1.1,148,0.8,1.7,27.9,"Nay Pyi Taw",49.3333333333333
-"Myanmar",2010,"East Asia & Pacific",0.5,1.6,234,0.4,1.3,28.9,"Nay Pyi Taw",46.8
-"Myanmar",2015,"East Asia & Pacific",0.7,2.4,376,0.6,1.5,29.9,"Nay Pyi Taw",53.7142857142857
-"Myanmar",2018,"East Asia & Pacific",NA,NA,500,NA,NA,30.6,"Nay Pyi Taw",NA
-"Namibia",2005,"Sub-Saharan Africa",13.2,36.1,268,0.1,3.8,36.6,"Windhoek",2.03030303030303
-"Namibia",2010,"Sub-Saharan Africa",14.5,34.7,314,-0.3,3.9,41.6,"Windhoek",2.16551724137931
-"Namibia",2015,"Sub-Saharan Africa",15.2,32.3,368,0.3,4.6,46.9,"Windhoek",2.42105263157895
-"Namibia",2018,"Sub-Saharan Africa",NA,NA,404,NA,NA,50,"Windhoek",NA
-"Nauru",2005,"East Asia & Pacific",NA,NA,NA,0,0.2,100,"Yaren",NA
-"Nauru",2010,"East Asia & Pacific",NA,NA,NA,0,-0.2,100,"Yaren",NA
-"Nauru",2015,"East Asia & Pacific",NA,NA,NA,0,2.3,100,"Yaren",NA
-"Nauru",2018,"East Asia & Pacific",NA,NA,11,NA,NA,100,"Yaren",NA
-"Nepal",2005,"South Asia",3.1,20.3,790,1.1,4,15.1,"Kathmandu",25.4838709677419
-"Nepal",2010,"South Asia",3.6,21.3,965,0.7,3.1,16.8,"Kathmandu",26.8055555555556
-"Nepal",2015,"South Asia",4.1,22.2,1179,0.7,3.2,18.6,"Kathmandu",28.7560975609756
-"Nepal",2018,"South Asia",NA,NA,1330,NA,NA,19.7,"Kathmandu",NA
-"Netherlands",2005,"Europe & Central Asia",6.3,7.6,1025,-5.2,2,82.6,"Amsterdam",16.2698412698413
-"Netherlands",2010,"Europe & Central Asia",6.4,7.3,1065,-5.6,1.4,87.1,"Amsterdam",16.640625
-"Netherlands",2015,"Europe & Central Asia",6.5,7.2,1106,-5.1,1,90.2,"Amsterdam",17.0153846153846
-"Netherlands",2018,"Europe & Central Asia",NA,NA,1132,NA,NA,91.5,"Amsterdam",NA
-"New Caledonia",2005,"East Asia & Pacific",NA,NA,NA,0.7,2.4,64,"Nouméa",NA
-"New Caledonia",2010,"East Asia & Pacific",NA,NA,NA,-0.3,2.5,67.1,"Nouméa",NA
-"New Caledonia",2015,"East Asia & Pacific",NA,NA,NA,0,2.1,69.4,"Nouméa",NA
-"New Caledonia",2018,"East Asia & Pacific",NA,NA,198,NA,NA,70.7,"Nouméa",NA
-"New Zealand",2005,"East Asia & Pacific",9,10.4,371,0.9,1.5,86.3,"Wellington",4.12222222222222
-"New Zealand",2010,"East Asia & Pacific",8.9,10.3,387,1.4,1.1,86.2,"Wellington",4.34831460674157
-"New Zealand",2015,"East Asia & Pacific",8.7,10.1,402,0.8,1.1,86.3,"Wellington",4.62068965517241
-"New Zealand",2018,"East Asia & Pacific",NA,NA,411,NA,NA,86.5,"Wellington",NA
-"Nicaragua",2005,"Latin America & Caribbean",16.9,30.3,910,1,1.6,55.9,"Managua",5.38461538461539
-"Nicaragua",2010,"Latin America & Caribbean",17.3,30.4,992,0.8,1.6,56.9,"Managua",5.73410404624277
-"Nicaragua",2015,"Latin America & Caribbean",16.9,29.2,1027,0.7,1.5,57.9,"Managua",6.07692307692308
-"Nicaragua",2018,"Latin America & Caribbean",NA,NA,1048,NA,NA,58.5,"Managua",NA
-"Niger",2005,"Sub-Saharan Africa",6,37.1,821,3.6,3.7,16.2,"Niamey",13.6833333333333
-"Niger",2010,"Sub-Saharan Africa",5.8,35.8,954,3.8,3.7,16.2,"Niamey",16.448275862069
-"Niger",2015,"Sub-Saharan Africa",5.6,34.3,1109,3.8,3.9,16.2,"Niamey",19.8035714285714
-"Niger",2018,"Sub-Saharan Africa",NA,NA,1214,NA,NA,16.4,"Niamey",NA
-"Nigeria",2005,"Sub-Saharan Africa",0.9,2.4,1316,1.2,4.8,39.1,"Abuja",146.222222222222
-"Nigeria",2010,"Sub-Saharan Africa",1.1,2.6,1814,1.1,4.8,43.5,"Abuja",164.909090909091
-"Nigeria",2015,"Sub-Saharan Africa",1.3,2.8,2442,1.1,4.6,47.8,"Abuja",187.846153846154
-"Nigeria",2018,"Sub-Saharan Africa",NA,NA,2919,NA,NA,50.3,"Abuja",NA
-"Niue",2005,"East Asia & Pacific",NA,NA,NA,-3.1,-1.1,35.2,"Alofi",NA
-"Niue",2010,"East Asia & Pacific",NA,NA,NA,-1.7,1.2,38.7,"Alofi",NA
-"Niue",2015,"East Asia & Pacific",NA,NA,NA,-1.3,1.9,42.6,"Alofi",NA
-"Niue",2018,"East Asia & Pacific",NA,NA,1,NA,NA,44.8,"Alofi",NA
-"North Korea",2005,"East Asia & Pacific",11.7,19.6,2805,0.6,1,59.8,"Pyongyang",23.974358974359
-"North Korea",2010,"East Asia & Pacific",11.6,19.3,2861,0.3,0.8,60.4,"Pyongyang",24.6637931034483
-"North Korea",2015,"East Asia & Pacific",11.8,19.2,2970,0.1,0.8,61.3,"Pyongyang",25.1694915254237
-"North Korea",2018,"East Asia & Pacific",NA,NA,3038,NA,NA,61.9,"Pyongyang",NA
-"Northern Africa",2005,NA,NA,NA,NA,1.3,2.1,49.3,NA,NA
-"Northern Africa",2010,NA,NA,NA,NA,1.2,2.1,50.5,NA,NA
-"Northern Africa",2015,NA,NA,NA,NA,1.6,2.3,51.4,NA,NA
-"Northern Africa",2018,NA,NA,NA,NA,NA,NA,52,NA,NA
-"Northern America",2005,NA,NA,NA,NA,0.1,1.1,80,NA,NA
-"Northern America",2010,NA,NA,NA,NA,0.1,1.1,80.8,NA,NA
-"Northern America",2015,NA,NA,NA,NA,-0.1,1,81.6,NA,NA
-"Northern America",2018,NA,NA,NA,NA,NA,NA,82.2,NA,NA
-"Northern Europe",2005,NA,NA,NA,NA,-0.5,0.6,78.9,NA,NA
-"Northern Europe",2010,NA,NA,NA,NA,-0.4,1.1,80.1,NA,NA
-"Northern Europe",2015,NA,NA,NA,NA,-0.9,0.9,81.4,NA,NA
-"Northern Europe",2018,NA,NA,NA,NA,NA,NA,82.2,NA,NA
-"Northern Mariana Islands",2005,"East Asia & Pacific",NA,NA,NA,-2.5,-1.5,90.6,"Garapan",NA
-"Northern Mariana Islands",2010,"East Asia & Pacific",NA,NA,4,-4,-3.1,90.9,"Garapan",NA
-"Northern Mariana Islands",2015,"East Asia & Pacific",NA,NA,NA,-0.8,0.2,91.4,"Garapan",NA
-"Northern Mariana Islands",2018,"East Asia & Pacific",NA,NA,NA,NA,NA,91.6,"Garapan",NA
-"Norway",2005,"Europe & Central Asia",17.7,22.7,818,-0.8,1,77.7,"Oslo",4.62146892655367
-"Norway",2010,"Europe & Central Asia",18.4,23.2,898,-0.3,1.4,79.1,"Oslo",4.8804347826087
-"Norway",2015,"Europe & Central Asia",18.6,23,969,-0.8,1.7,81.1,"Oslo",5.20967741935484
-"Norway",2018,"Europe & Central Asia",NA,NA,1012,NA,NA,82.2,"Oslo",NA
-"Oceania",2005,NA,NA,NA,NA,1.6,1.3,68,NA,NA
-"Oceania",2010,NA,NA,NA,NA,1.7,1.8,68.1,NA,NA
-"Oceania",2015,NA,NA,NA,NA,1.5,1.5,68.1,NA,NA
-"Oceania",2018,NA,NA,NA,NA,NA,NA,68.2,NA,NA
-"Oman",2005,"Middle East & North Africa",24.8,34.2,622,1.4,2.3,72.4,"Muscat",2.50806451612903
-"Oman",2010,"Middle East & North Africa",23.7,31.6,721,1.7,4.6,75.2,"Muscat",3.042194092827
-"Oman",2015,"Middle East & North Africa",28.1,34.6,1180,0.7,8,81.4,"Muscat",4.19928825622776
-"Oman",2018,"Middle East & North Africa",NA,NA,1447,NA,NA,84.5,"Muscat",NA
-"Pakistan",2005,"South Asia",0.4,1.3,676,1.8,2.7,34,"Islamabad",169
-"Pakistan",2010,"South Asia",0.5,1.3,804,1.7,2.6,35,"Islamabad",160.8
-"Pakistan",2015,"South Asia",0.5,1.4,957,1.8,2.7,36,"Islamabad",191.4
-"Pakistan",2018,"South Asia",NA,NA,1061,NA,NA,36.7,"Islamabad",NA
-"Palau",2005,"East Asia & Pacific",NA,NA,NA,0.2,1,71.2,"Melekeok",NA
-"Palau",2010,"East Asia & Pacific",NA,NA,NA,-2.2,1.6,74.8,"Melekeok",NA
-"Palau",2015,"East Asia & Pacific",NA,NA,NA,-2.1,1.7,78.2,"Melekeok",NA
-"Palau",2018,"East Asia & Pacific",NA,NA,11,NA,NA,79.9,"Melekeok",NA
-"Palestinian Territories",2005,"Europe & Central Asia",NA,NA,NA,1.3,2.4,73.1,"East Jerusalem",NA
-"Palestinian Territories",2010,"Europe & Central Asia",NA,NA,NA,1.7,2.9,74.1,"East Jerusalem",NA
-"Palestinian Territories",2015,"Europe & Central Asia",NA,NA,NA,1.8,3.1,75.4,"East Jerusalem",NA
-"Palestinian Territories",2018,"Europe & Central Asia",NA,NA,275,NA,NA,76.2,"East Jerusalem",NA
-"Panama",2005,"Latin America & Caribbean",40.6,63.8,1352,1.1,2.4,63.7,"Panama City",3.33004926108374
-"Panama",2010,"Latin America & Caribbean",41.3,63.4,1504,1,2.2,65.1,"Panama City",3.64164648910412
-"Panama",2015,"Latin America & Caribbean",42.2,63.2,1673,0.8,2.2,66.7,"Panama City",3.96445497630332
-"Panama",2018,"Latin America & Caribbean",NA,NA,1783,NA,NA,67.7,"Panama City",NA
-"Papua New Guinea",2005,"East Asia & Pacific",4.5,34,281,2.5,2.4,13.1,"Port Moresby",6.24444444444444
-"Papua New Guinea",2010,"East Asia & Pacific",4.4,33.7,312,2.4,2.2,13,"Port Moresby",7.09090909090909
-"Papua New Guinea",2015,"East Asia & Pacific",4.4,33.5,345,2.2,2.2,13,"Port Moresby",7.84090909090909
-"Papua New Guinea",2018,"East Asia & Pacific",NA,NA,367,NA,NA,13.2,"Port Moresby",NA
-"Paraguay",2005,"Latin America & Caribbean",36.8,63.9,2134,0.7,2.6,57.6,"Asunción",5.79891304347826
-"Paraguay",2010,"Latin America & Caribbean",41.7,70.3,2587,0.6,1.9,59.3,"Asunción",6.20383693045563
-"Paraguay",2015,"Latin America & Caribbean",44.7,73.6,2967,0.6,1.8,60.8,"Asunción",6.63758389261745
-"Paraguay",2018,"Latin America & Caribbean",NA,NA,3222,NA,NA,61.6,"Asunción",NA
-"Peru",2005,"Latin America & Caribbean",29.3,39,8081,-0.3,1.8,75,"Lima",27.580204778157
-"Peru",2010,"Latin America & Caribbean",30.4,39.7,8920,0.1,1.6,76.4,"Lima",29.3421052631579
-"Peru",2015,"Latin America & Caribbean",31.3,40.4,9813,0.5,1.6,77.4,"Lima",31.3514376996805
-"Peru",2018,"Latin America & Caribbean",NA,NA,10391,NA,NA,77.9,"Lima",NA
-"Philippines",2005,"East Asia & Pacific",12.5,27.3,10751,2.2,1.8,45.7,"Manila",86.008
-"Philippines",2010,"East Asia & Pacific",12.7,28,11887,1.8,1.5,45.3,"Manila",93.5984251968504
-"Philippines",2015,"East Asia & Pacific",12.6,27.3,12860,1.3,2.1,46.3,"Manila",102.063492063492
-"Philippines",2018,"East Asia & Pacific",NA,NA,13482,NA,NA,46.9,"Manila",NA
-"Poland",2005,"Europe & Central Asia",4.4,7.1,1684,0,-0.2,61.5,"Warsaw",38.2727272727273
-"Poland",2010,"Europe & Central Asia",4.4,7.3,1703,0.3,-0.2,60.9,"Warsaw",38.7045454545455
-"Poland",2015,"Europe & Central Asia",4.5,7.5,1740,0.3,-0.2,60.3,"Warsaw",38.6666666666667
-"Poland",2018,"Europe & Central Asia",NA,NA,1768,NA,NA,60.1,"Warsaw",NA
-"Polynesia",2005,NA,NA,NA,NA,0.6,1.3,43.5,NA,NA
-"Polynesia",2010,NA,NA,NA,NA,0.2,0.9,44.3,NA,NA
-"Polynesia",2015,NA,NA,NA,NA,0.4,0.6,44.5,NA,NA
-"Polynesia",2018,NA,NA,NA,NA,NA,NA,44.4,NA,NA
-"Population and rates of growth in urban areas and capital cities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Portugal",2005,"Europe & Central Asia",25.9,45.1,2742,-1,1.5,57.5,"Lisbon",10.5868725868726
-"Portugal",2010,"Europe & Central Asia",26.4,43.6,2812,-1.3,1.2,60.6,"Lisbon",10.6515151515152
-"Portugal",2015,"Europe & Central Asia",27.7,43.6,2883,-2,0.5,63.5,"Lisbon",10.4079422382671
-"Portugal",2018,"Europe & Central Asia",NA,NA,2927,NA,NA,65.2,"Lisbon",NA
-"Puerto Rico",2005,"Latin America & Caribbean",66.2,70.4,2493,0.8,-0.2,94.1,"San Juan",3.76586102719033
-"Puerto Rico",2010,"Latin America & Caribbean",66.7,71.1,2478,0.7,-0.3,93.8,"San Juan",3.71514242878561
-"Puerto Rico",2015,"Latin America & Caribbean",67.1,71.6,2463,0.4,-0.3,93.6,"San Juan",3.67064083457526
-"Puerto Rico",2018,"Latin America & Caribbean",NA,NA,2454,NA,NA,93.6,"San Juan",NA
-"Qatar",2005,"Middle East & North Africa",43.1,44.3,373,0.6,7.8,97.4,"Doha",0.865429234338747
-"Qatar",2010,"Middle East & North Africa",29.4,29.9,524,3.4,14.7,98.5,"Doha",1.78231292517007
-"Qatar",2015,"Middle East & North Africa",23.8,24,590,-0.4,6.7,98.9,"Doha",2.47899159663866
-"Qatar",2018,"Middle East & North Africa",NA,NA,633,NA,NA,99.1,"Doha",NA
-"Réunion",2005,NA,NA,NA,NA,-16,2.5,96.3,"Saint-Denis",NA
-"Réunion",2010,NA,NA,NA,NA,-17.1,1.4,98.5,"Saint-Denis",NA
-"Réunion",2015,NA,NA,NA,NA,-15.6,0.9,99.3,"Saint-Denis",NA
-"Réunion",2018,NA,NA,NA,147,NA,NA,99.6,"Saint-Denis",NA
-"Republic of Korea",2005,"East Asia & Pacific",20.2,24.8,9822,-1.2,1,81.3,"Seoul",48.6237623762376
-"Republic of Korea",2010,"East Asia & Pacific",19.8,24.1,9796,-0.3,0.5,81.9,"Seoul",49.4747474747475
-"Republic of Korea",2015,"East Asia & Pacific",19.6,24,9897,0.7,0.3,81.6,"Seoul",50.4948979591837
-"Republic of Korea",2018,"East Asia & Pacific",NA,NA,9963,NA,NA,81.5,"Seoul",NA
-"Republic of Moldova",2005,"Europe & Central Asia",14.1,32.9,585,0.4,-1,42.8,"Chisinau",4.14893617021277
-"Republic of Moldova",2010,"Europe & Central Asia",13.6,31.9,555,-0.3,-0.4,42.6,"Chisinau",4.08088235294118
-"Republic of Moldova",2015,"Europe & Central Asia",12.9,30.5,526,0,-0.2,42.5,"Chisinau",4.07751937984496
-"Republic of Moldova",2018,"Europe & Central Asia",NA,NA,510,NA,NA,42.6,"Chisinau",NA
-"Romania",2005,"Europe & Central Asia",8.9,16.8,1912,-0.7,-0.6,53.2,"Bucharest",21.4831460674157
-"Romania",2010,"Europe & Central Asia",9.2,17.2,1889,-1.2,-0.7,53.8,"Bucharest",20.5326086956522
-"Romania",2015,"Europe & Central Asia",9.3,17.3,1849,-0.6,-0.5,53.9,"Bucharest",19.8817204301075
-"Romania",2018,"Europe & Central Asia",NA,NA,1821,NA,NA,54,"Bucharest",NA
-"Russian Federation",2005,"Europe & Central Asia",7.5,10.2,10751,-0.5,-0.4,73.5,"Moscow",143.346666666667
-"Russian Federation",2010,"Europe & Central Asia",8,10.9,11461,-0.2,0,73.7,"Moscow",143.2625
-"Russian Federation",2015,"Europe & Central Asia",8.4,11.3,12049,-0.2,0.2,74.1,"Moscow",143.440476190476
-"Russian Federation",2018,"Europe & Central Asia",NA,NA,12410,NA,NA,74.4,"Moscow",NA
-"Rwanda",2005,"Sub-Saharan Africa",7.4,43.9,668,1.8,4.8,16.9,"Kigali",9.02702702702703
-"Rwanda",2010,"Sub-Saharan Africa",7.8,45.9,797,2.6,2.6,16.9,"Kigali",10.2179487179487
-"Rwanda",2015,"Sub-Saharan Africa",8.2,48.1,951,2.5,2.6,17,"Kigali",11.5975609756098
-"Rwanda",2018,"Sub-Saharan Africa",NA,NA,1058,NA,NA,17.2,"Kigali",NA
-"Saint Helena",2005,"Sub-Saharan Africa",NA,NA,NA,-3.4,-3.8,39.9,"Jamestown",NA
-"Saint Helena",2010,"Sub-Saharan Africa",NA,NA,NA,-0.3,-0.7,39.5,"Jamestown",NA
-"Saint Helena",2015,"Sub-Saharan Africa",NA,NA,NA,-0.7,-0.7,39.5,"Jamestown",NA
-"Saint Helena",2018,"Sub-Saharan Africa",NA,NA,1,NA,NA,39.8,"Jamestown",NA
-"Saint Kitts and Nevis",2005,"Latin America & Caribbean",NA,NA,NA,1.6,0.9,32,"Basseterre",NA
-"Saint Kitts and Nevis",2010,"Latin America & Caribbean",NA,NA,NA,1.3,0.7,31.3,"Basseterre",NA
-"Saint Kitts and Nevis",2015,"Latin America & Caribbean",NA,NA,NA,1.2,0.8,30.8,"Basseterre",NA
-"Saint Kitts and Nevis",2018,"Latin America & Caribbean",NA,NA,14,NA,NA,30.8,"Basseterre",NA
-"Saint Lucia",2005,"Latin America & Caribbean",NA,NA,NA,2.1,-2.9,23.1,"Castries",NA
-"Saint Lucia",2010,"Latin America & Caribbean",NA,NA,NA,2.2,-3.4,18.5,"Castries",NA
-"Saint Lucia",2015,"Latin America & Caribbean",NA,NA,NA,0.5,0.6,18.5,"Castries",NA
-"Saint Lucia",2018,"Latin America & Caribbean",NA,NA,22,NA,NA,18.7,"Castries",NA
-"Saint Pierre and Miquelon",2005,"North America",NA,NA,NA,-1.3,0.1,89.9,"Saint-Pierre",NA
-"Saint Pierre and Miquelon",2010,"North America",NA,NA,NA,0,0,89.9,"Saint-Pierre",NA
-"Saint Pierre and Miquelon",2015,"North America",NA,NA,NA,-0.8,0.1,89.9,"Saint-Pierre",NA
-"Saint Pierre and Miquelon",2018,"North America",NA,NA,6,NA,NA,89.9,"Saint-Pierre",NA
-"Saint Vincent and the Grenadines",2005,"Latin America & Caribbean",NA,NA,NA,-0.5,1,47,"Kingstown",NA
-"Saint Vincent and the Grenadines",2010,"Latin America & Caribbean",NA,NA,NA,-0.6,0.9,49,"Kingstown",NA
-"Saint Vincent and the Grenadines",2015,"Latin America & Caribbean",NA,NA,NA,-0.8,0.8,51,"Kingstown",NA
-"Saint Vincent and the Grenadines",2018,"Latin America & Caribbean",NA,NA,27,NA,NA,52.2,"Kingstown",NA
-"Samoa",2005,"East Asia & Pacific",NA,NA,NA,0.8,-0.1,21.2,"Apia",NA
-"Samoa",2010,"East Asia & Pacific",NA,NA,NA,1,-0.4,20.1,"Apia",NA
-"Samoa",2015,"East Asia & Pacific",NA,NA,NA,1.1,-0.4,18.9,"Apia",NA
-"Samoa",2018,"East Asia & Pacific",NA,NA,36,NA,NA,18.2,"Apia",NA
-"San Marino",2005,"Europe & Central Asia",NA,NA,NA,-2.1,1.5,94.5,"San Marino",NA
-"San Marino",2010,"Europe & Central Asia",NA,NA,NA,-4,1.5,95.7,"San Marino",NA
-"San Marino",2015,"Europe & Central Asia",NA,NA,NA,-4.2,1.4,96.7,"San Marino",NA
-"San Marino",2018,"Europe & Central Asia",NA,NA,4,NA,NA,97.2,"San Marino",NA
-"Sao Tome and Principe",2005,"Sub-Saharan Africa",NA,NA,NA,-0.3,4.4,59.2,"Sao Tome",NA
-"Sao Tome and Principe",2010,"Sub-Saharan Africa",NA,NA,NA,-0.7,4.2,65,"Sao Tome",NA
-"Sao Tome and Principe",2015,"Sub-Saharan Africa",NA,NA,NA,-1,3.8,70.2,"Sao Tome",NA
-"Sao Tome and Principe",2018,"Sub-Saharan Africa",NA,NA,80,NA,NA,72.8,"Sao Tome",NA
-"Saudi Arabia",2005,"Middle East & North Africa",17.8,22,4252,1.7,3.1,81,"Riyadh",23.8876404494382
-"Saudi Arabia",2010,"Middle East & North Africa",19,23.2,5220,1.6,3,82.1,"Riyadh",27.4736842105263
-"Saudi Arabia",2015,"Middle East & North Africa",19.7,23.7,6218,1.5,3.1,83.2,"Riyadh",31.5634517766497
-"Saudi Arabia",2018,"Middle East & North Africa",NA,NA,6907,NA,NA,83.8,"Riyadh",NA
-"Senegal",2005,"Sub-Saharan Africa",19,45.5,2135,2.1,3.3,41.7,"Dakar",11.2368421052632
-"Senegal",2010,"Sub-Saharan Africa",18.8,42.9,2427,2,3.7,43.8,"Dakar",12.9095744680851
-"Senegal",2015,"Sub-Saharan Africa",18.4,40.2,2758,2.2,3.9,45.9,"Dakar",14.9891304347826
-"Senegal",2018,"Sub-Saharan Africa",NA,NA,2978,NA,NA,47.2,"Dakar",NA
-"Serbia",2005,"Europe & Central Asia",14.1,26.2,1303,-1.1,-0.2,53.9,"Belgrade",9.24113475177305
-"Serbia",2010,"Europe & Central Asia",14.8,26.9,1336,-0.9,0,55,"Belgrade",9.02702702702703
-"Serbia",2015,"Europe & Central Asia",15.5,27.8,1369,-0.7,-0.1,55.7,"Belgrade",8.83225806451613
-"Serbia",2018,"Europe & Central Asia",NA,NA,1389,NA,NA,56.1,"Belgrade",NA
-"Seychelles",2005,"Sub-Saharan Africa",NA,NA,NA,1.3,2.3,51.7,"Victoria",NA
-"Seychelles",2010,"Sub-Saharan Africa",NA,NA,NA,-0.1,1.2,53.3,"Victoria",NA
-"Seychelles",2015,"Sub-Saharan Africa",NA,NA,NA,-0.4,1.3,55.4,"Victoria",NA
-"Seychelles",2018,"Sub-Saharan Africa",NA,NA,28,NA,NA,56.7,"Victoria",NA
-"Sierra Leone",2005,"Sub-Saharan Africa",13.9,37.6,786,3.9,5,36.9,"Freetown",5.65467625899281
-"Sierra Leone",2010,"Sub-Saharan Africa",14,36.1,905,2,3.7,38.9,"Freetown",6.46428571428571
-"Sierra Leone",2015,"Sub-Saharan Africa",14.4,35.3,1043,1.6,3.3,40.8,"Freetown",7.24305555555556
-"Sierra Leone",2018,"Sub-Saharan Africa",NA,NA,1136,NA,NA,42.1,"Freetown",NA
-"Singapore",2005,"East Asia & Pacific",100,100,4491,0,2.8,100,"Singapore",4.491
-"Singapore",2010,"East Asia & Pacific",100,100,5074,0,2.4,100,"Singapore",5.074
-"Singapore",2015,"East Asia & Pacific",100,100,5535,0,1.7,100,"Singapore",5.535
-"Singapore",2018,"East Asia & Pacific",NA,NA,5792,NA,NA,100,"Singapore",NA
-"Sint Maarten (Dutch part)",2005,"Latin America & Caribbean",NA,NA,NA,0,0.4,100,"Philipsburg",NA
-"Sint Maarten (Dutch part)",2010,"Latin America & Caribbean",NA,NA,NA,0,0.4,100,"Philipsburg",NA
-"Sint Maarten (Dutch part)",2015,"Latin America & Caribbean",NA,NA,NA,0,3.1,100,"Philipsburg",NA
-"Sint Maarten (Dutch part)",2018,"Latin America & Caribbean",NA,NA,41,NA,NA,100,"Philipsburg",NA
-"Slovakia",2005,"Europe & Central Asia",7.9,14.2,426,0.3,-0.2,55.6,"Bratislava",5.39240506329114
-"Slovakia",2010,"Europe & Central Asia",7.7,14,414,0.4,-0.3,54.7,"Bratislava",5.37662337662338
-"Slovakia",2015,"Europe & Central Asia",7.8,14.4,422,0.5,-0.2,53.9,"Bratislava",5.41025641025641
-"Slovakia",2018,"Europe & Central Asia",NA,NA,430,NA,NA,53.7,"Bratislava",NA
-"Slovenia",2005,"Europe & Central Asia",NA,NA,NA,-0.2,0.4,51.5,"Ljubljana",NA
-"Slovenia",2010,"Europe & Central Asia",NA,NA,NA,0,0.9,52.7,"Ljubljana",NA
-"Slovenia",2015,"Europe & Central Asia",NA,NA,NA,-0.2,0.7,53.8,"Ljubljana",NA
-"Slovenia",2018,"Europe & Central Asia",NA,NA,286,NA,NA,54.5,"Ljubljana",NA
-"Solomon Islands",2005,"East Asia & Pacific",NA,NA,NA,2.1,5,17.8,"Honiara",NA
-"Solomon Islands",2010,"East Asia & Pacific",NA,NA,NA,1.8,4.7,20,"Honiara",NA
-"Solomon Islands",2015,"East Asia & Pacific",NA,NA,NA,1.6,4.3,22.4,"Honiara",NA
-"Solomon Islands",2018,"East Asia & Pacific",NA,NA,82,NA,NA,23.7,"Honiara",NA
-"Somalia",2005,"Sub-Saharan Africa",13.6,37.4,1415,1.9,4.6,36.3,"Mogadishu",10.4044117647059
-"Somalia",2010,"Sub-Saharan Africa",11.2,28.6,1353,2,4.5,39.3,"Mogadishu",12.0803571428571
-"Somalia",2015,"Sub-Saharan Africa",12.8,29.6,1783,1.5,4.8,43.2,"Mogadishu",13.9296875
-"Somalia",2018,"Sub-Saharan Africa",NA,NA,2082,NA,NA,45,"Mogadishu",NA
-"South Africa",2005,"Sub-Saharan Africa",2.7,4.6,1334,0,2.2,59.5,"Pretoria",49.4074074074074
-"South Africa",2010,"Sub-Saharan Africa",3.2,5.2,1666,-0.3,2,62.2,"Pretoria",52.0625
-"South Africa",2015,"Sub-Saharan Africa",3.8,5.8,2081,0,2.2,64.8,"Pretoria",54.7631578947368
-"South Africa",2018,"Sub-Saharan Africa",NA,NA,2378,NA,NA,66.4,"Pretoria",NA
-"South America",2005,NA,NA,NA,NA,-0.2,1.7,81.1,NA,NA
-"South America",2010,NA,NA,NA,NA,-0.3,1.5,82.4,NA,NA
-"South America",2015,NA,NA,NA,NA,-0.3,1.3,83.5,NA,NA
-"South America",2018,NA,NA,NA,NA,NA,NA,84.1,NA,NA
-"South Sudan",2005,"Sub-Saharan Africa",2.5,14.5,202,3.7,4.6,17.2,"Juba",8.08
-"South Sudan",2010,"Sub-Saharan Africa",2.5,14.2,255,4.2,5.1,17.9,"Juba",10.2
-"South Sudan",2015,"Sub-Saharan Africa",2.7,14.3,321,3.1,4.4,18.9,"Juba",11.8888888888889
-"South Sudan",2018,"Sub-Saharan Africa",NA,NA,369,NA,NA,19.6,"Juba",NA
-"South-eastern Asia",2005,NA,NA,NA,NA,0.3,3,41.1,NA,NA
-"South-eastern Asia",2010,NA,NA,NA,NA,0.1,2.7,44.3,NA,NA
-"South-eastern Asia",2015,NA,NA,NA,NA,0.2,2.5,47.2,NA,NA
-"South-eastern Asia",2018,NA,NA,NA,NA,NA,NA,48.9,NA,NA
-"Southern Africa",2005,NA,NA,NA,NA,0.1,2.3,56.5,NA,NA
-"Southern Africa",2010,NA,NA,NA,NA,-0.2,2.1,59.4,NA,NA
-"Southern Africa",2015,NA,NA,NA,NA,0.1,2.3,62.1,NA,NA
-"Southern Africa",2018,NA,NA,NA,NA,NA,NA,63.6,NA,NA
-"Southern Asia",2005,NA,NA,NA,NA,1.2,2.8,30.7,NA,NA
-"Southern Asia",2010,NA,NA,NA,NA,1,2.6,32.5,NA,NA
-"Southern Asia",2015,NA,NA,NA,NA,0.8,2.5,34.5,NA,NA
-"Southern Asia",2018,NA,NA,NA,NA,NA,NA,35.8,NA,NA
-"Southern Europe",2005,NA,NA,NA,NA,-0.2,1,67.8,NA,NA
-"Southern Europe",2010,NA,NA,NA,NA,-0.4,0.9,69.2,NA,NA
-"Southern Europe",2015,NA,NA,NA,NA,-1.1,0.2,70.6,NA,NA
-"Southern Europe",2018,NA,NA,NA,NA,NA,NA,71.5,NA,NA
-"Spain",2005,"Europe & Central Asia",12.2,15.8,5383,0.6,1.7,77.3,"Madrid",44.1229508196721
-"Spain",2010,"Europe & Central Asia",12.4,15.8,5787,0.1,1.5,78.4,"Madrid",46.6693548387097
-"Spain",2015,"Europe & Central Asia",13.4,16.8,6221,-1.3,0.1,79.6,"Madrid",46.4253731343284
-"Spain",2018,"Europe & Central Asia",NA,NA,6497,NA,NA,80.3,"Madrid",NA
-"Sri Lanka",2005,"South Asia",3.1,17.2,614,0.8,0.7,18.3,"Colombo",19.8064516129032
-"Sri Lanka",2010,"South Asia",2.8,15.6,574,0.7,0.6,18.2,"Colombo",20.5
-"Sri Lanka",2015,"South Asia",2.8,15.4,581,0.5,0.5,18.3,"Colombo",20.75
-"Sri Lanka",2018,"South Asia",NA,NA,600,NA,NA,18.5,"Colombo",NA
-"Sub-Saharan Africa",2005,"",NA,NA,NA,2,4.1,33.7,NA,NA
-"Sub-Saharan Africa",2010,"",NA,NA,NA,2,4.1,36.1,NA,NA
-"Sub-Saharan Africa",2015,"",NA,NA,NA,1.9,4.1,38.8,NA,NA
-"Sub-Saharan Africa",2018,"",NA,NA,NA,NA,NA,40.4,NA,NA
-"Sudan",2005,"Sub-Saharan Africa",12.9,39.3,3979,2.4,2.7,32.8,"Khartoum",30.8449612403101
-"Sudan",2010,"Sub-Saharan Africa",13.1,39.7,4517,2,2.3,33.1,"Khartoum",34.4809160305344
-"Sudan",2015,"Sub-Saharan Africa",13.3,39.2,5128,2.1,2.8,33.9,"Khartoum",38.5563909774436
-"Sudan",2018,"Sub-Saharan Africa",NA,NA,5534,NA,NA,34.6,"Khartoum",NA
-"Suriname",2005,"Latin America & Caribbean",NA,NA,NA,1,1.2,66.7,"Paramaribo",NA
-"Suriname",2010,"Latin America & Caribbean",NA,NA,NA,1.3,1,66.3,"Paramaribo",NA
-"Suriname",2015,"Latin America & Caribbean",NA,NA,NA,1.2,0.9,66.1,"Paramaribo",NA
-"Suriname",2018,"Latin America & Caribbean",NA,NA,239,NA,NA,66.1,"Paramaribo",NA
-"Sweden",2005,"Europe & Central Asia",13.8,16.4,1248,0,0.4,84.3,"Stockholm",9.04347826086956
-"Sweden",2010,"Europe & Central Asia",14.5,17,1360,-0.2,0.9,85.1,"Stockholm",9.37931034482759
-"Sweden",2015,"Europe & Central Asia",15.3,17.7,1495,-1.3,1.1,86.6,"Stockholm",9.77124183006536
-"Sweden",2018,"Europe & Central Asia",NA,NA,1583,NA,NA,87.4,"Stockholm",NA
-"Switzerland",2005,"Europe & Central Asia",5,6.7,367,0.6,0.7,73.5,"Bern",7.34
-"Switzerland",2010,"Europe & Central Asia",4.9,6.7,387,1,1.1,73.6,"Bern",7.89795918367347
-"Switzerland",2015,"Europe & Central Asia",4.9,6.7,409,1.1,1.2,73.7,"Bern",8.3469387755102
-"Switzerland",2018,"Europe & Central Asia",NA,NA,422,NA,NA,73.8,"Bern",NA
-"Syrian Arab Republic",2005,"Middle East & North Africa",12,22.4,2200,1.4,2.9,53.8,"Damascus",18.3333333333333
-"Syrian Arab Republic",2010,"Middle East & North Africa",11.4,20.5,2401,2,3.4,55.6,"Damascus",21.0614035087719
-"Syrian Arab Republic",2015,"Middle East & North Africa",11.9,22.7,2223,-0.8,-3.6,52.2,"Damascus",18.6806722689076
-"Syrian Arab Republic",2018,"Middle East & North Africa",NA,NA,2320,NA,NA,54.2,"Damascus",NA
-"Tajikistan",2005,"Europe & Central Asia",9.3,35.2,640,2,2,26.5,"Dushanbe",6.88172043010753
-"Tajikistan",2010,"Europe & Central Asia",9.4,35.6,721,2.2,2.2,26.5,"Dushanbe",7.67021276595745
-"Tajikistan",2015,"Europe & Central Asia",9.5,35.5,812,2.2,2.4,26.7,"Dushanbe",8.54736842105263
-"Tajikistan",2018,"Europe & Central Asia",NA,NA,873,NA,NA,27.1,"Dushanbe",NA
-"TFYR of Macedonia",2005,"Europe & Central Asia",23.6,40.9,485,0.7,-0.1,57.5,"Skopje",2.05508474576271
-"TFYR of Macedonia",2010,"Europe & Central Asia",25.2,44.1,521,0.3,-0.1,57.1,"Skopje",2.06746031746032
-"TFYR of Macedonia",2015,"Europe & Central Asia",26.9,46.9,560,-0.1,0.2,57.4,"Skopje",2.0817843866171
-"TFYR of Macedonia",2018,"Europe & Central Asia",NA,NA,584,NA,NA,58,"Skopje",NA
-"Thailand",2005,"East Asia & Pacific",11.1,29.7,7272,-1.1,4.3,37.4,"Bangkok",65.5135135135135
-"Thailand",2010,"East Asia & Pacific",12.3,28.1,8269,-1.6,3.7,43.9,"Bangkok",67.2276422764228
-"Thailand",2015,"East Asia & Pacific",13.7,28.7,9403,-1,2.1,47.7,"Bangkok",68.6350364963504
-"Thailand",2018,"East Asia & Pacific",NA,NA,10156,NA,NA,49.9,"Bangkok",NA
-"Timor-Leste",2005,"East Asia & Pacific",NA,NA,NA,2.8,4.7,26,"Dili",NA
-"Timor-Leste",2010,"East Asia & Pacific",NA,NA,NA,1.1,2.8,27.7,"Dili",NA
-"Timor-Leste",2015,"East Asia & Pacific",NA,NA,NA,1.7,3.5,29.5,"Dili",NA
-"Timor-Leste",2018,"East Asia & Pacific",NA,NA,281,NA,NA,30.6,"Dili",NA
-"Togo",2005,"Sub-Saharan Africa",23.1,65.8,1315,2,4,35.2,"Lomé",5.69264069264069
-"Togo",2010,"Sub-Saharan Africa",22.6,60.1,1466,2,4,37.5,"Lomé",6.48672566371681
-"Togo",2015,"Sub-Saharan Africa",22,55,1635,1.8,4,40.1,"Lomé",7.43181818181818
-"Togo",2018,"Sub-Saharan Africa",NA,NA,1746,NA,NA,41.7,"Lomé",NA
-"Tokelau",2005,"East Asia & Pacific",NA,NA,NA,-5,0,0,NA,NA
-"Tokelau",2010,"East Asia & Pacific",NA,NA,NA,-1.2,0,0,NA,NA
-"Tokelau",2015,"East Asia & Pacific",NA,NA,NA,1.9,0,0,NA,NA
-"Tokelau",2018,"East Asia & Pacific",NA,NA,NA,NA,NA,0,NA,NA
-"Tonga",2005,"East Asia & Pacific",NA,NA,NA,0.6,0.7,23.2,"Nuku'alofa",NA
-"Tonga",2010,"East Asia & Pacific",NA,NA,NA,0.5,0.8,23.4,"Nuku'alofa",NA
-"Tonga",2015,"East Asia & Pacific",NA,NA,NA,0.5,0.3,23.3,"Nuku'alofa",NA
-"Tonga",2018,"East Asia & Pacific",NA,NA,23,NA,NA,23.1,"Nuku'alofa",NA
-"Total, all countries or areas",2005,NA,NA,NA,NA,0.3,2.3,49.2,NA,NA
-"Total, all countries or areas",2010,NA,NA,NA,NA,0.2,2.2,51.7,NA,NA
+Country,Year,Region,Capital city population (as a percentage of total population),Capital city population (as a percentage of total urban population),Capital city population (thousands),Rural population (percent growth rate per annum),Urban population (percent growth rate per annum),Urban population (percent),Capital City,Population (million)
+Saint Helena,2005,Sub-Saharan Africa,NA,NA,NA,-3.4,-3.8,39.9,Jamestown,NA
+Syrian Arab Republic,2015,Middle East & North Africa,11.9,22.7,2223,-0.8,-3.6,52.2,Damascus,18.68067227
+Saint Lucia,2010,Latin America & Caribbean,NA,NA,NA,2.2,-3.4,18.5,Castries,NA
+Northern Mariana Islands,2010,East Asia & Pacific,NA,NA,4,-4,-3.1,90.9,Garapan,NA
+Saint Lucia,2005,Latin America & Caribbean,NA,NA,NA,2.1,-2.9,23.1,Castries,NA
+Andorra,2015,Europe & Central Asia,NA,NA,NA,-0.8,-1.7,88.3,Andorra la Vella,NA
+Northern Mariana Islands,2005,East Asia & Pacific,NA,NA,NA,-2.5,-1.5,90.6,Garapan,NA
+American Samoa,2010,East Asia & Pacific,NA,NA,NA,-0.4,-1.3,87.6,Pago Pago,NA
+Latvia,2010,Europe & Central Asia,31.4,46.2,665,-1.1,-1.3,67.8,Riga,2.117834395
+Lithuania,2010,Europe & Central Asia,16.8,25.2,526,-1.4,-1.3,66.8,Vilnius,3.130952381
+Latvia,2005,Europe & Central Asia,31.6,46.5,712,-1.1,-1.2,68,Riga,2.253164557
+Latvia,2015,Europe & Central Asia,32.4,47.7,646,-1.3,-1.2,68,Riga,1.99382716
+Lithuania,2015,Europe & Central Asia,18.1,27,531,-1.6,-1.1,67.2,Vilnius,2.933701657
+Niue,2005,East Asia & Pacific,NA,NA,NA,-3.1,-1.1,35.2,Alofi,NA
+Antigua and Barbuda,2010,Latin America & Caribbean,NA,NA,NA,2,-1,26.2,Saint John's,NA
+Guyana,2010,Latin America & Caribbean,NA,NA,NA,0.2,-1,26.6,Georgetown,NA
+Lithuania,2005,Europe & Central Asia,16,24,535,-0.7,-1,66.6,Vilnius,3.34375
+Republic of Moldova,2005,Europe & Central Asia,14.1,32.9,585,0.4,-1,42.8,Chisinau,4.14893617
+Armenia,2010,Europe & Central Asia,37,58.4,1066,-0.4,-0.9,63.4,Yerevan,2.881081081
+Cook Islands,2015,East Asia & Pacific,NA,NA,NA,-2.1,-0.9,74.4,Avarua,NA
+Armenia,2005,Europe & Central Asia,36.5,57,1087,-0.2,-0.8,63.9,Yerevan,2.978082192
+Estonia,2005,Europe & Central Asia,29.3,42.6,397,-0.2,-0.8,68.7,Tallinn,1.354948805
+Georgia,2005,Europe & Central Asia,24.1,44.9,1081,-1.4,-0.7,53.6,Tbilisi,4.485477178
+Georgia,2015,Europe & Central Asia,27.3,47.5,1078,-2.2,-0.7,57.4,Tbilisi,3.948717949
+Guyana,2005,Latin America & Caribbean,NA,NA,NA,0.2,-0.7,27.8,Georgetown,NA
+Romania,2010,Europe & Central Asia,9.2,17.2,1889,-1.2,-0.7,53.8,Bucharest,20.5326087
+Saint Helena,2010,Sub-Saharan Africa,NA,NA,NA,-0.3,-0.7,39.5,Jamestown,NA
+Saint Helena,2015,Sub-Saharan Africa,NA,NA,NA,-0.7,-0.7,39.5,Jamestown,NA
+Antigua and Barbuda,2005,Latin America & Caribbean,NA,NA,NA,2.2,-0.6,29.2,Saint John's,NA
+Bermuda,2015,North America,NA,NA,NA,0,-0.6,100,Hamilton,NA
+Cook Islands,2010,East Asia & Pacific,NA,NA,NA,-2.8,-0.6,73.3,Avarua,NA
+Romania,2005,Europe & Central Asia,8.9,16.8,1912,-0.7,-0.6,53.2,Bucharest,21.48314607
+Ukraine,2005,Europe & Central Asia,5.7,8.4,2673,-1.2,-0.6,67.8,Kyiv,46.89473684
+Aruba,2010,Latin America & Caribbean,NA,NA,NA,1,-0.5,43.1,Oranjestad,NA
+Curaçao,2005,NA,NA,NA,NA,0.1,-0.5,90.5,Willemstad,NA
+Estonia,2010,Europe & Central Asia,29.6,43.5,394,0.1,-0.5,68.1,Tallinn,1.331081081
+Georgia,2010,Europe & Central Asia,25.5,45.9,1079,-2,-0.5,55.5,Tbilisi,4.231372549
+Martinique,2015,Latin America & Caribbean,NA,NA,NA,-0.3,-0.5,89,Fort-de-France,NA
+Micronesia (Fed. States of),2010,East Asia & Pacific,NA,NA,NA,-0.5,-0.5,22.3,Palikir,NA
+Romania,2015,Europe & Central Asia,9.3,17.3,1849,-0.6,-0.5,53.9,Bucharest,19.88172043
+Bermuda,2010,North America,NA,NA,NA,0,-0.4,100,Hamilton,NA
+Eastern Europe,2005,NA,NA,NA,NA,-0.6,-0.4,68.5,NA,NA
+Republic of Moldova,2010,Europe & Central Asia,13.6,31.9,555,-0.3,-0.4,42.6,Chisinau,4.080882353
+Russian Federation,2005,Europe & Central Asia,7.5,10.2,10751,-0.5,-0.4,73.5,Moscow,143.3466667
+Samoa,2010,East Asia & Pacific,NA,NA,NA,1,-0.4,20.1,Apia,NA
+Samoa,2015,East Asia & Pacific,NA,NA,NA,1.1,-0.4,18.9,Apia,NA
+Ukraine,2015,Europe & Central Asia,6.5,9.4,2895,-0.8,-0.4,69.1,Kyiv,44.53846154
+Barbados,2005,Latin America & Caribbean,NA,NA,NA,0.6,-0.3,32.8,Bridgetown,NA
+Bosnia and Herzegovina,2015,Europe & Central Asia,9.7,20.5,342,-1.6,-0.3,47.2,Sarajevo,3.525773196
+Bulgaria,2005,Europe & Central Asia,15.2,21.6,1169,-1.9,-0.3,70.6,Sofia,7.690789474
+Bulgaria,2010,Europe & Central Asia,16.4,22.7,1216,-1.9,-0.3,72.3,Sofia,7.414634146
+Puerto Rico,2010,Latin America & Caribbean,66.7,71.1,2478,0.7,-0.3,93.8,San Juan,3.715142429
+Puerto Rico,2015,Latin America & Caribbean,67.1,71.6,2463,0.4,-0.3,93.6,San Juan,3.670640835
+Slovakia,2010,Europe & Central Asia,7.7,14,414,0.4,-0.3,54.7,Bratislava,5.376623377
+Barbados,2010,Latin America & Caribbean,NA,NA,NA,0.7,-0.2,31.9,Bridgetown,NA
+Bulgaria,2015,Europe & Central Asia,17.5,23.6,1256,-1.9,-0.2,74,Sofia,7.177142857
+Czechia,2005,Europe & Central Asia,11.7,15.9,1199,0.2,-0.2,73.6,Prague,10.24786325
+Estonia,2015,Europe & Central Asia,31.6,46.3,416,-0.5,-0.2,68.4,Tallinn,1.316455696
+Martinique,2010,Latin America & Caribbean,NA,NA,NA,0.4,-0.2,89.1,Fort-de-France,NA
+Micronesia (Fed. States of),2005,East Asia & Pacific,NA,NA,NA,-0.2,-0.2,22.3,Palikir,NA
+Nauru,2010,East Asia & Pacific,NA,NA,NA,0,-0.2,100,Yaren,NA
+Poland,2005,Europe & Central Asia,4.4,7.1,1684,0,-0.2,61.5,Warsaw,38.27272727
+Poland,2010,Europe & Central Asia,4.4,7.3,1703,0.3,-0.2,60.9,Warsaw,38.70454545
+Poland,2015,Europe & Central Asia,4.5,7.5,1740,0.3,-0.2,60.3,Warsaw,38.66666667
+Puerto Rico,2005,Latin America & Caribbean,66.2,70.4,2493,0.8,-0.2,94.1,San Juan,3.765861027
+Republic of Moldova,2015,Europe & Central Asia,12.9,30.5,526,0,-0.2,42.5,Chisinau,4.07751938
+Serbia,2005,Europe & Central Asia,14.1,26.2,1303,-1.1,-0.2,53.9,Belgrade,9.241134752
+Slovakia,2005,Europe & Central Asia,7.9,14.2,426,0.3,-0.2,55.6,Bratislava,5.392405063
+Slovakia,2015,Europe & Central Asia,7.8,14.4,422,0.5,-0.2,53.9,Bratislava,5.41025641
+Ukraine,2010,Europe & Central Asia,6.1,8.9,2795,-1,-0.2,68.6,Kyiv,45.81967213
+American Samoa,2015,East Asia & Pacific,NA,NA,NA,0.5,-0.1,87.2,Pago Pago,NA
+Austria,2010,Europe & Central Asia,20.6,35.9,1731,1.1,-0.1,57.4,Vienna,8.402912621
+Barbados,2015,Latin America & Caribbean,NA,NA,NA,0.5,-0.1,31.2,Bridgetown,NA
+Croatia,2015,Europe & Central Asia,16.2,28.9,687,-0.9,-0.1,56.2,Zagreb,4.240740741
+Eastern Europe,2010,NA,NA,NA,NA,-0.5,-0.1,68.9,NA,NA
+Holy See,2010,Europe & Central Asia,NA,NA,NA,0,-0.1,100,Vatican City,NA
+Mauritius,2015,Sub-Saharan Africa,NA,NA,NA,0.4,-0.1,41,Port Louis,NA
+Samoa,2005,East Asia & Pacific,NA,NA,NA,0.8,-0.1,21.2,Apia,NA
+Serbia,2015,Europe & Central Asia,15.5,27.8,1369,-0.7,-0.1,55.7,Belgrade,8.832258065
+TFYR of Macedonia,2005,Europe & Central Asia,23.6,40.9,485,0.7,-0.1,57.5,Skopje,2.055084746
+TFYR of Macedonia,2010,Europe & Central Asia,25.2,44.1,521,0.3,-0.1,57.1,Skopje,2.067460317
+United States Virgin Islands,2010,Latin America & Caribbean,NA,NA,NA,-3.5,-0.1,94.6,Charlotte Amalie,NA
+United States Virgin Islands,2015,Latin America & Caribbean,NA,NA,NA,-3.2,-0.1,95.4,Charlotte Amalie,NA
+Austria,2005,Europe & Central Asia,19.9,33.8,1641,1.1,0,58.8,Vienna,8.246231156
+Belarus,2005,Europe & Central Asia,18.4,25.5,1775,-2.3,0,72.4,Minsk,9.64673913
+"Bonaire, Saint Eustatius and Saba",2005,Latin America & Caribbean,NA,NA,NA,0.2,0,74.8,Kralendijk,NA
+Eastern Europe,2015,NA,NA,NA,NA,-0.3,0,69.3,NA,NA
+Guadeloupe,2015,Latin America & Caribbean,NA,NA,NA,-0.4,0,98.4,Basse-Terre,NA
+Japan,2015,East Asia & Pacific,29.1,31.9,37256,-1.4,0,91.4,Tokyo,128.0274914
+Russian Federation,2010,Europe & Central Asia,8,10.9,11461,-0.2,0,73.7,Moscow,143.2625
+Saint Pierre and Miquelon,2010,North America,NA,NA,NA,0,0,89.9,Saint-Pierre,NA
+Serbia,2010,Europe & Central Asia,14.8,26.9,1336,-0.9,0,55,Belgrade,9.027027027
+Tokelau,2005,East Asia & Pacific,NA,NA,NA,-5,0,0,NA,NA
+Tokelau,2010,East Asia & Pacific,NA,NA,NA,-1.2,0,0,NA,NA
+Tokelau,2015,East Asia & Pacific,NA,NA,NA,1.9,0,0,NA,NA
+Wallis and Futuna Islands,2005,East Asia & Pacific,NA,NA,NA,0.1,0,0,Matu-Utu,NA
+Wallis and Futuna Islands,2010,East Asia & Pacific,NA,NA,NA,-1.6,0,0,Matu-Utu,NA
+Wallis and Futuna Islands,2015,East Asia & Pacific,NA,NA,NA,-2.1,0,0,Matu-Utu,NA
+Antigua and Barbuda,2015,Latin America & Caribbean,NA,NA,NA,1.4,0.1,25,Saint John's,NA
+Croatia,2005,Europe & Central Asia,15.8,29,690,-0.6,0.1,54.3,Zagreb,4.367088608
+Croatia,2010,Europe & Central Asia,15.9,28.8,688,-0.6,0.1,55.2,Zagreb,4.327044025
+Germany,2010,Europe & Central Asia,4.3,5.5,3450,-1,0.1,77,Berlin,80.23255814
+Greece,2015,Europe & Central Asia,28.2,36.1,3161,-1.9,0.1,78,Athens,11.20921986
+Saint Pierre and Miquelon,2005,North America,NA,NA,NA,-1.3,0.1,89.9,Saint-Pierre,NA
+Saint Pierre and Miquelon,2015,North America,NA,NA,NA,-0.8,0.1,89.9,Saint-Pierre,NA
+Spain,2015,Europe & Central Asia,13.4,16.8,6221,-1.3,0.1,79.6,Madrid,46.42537313
+Trinidad and Tobago,2005,Latin America & Caribbean,42.2,76.8,547,0.9,0.1,55,Port of Spain,1.296208531
+Trinidad and Tobago,2010,Latin America & Caribbean,41.1,76.1,546,0.9,0.1,54,Port of Spain,1.328467153
+United States Virgin Islands,2005,Latin America & Caribbean,NA,NA,NA,-3.3,0.1,93.7,Charlotte Amalie,NA
+Armenia,2015,Europe & Central Asia,36.7,58.2,1071,0.5,0.2,63.1,Yerevan,2.918256131
+Cuba,2010,Latin America & Caribbean,18.9,24.7,2143,-0.3,0.2,76.6,Havana,11.33862434
+Czechia,2015,Europe & Central Asia,12,16.3,1269,0,0.2,73.5,Prague,10.575
+Eswatini,2005,Sub-Saharan Africa,NA,NA,NA,1,0.2,22,Mbabane,NA
+Falkland Islands (Malvinas),2010,Latin America & Caribbean,NA,NA,NA,-2.6,0.2,73.7,Stanley,NA
+Guam,2010,East Asia & Pacific,NA,NA,NA,-1.4,0.2,94.1,Hagåtña,NA
+Holy See,2015,Europe & Central Asia,NA,NA,NA,0,0.2,100,Vatican City,NA
+Hungary,2015,Europe & Central Asia,17.8,25.3,1746,-1.3,0.2,70.5,Budapest,9.808988764
+Mauritius,2010,Sub-Saharan Africa,NA,NA,NA,0.6,0.2,41.6,Port Louis,NA
+Micronesia,2010,NA,NA,NA,NA,-0.4,0.2,66.6,NA,NA
+Nauru,2005,East Asia & Pacific,NA,NA,NA,0,0.2,100,Yaren,NA
+Northern Mariana Islands,2015,East Asia & Pacific,NA,NA,NA,-0.8,0.2,91.4,Garapan,NA
+Russian Federation,2015,Europe & Central Asia,8.4,11.3,12049,-0.2,0.2,74.1,Moscow,143.4404762
+Southern Europe,2015,NA,NA,NA,NA,-1.1,0.2,70.6,NA,NA
+TFYR of Macedonia,2015,Europe & Central Asia,26.9,46.9,560,-0.1,0.2,57.4,Skopje,2.081784387
+Trinidad and Tobago,2015,Latin America & Caribbean,40.1,75.2,545,0.8,0.2,53.3,Port of Spain,1.359102244
+Belarus,2010,Europe & Central Asia,19.5,26.2,1850,-2.1,0.3,74.7,Minsk,9.487179487
+Bermuda,2005,North America,NA,NA,NA,0,0.3,100,Hamilton,NA
+Cuba,2015,Latin America & Caribbean,18.5,24.1,2124,0,0.3,76.9,Havana,11.48108108
+Europe,2005,NA,NA,NA,NA,-0.5,0.3,71.9,NA,NA
+Europe,2015,NA,NA,NA,NA,-0.6,0.3,73.9,NA,NA
+Germany,2005,Europe & Central Asia,4.2,5.5,3391,-0.8,0.3,76,Berlin,80.73809524
+Germany,2015,Europe & Central Asia,4.3,5.6,3514,0,0.3,77.2,Berlin,81.72093023
+Greenland,2010,Europe & Central Asia,NA,NA,NA,-2,0.3,84.4,Nuuk,NA
+Greenland,2015,Europe & Central Asia,NA,NA,NA,-2.4,0.3,86.1,Nuuk,NA
+Grenada,2010,Latin America & Caribbean,NA,NA,NA,0.3,0.3,35.9,Saint George's,NA
+Holy See,2005,Europe & Central Asia,NA,NA,NA,0,0.3,100,Vatican City,NA
+Hungary,2005,Europe & Central Asia,17.4,26.2,1756,-1.3,0.3,66.4,Budapest,10.09195402
+Italy,2015,Europe & Central Asia,6.9,9.9,4113,-0.9,0.3,69.6,Rome,59.60869565
+Liechtenstein,2010,Europe & Central Asia,NA,NA,NA,0.7,0.3,14.5,Vaduz,NA
+Mauritius,2005,Sub-Saharan Africa,NA,NA,NA,0.8,0.3,42.1,Port Louis,NA
+Micronesia,2005,NA,NA,NA,NA,0,0.3,65.9,NA,NA
+Micronesia (Fed. States of),2015,East Asia & Pacific,NA,NA,NA,0.1,0.3,22.5,Palikir,NA
+Montserrat,2010,Latin America & Caribbean,NA,NA,NA,0.7,0.3,9.2,Brades Estate,NA
+Republic of Korea,2015,East Asia & Pacific,19.6,24,9897,0.7,0.3,81.6,Seoul,50.49489796
+Tonga,2015,East Asia & Pacific,NA,NA,NA,0.5,0.3,23.3,Nuku'alofa,NA
+Uruguay,2005,Latin America & Caribbean,48.5,52,1613,-3.5,0.3,93.3,Montevideo,3.325773196
+American Samoa,2005,East Asia & Pacific,NA,NA,NA,1.4,0.4,88.1,Pago Pago,NA
+Bosnia and Herzegovina,2010,Europe & Central Asia,9.2,20.2,342,-0.9,0.4,45.6,Sarajevo,3.717391304
+Czechia,2010,Europe & Central Asia,11.7,16,1234,0.8,0.4,73.3,Prague,10.54700855
+Finland,2005,Europe & Central Asia,20.3,24.5,1067,-0.6,0.4,82.9,Helsinki,5.256157635
+Grenada,2005,Latin America & Caribbean,NA,NA,NA,0.2,0.4,35.9,Saint George's,NA
+Guam,2015,East Asia & Pacific,NA,NA,NA,-1.2,0.4,94.5,Hagåtña,NA
+Guyana,2015,Latin America & Caribbean,NA,NA,NA,0.6,0.4,26.4,Georgetown,NA
+Hungary,2010,Europe & Central Asia,17.5,25.4,1734,-1.9,0.4,68.9,Budapest,9.908571429
+Liechtenstein,2005,Europe & Central Asia,NA,NA,NA,1,0.4,14.7,Vaduz,NA
+Martinique,2005,Latin America & Caribbean,NA,NA,NA,1.2,0.4,89.3,Fort-de-France,NA
+Sint Maarten (Dutch part),2005,Latin America & Caribbean,NA,NA,NA,0,0.4,100,Philipsburg,NA
+Sint Maarten (Dutch part),2010,Latin America & Caribbean,NA,NA,NA,0,0.4,100,Philipsburg,NA
+Slovenia,2005,Europe & Central Asia,NA,NA,NA,-0.2,0.4,51.5,Ljubljana,NA
+Sweden,2005,Europe & Central Asia,13.8,16.4,1248,0,0.4,84.3,Stockholm,9.043478261
+Aruba,2015,Latin America & Caribbean,NA,NA,NA,0.5,0.5,43.1,Oranjestad,NA
+Channel Islands,2015,Europe & Central Asia,NA,NA,NA,0.5,0.5,31,Saint Helier,NA
+"China, Hong Kong SAR",2005,East Asia & Pacific,100,100,6828,0,0.5,100,Hong Kong,6.828
+Cuba,2005,Latin America & Caribbean,19.3,25.4,2180,-0.4,0.5,76.1,Havana,11.29533679
+Denmark,2005,Europe & Central Asia,20.8,24.2,1127,-0.7,0.5,85.9,Copenhagen,5.418269231
+Europe,2010,NA,NA,NA,NA,-0.5,0.5,72.9,NA,NA
+Faroe Islands,2015,Europe & Central Asia,NA,NA,NA,-0.1,0.5,41.6,Tórshavn,NA
+Grenada,2015,Latin America & Caribbean,NA,NA,NA,0.4,0.5,36,Saint George's,NA
+Guadeloupe,2010,Latin America & Caribbean,NA,NA,NA,0.4,0.5,98.4,Basse-Terre,NA
+Guam,2005,East Asia & Pacific,NA,NA,NA,-1.1,0.5,93.6,Hagåtña,NA
+Italy,2010,Europe & Central Asia,6.6,9.7,3957,-0.1,0.5,68.3,Rome,59.95454545
+Libya,2015,Middle East & North Africa,18.2,22.9,1134,-0.9,0.5,79.3,Tripoli,6.230769231
+Liechtenstein,2015,Europe & Central Asia,NA,NA,NA,0.8,0.5,14.3,Vaduz,NA
+Malta,2010,Middle East & North Africa,NA,NA,NA,-0.9,0.5,94.1,Valletta,NA
+Montserrat,2015,Latin America & Caribbean,NA,NA,NA,0.7,0.5,9,Brades Estate,NA
+Portugal,2015,Europe & Central Asia,27.7,43.6,2883,-2,0.5,63.5,Lisbon,10.40794224
+Republic of Korea,2010,East Asia & Pacific,19.8,24.1,9796,-0.3,0.5,81.9,Seoul,49.47474747
+Sri Lanka,2015,South Asia,2.8,15.4,581,0.5,0.5,18.3,Colombo,20.75
+Uruguay,2010,Latin America & Caribbean,49.2,52.1,1659,-3.3,0.5,94.4,Montevideo,3.37195122
+Uruguay,2015,Latin America & Caribbean,49.8,52.4,1707,-2.1,0.5,95,Montevideo,3.427710843
+Belgium,2005,Europe & Central Asia,17.6,18,1853,-1.5,0.6,97.4,Brussels,10.52840909
+"China, Hong Kong SAR",2010,East Asia & Pacific,100,100,7025,0,0.6,100,Hong Kong,7.025
+"China, Hong Kong SAR",2015,East Asia & Pacific,100,100,7246,0,0.6,100,Hong Kong,7.246
+Denmark,2015,Europe & Central Asia,22.3,25.5,1271,-0.7,0.6,87.5,Copenhagen,5.69955157
+Finland,2010,Europe & Central Asia,21,25.1,1126,-0.6,0.6,83.8,Helsinki,5.361904762
+Gibraltar,2005,Europe & Central Asia,NA,NA,NA,0,0.6,100,Gibraltar,NA
+Gibraltar,2015,Europe & Central Asia,NA,NA,NA,0,0.6,100,Gibraltar,NA
+Greenland,2005,Europe & Central Asia,NA,NA,NA,-1.1,0.6,82.9,Nuuk,NA
+Iceland,2015,Europe & Central Asia,NA,NA,NA,0.2,0.6,93.7,Reykjavik,NA
+Ireland,2015,Europe & Central Asia,24.7,39.6,1163,-0.2,0.6,62.5,Dublin,4.708502024
+Kyrgyzstan,2005,Europe & Central Asia,15.7,44.5,798,0.6,0.6,35.3,Bishkek,5.082802548
+Malta,2015,Middle East & North Africa,NA,NA,NA,-0.6,0.6,94.4,Valletta,NA
+Monaco,2015,Europe & Central Asia,NA,NA,NA,0,0.6,100,Monaco,NA
+Montenegro,2015,Europe & Central Asia,NA,NA,NA,-0.8,0.6,65.8,Podgorica,NA
+Northern Europe,2005,NA,NA,NA,NA,-0.5,0.6,78.9,NA,NA
+Polynesia,2015,NA,NA,NA,NA,0.4,0.6,44.5,NA,NA
+Saint Lucia,2015,Latin America & Caribbean,NA,NA,NA,0.5,0.6,18.5,Castries,NA
+Sri Lanka,2010,South Asia,2.8,15.6,574,0.7,0.6,18.2,Colombo,20.5
+Western Europe,2010,NA,NA,NA,NA,-0.9,0.6,78.5,NA,NA
+Western Europe,2015,NA,NA,NA,NA,-0.4,0.6,79.4,NA,NA
+Austria,2015,Europe & Central Asia,21.1,36.6,1835,0.5,0.7,57.7,Vienna,8.696682464
+Belarus,2015,Europe & Central Asia,20.5,26.6,1945,-2.1,0.7,77.2,Minsk,9.487804878
+Belgium,2015,Europe & Central Asia,17.7,18.1,2002,-1.4,0.7,97.9,Brussels,11.31073446
+Cyprus,2015,Europe & Central Asia,NA,NA,NA,1.2,0.7,66.9,Nicosia,NA
+Denmark,2010,Europe & Central Asia,21.5,24.7,1192,-0.9,0.7,86.8,Copenhagen,5.544186047
+Dominica,2005,Latin America & Caribbean,NA,NA,NA,-0.5,0.7,66.6,Roseau,NA
+Dominica,2010,Latin America & Caribbean,NA,NA,NA,-0.7,0.7,68.1,Roseau,NA
+Faroe Islands,2010,Europe & Central Asia,NA,NA,NA,-0.3,0.7,40.9,Tórshavn,NA
+Gibraltar,2010,Europe & Central Asia,NA,NA,NA,0,0.7,100,Gibraltar,NA
+Greece,2010,Europe & Central Asia,27.7,36.3,3170,-1.2,0.7,76.3,Athens,11.44404332
+Guadeloupe,2005,Latin America & Caribbean,NA,NA,NA,0.7,0.7,98.4,Basse-Terre,NA
+Italy,2005,Europe & Central Asia,6.5,9.6,3807,0.2,0.7,67.7,Rome,58.56923077
+Marshall Islands,2005,East Asia & Pacific,NA,NA,NA,-1.7,0.7,71.1,Majuro,NA
+Saint Kitts and Nevis,2010,Latin America & Caribbean,NA,NA,NA,1.3,0.7,31.3,Basseterre,NA
+Slovenia,2015,Europe & Central Asia,NA,NA,NA,-0.2,0.7,53.8,Ljubljana,NA
+Sri Lanka,2005,South Asia,3.1,17.2,614,0.8,0.7,18.3,Colombo,19.80645161
+Switzerland,2005,Europe & Central Asia,5,6.7,367,0.6,0.7,73.5,Bern,7.34
+Tonga,2005,East Asia & Pacific,NA,NA,NA,0.6,0.7,23.2,Nuku'alofa,NA
+Western Europe,2005,NA,NA,NA,NA,-0.8,0.7,77.3,NA,NA
+Belgium,2010,Europe & Central Asia,17.6,18,1926,-1.3,0.8,97.7,Brussels,10.94318182
+Bosnia and Herzegovina,2005,Europe & Central Asia,9,20.6,342,-0.5,0.8,44,Sarajevo,3.8
+Finland,2015,Europe & Central Asia,22.3,26.2,1222,-1.5,0.8,85.2,Helsinki,5.479820628
+France,2015,Europe & Central Asia,16.7,20.9,10734,-0.8,0.8,79.7,Paris,64.2754491
+Greece,2005,Europe & Central Asia,28.1,37.8,3180,-1,0.8,74.5,Athens,11.31672598
+Jamaica,2015,Latin America & Caribbean,20.4,37.3,587,-0.1,0.8,54.8,Kingston,2.87745098
+Kazakhstan,2005,Europe & Central Asia,3.5,6.1,538,0.5,0.8,56.5,Astana,15.37142857
+Malta,2005,Middle East & North Africa,NA,NA,NA,-3.2,0.8,93.6,Valletta,NA
+Marshall Islands,2010,East Asia & Pacific,NA,NA,NA,-1.6,0.8,73.6,Majuro,NA
+Marshall Islands,2015,East Asia & Pacific,NA,NA,NA,-1.6,0.8,75.8,Majuro,NA
+Montenegro,2010,Europe & Central Asia,NA,NA,NA,-0.7,0.8,64.1,Podgorica,NA
+North Korea,2010,East Asia & Pacific,11.6,19.3,2861,0.3,0.8,60.4,Pyongyang,24.6637931
+North Korea,2015,East Asia & Pacific,11.8,19.2,2970,0.1,0.8,61.3,Pyongyang,25.16949153
+Saint Kitts and Nevis,2015,Latin America & Caribbean,NA,NA,NA,1.2,0.8,30.8,Basseterre,NA
+Saint Vincent and the Grenadines,2015,Latin America & Caribbean,NA,NA,NA,-0.8,0.8,51,Kingstown,NA
+Tonga,2010,East Asia & Pacific,NA,NA,NA,0.5,0.8,23.4,Nuku'alofa,NA
+United Kingdom,2005,Europe & Central Asia,12.4,15.6,7501,-0.8,0.8,79.9,London,60.49193548
+Channel Islands,2005,Europe & Central Asia,NA,NA,NA,0.7,0.9,30.7,Saint Helier,NA
+Channel Islands,2010,Europe & Central Asia,NA,NA,NA,0.6,0.9,31.1,Saint Helier,NA
+Dominica,2015,Latin America & Caribbean,NA,NA,NA,-0.5,0.9,69.6,Roseau,NA
+France,2005,Europe & Central Asia,16.5,21.4,10092,-0.5,0.9,77.1,Paris,61.16363636
+France,2010,Europe & Central Asia,16.6,21.2,10460,-0.5,0.9,78.4,Paris,63.01204819
+Isle of Man,2015,Europe & Central Asia,NA,NA,NA,0.7,0.9,52.2,Douglas,NA
+Jamaica,2010,Latin America & Caribbean,20.7,38.6,584,0.1,0.9,53.7,Kingston,2.821256039
+Northern Europe,2015,NA,NA,NA,NA,-0.9,0.9,81.4,NA,NA
+Polynesia,2010,NA,NA,NA,NA,0.2,0.9,44.3,NA,NA
+Réunion,2015,NA,NA,NA,NA,-15.6,0.9,99.3,Saint-Denis,NA
+Saint Kitts and Nevis,2005,Latin America & Caribbean,NA,NA,NA,1.6,0.9,32,Basseterre,NA
+Saint Vincent and the Grenadines,2010,Latin America & Caribbean,NA,NA,NA,-0.6,0.9,49,Kingstown,NA
+Slovenia,2010,Europe & Central Asia,NA,NA,NA,0,0.9,52.7,Ljubljana,NA
+Southern Europe,2010,NA,NA,NA,NA,-0.4,0.9,69.2,NA,NA
+Suriname,2015,Latin America & Caribbean,NA,NA,NA,1.2,0.9,66.1,Paramaribo,NA
+Sweden,2010,Europe & Central Asia,14.5,17,1360,-0.2,0.9,85.1,Stockholm,9.379310345
+United States of America,2015,North America,1.6,1.9,4972,-0.2,0.9,81.7,"Washington, D.C.",310.75
+Andorra,2010,Europe & Central Asia,NA,NA,NA,4.2,1,88.8,Andorra la Vella,NA
+Chile,2015,Latin America & Caribbean,36.7,42,6523,0.4,1,87.4,Santiago,17.77384196
+Falkland Islands (Malvinas),2015,Latin America & Caribbean,NA,NA,NA,-1.8,1,76.3,Stanley,NA
+Isle of Man,2005,Europe & Central Asia,NA,NA,NA,0.9,1,51.9,Douglas,NA
+Isle of Man,2010,Europe & Central Asia,NA,NA,NA,1,1,52,Douglas,NA
+Jamaica,2005,Latin America & Caribbean,21.2,40.1,581,0.2,1,52.8,Kingston,2.740566038
+Micronesia,2015,NA,NA,NA,NA,-0.2,1,67.9,NA,NA
+Monaco,2005,Europe & Central Asia,NA,NA,NA,0,1,100,Monaco,NA
+Netherlands,2015,Europe & Central Asia,6.5,7.2,1106,-5.1,1,90.2,Amsterdam,17.01538462
+North Korea,2005,East Asia & Pacific,11.7,19.6,2805,0.6,1,59.8,Pyongyang,23.97435897
+Northern America,2015,NA,NA,NA,NA,-0.1,1,81.6,NA,NA
+Norway,2005,Europe & Central Asia,17.7,22.7,818,-0.8,1,77.7,Oslo,4.621468927
+Palau,2005,East Asia & Pacific,NA,NA,NA,0.2,1,71.2,Melekeok,NA
+Republic of Korea,2005,East Asia & Pacific,20.2,24.8,9822,-1.2,1,81.3,Seoul,48.62376238
+Saint Vincent and the Grenadines,2005,Latin America & Caribbean,NA,NA,NA,-0.5,1,47,Kingstown,NA
+Southern Europe,2005,NA,NA,NA,NA,-0.2,1,67.8,NA,NA
+Suriname,2010,Latin America & Caribbean,NA,NA,NA,1.3,1,66.3,Paramaribo,NA
+United Kingdom,2015,Europe & Central Asia,13.2,16,8661,-0.8,1,82.6,London,65.61363636
+Aruba,2005,Latin America & Caribbean,NA,NA,NA,2.6,1.1,44.9,Oranjestad,NA
+Canada,2005,North America,3.5,4.3,1122,0.3,1.1,80.1,Ottawa,32.05714286
+Canada,2015,North America,3.6,4.5,1308,0.7,1.1,81.3,Ottawa,36.33333333
+Central African Republic,2015,Sub-Saharan Africa,17.6,43.6,798,0,1.1,40.3,Bangui,4.534090909
+Chile,2010,Latin America & Caribbean,36.9,42.4,6269,0.6,1.1,87.1,Santiago,16.98915989
+Fiji,2005,East Asia & Pacific,NA,NA,NA,-0.5,1.1,49.9,Suva,NA
+Iceland,2005,Europe & Central Asia,NA,NA,NA,-0.7,1.1,93,Reykjavik,NA
+Japan,2010,East Asia & Pacific,28.7,31.6,36860,-8.4,1.1,90.8,Tokyo,128.4320557
+New Zealand,2010,East Asia & Pacific,8.9,10.3,387,1.4,1.1,86.2,Wellington,4.348314607
+New Zealand,2015,East Asia & Pacific,8.7,10.1,402,0.8,1.1,86.3,Wellington,4.620689655
+Northern America,2005,NA,NA,NA,NA,0.1,1.1,80,NA,NA
+Northern America,2010,NA,NA,NA,NA,0.1,1.1,80.8,NA,NA
+Northern Europe,2010,NA,NA,NA,NA,-0.4,1.1,80.1,NA,NA
+Sweden,2015,Europe & Central Asia,15.3,17.7,1495,-1.3,1.1,86.6,Stockholm,9.77124183
+Switzerland,2010,Europe & Central Asia,4.9,6.7,387,1,1.1,73.6,Bern,7.897959184
+United States of America,2005,North America,1.4,1.8,4264,0.1,1.1,79.9,"Washington, D.C.",304.5714286
+United States of America,2010,North America,1.5,1.8,4604,0,1.1,80.8,"Washington, D.C.",306.9333333
+Anguilla,2015,Latin America & Caribbean,NA,NA,NA,0,1.2,100,The Valley,NA
+Argentina,2010,Latin America & Caribbean,34.6,38,14246,-0.7,1.2,90.8,Buenos Aires,41.1734104
+Argentina,2015,Latin America & Caribbean,33.9,37,14706,-0.4,1.2,91.5,Buenos Aires,43.38053097
+Brazil,2015,Latin America & Caribbean,2,2.4,4168,-1,1.2,85.8,Brasilia,208.4
+Curaçao,2015,NA,NA,NA,NA,2.4,1.2,89.4,Willemstad,NA
+French Polynesia,2015,East Asia & Pacific,NA,NA,NA,0,1.2,61.7,Papeete,NA
+Kazakhstan,2010,Europe & Central Asia,4,7.1,664,0.9,1.2,56.8,Astana,16.6
+Niue,2010,East Asia & Pacific,NA,NA,NA,-1.7,1.2,38.7,Alofi,NA
+Portugal,2010,Europe & Central Asia,26.4,43.6,2812,-1.3,1.2,60.6,Lisbon,10.65151515
+Seychelles,2010,Sub-Saharan Africa,NA,NA,NA,-0.1,1.2,53.3,Victoria,NA
+Suriname,2005,Latin America & Caribbean,NA,NA,NA,1,1.2,66.7,Paramaribo,NA
+Switzerland,2015,Europe & Central Asia,4.9,6.7,409,1.1,1.2,73.7,Bern,8.346938776
+Zimbabwe,2010,Sub-Saharan Africa,10.5,31.5,1475,2,1.2,33.2,Harare,14.04761905
+Albania,2010,Europe & Central Asia,13.9,26.6,409,-3.1,1.3,52.2,Tirana,2.942446043
+Argentina,2005,Latin America & Caribbean,34.1,37.8,13330,-0.6,1.3,90,Buenos Aires,39.09090909
+Australia,2005,East Asia & Pacific,1.8,2.1,366,0.7,1.3,84.6,Canberra,20.33333333
+Australia and New Zealand,2005,NA,NA,NA,NA,0.8,1.3,84.9,NA,NA
+Canada,2010,North America,3.6,4.4,1218,0.3,1.3,80.9,Ottawa,33.83333333
+Chile,2005,Latin America & Caribbean,37.3,43,6025,0.1,1.3,86.8,Santiago,16.15281501
+Falkland Islands (Malvinas),2005,Latin America & Caribbean,NA,NA,NA,-1.7,1.3,70.8,Stanley,NA
+Kyrgyzstan,2010,Europe & Central Asia,15.6,44.1,844,1.3,1.3,35.3,Bishkek,5.41025641
+Myanmar,2010,East Asia & Pacific,0.5,1.6,234,0.4,1.3,28.9,Nay Pyi Taw,46.8
+Oceania,2005,NA,NA,NA,NA,1.6,1.3,68,NA,NA
+Polynesia,2005,NA,NA,NA,NA,0.6,1.3,43.5,NA,NA
+Seychelles,2015,Sub-Saharan Africa,NA,NA,NA,-0.4,1.3,55.4,Victoria,NA
+South America,2015,NA,NA,NA,NA,-0.3,1.3,83.5,NA,NA
+United Kingdom,2010,Europe & Central Asia,12.7,15.6,8044,-0.5,1.3,81.3,London,63.33858268
+Zimbabwe,2005,Sub-Saharan Africa,11.2,32.8,1450,1,1.3,34.1,Harare,12.94642857
+Azerbaijan,2005,Europe & Central Asia,21.9,41.7,1867,0.6,1.4,52.4,Baku,8.525114155
+Brazil,2010,Latin America & Caribbean,1.9,2.2,3710,-0.8,1.4,84.3,Brasilia,195.2631579
+Caribbean,2015,NA,NA,NA,NA,-0.7,1.4,70,NA,NA
+Colombia,2015,Latin America & Caribbean,20.1,25.2,9708,-0.7,1.4,79.8,Bogota,48.29850746
+Cyprus,2010,Europe & Central Asia,NA,NA,NA,2,1.4,67.6,Nicosia,NA
+Montenegro,2005,Europe & Central Asia,NA,NA,NA,-1.9,1.4,62.5,Podgorica,NA
+Netherlands,2010,Europe & Central Asia,6.4,7.3,1065,-5.6,1.4,87.1,Amsterdam,16.640625
+Norway,2010,Europe & Central Asia,18.4,23.2,898,-0.3,1.4,79.1,Oslo,4.880434783
+Réunion,2010,NA,NA,NA,NA,-17.1,1.4,98.5,Saint-Denis,NA
+San Marino,2015,Europe & Central Asia,NA,NA,NA,-4.2,1.4,96.7,San Marino,NA
+Tunisia,2005,Middle East & North Africa,18.4,28.2,1859,-0.2,1.4,65.2,Tunis,10.10326087
+Venezuela,2015,Latin America & Caribbean,9.4,10.6,2920,1.3,1.4,88.2,Caracas,31.06382979
+Australia and New Zealand,2015,NA,NA,NA,NA,0.8,1.5,85.8,NA,NA
+Azerbaijan,2010,Europe & Central Asia,22.8,42.7,2062,0.7,1.5,53.4,Baku,9.043859649
+Bahamas,2015,Latin America & Caribbean,NA,NA,NA,1,1.5,82.7,Nassau,NA
+Caribbean,2010,NA,NA,NA,NA,-0.6,1.5,67.8,NA,NA
+Cayman Islands,2015,Latin America & Caribbean,NA,NA,NA,0,1.5,100,George Town,NA
+El Salvador,2005,Latin America & Caribbean,17.8,28.9,1074,-0.8,1.5,61.6,San Salvador,6.033707865
+Latin America & the Caribbean,2015,NA,NA,NA,NA,-0.2,1.5,79.9,NA,NA
+Libya,2010,Middle East & North Africa,17.8,22.7,1095,0.4,1.5,78.1,Tripoli,6.151685393
+Luxembourg,2005,Europe & Central Asia,NA,NA,NA,-2.3,1.5,86.6,Luxembourg,NA
+Myanmar,2015,East Asia & Pacific,0.7,2.4,376,0.6,1.5,29.9,Nay Pyi Taw,53.71428571
+New Zealand,2005,East Asia & Pacific,9,10.4,371,0.9,1.5,86.3,Wellington,4.122222222
+Nicaragua,2015,Latin America & Caribbean,16.9,29.2,1027,0.7,1.5,57.9,Managua,6.076923077
+Oceania,2015,NA,NA,NA,NA,1.5,1.5,68.1,NA,NA
+Philippines,2010,East Asia & Pacific,12.7,28,11887,1.8,1.5,45.3,Manila,93.5984252
+Portugal,2005,Europe & Central Asia,25.9,45.1,2742,-1,1.5,57.5,Lisbon,10.58687259
+San Marino,2005,Europe & Central Asia,NA,NA,NA,-2.1,1.5,94.5,San Marino,NA
+San Marino,2010,Europe & Central Asia,NA,NA,NA,-4,1.5,95.7,San Marino,NA
+South America,2010,NA,NA,NA,NA,-0.3,1.5,82.4,NA,NA
+Spain,2010,Europe & Central Asia,12.4,15.8,5787,0.1,1.5,78.4,Madrid,46.66935484
+Tunisia,2010,Middle East & North Africa,18.9,28.4,2014,0.2,1.5,66.7,Tunis,10.65608466
+Turkmenistan,2005,Europe & Central Asia,12.4,26.4,592,0.6,1.5,47.1,Ashgabat,4.774193548
+Uzbekistan,2015,Europe & Central Asia,7.7,15.1,2379,1.7,1.5,50.8,Tashkent,30.8961039
+Australia,2015,East Asia & Pacific,1.8,2.1,429,0.8,1.6,85.7,Canberra,23.83333333
+Central Asia,2005,NA,NA,NA,NA,0.7,1.6,46.8,NA,NA
+Cyprus,2005,Europe & Central Asia,NA,NA,NA,2,1.6,68.3,Nicosia,NA
+El Salvador,2010,Latin America & Caribbean,17.6,26.9,1086,-1.6,1.6,65.5,San Salvador,6.170454545
+Latin America & the Caribbean,2010,NA,NA,NA,NA,-0.1,1.6,78.6,NA,NA
+Nicaragua,2005,Latin America & Caribbean,16.9,30.3,910,1,1.6,55.9,Managua,5.384615385
+Nicaragua,2010,Latin America & Caribbean,17.3,30.4,992,0.8,1.6,56.9,Managua,5.734104046
+Palau,2010,East Asia & Pacific,NA,NA,NA,-2.2,1.6,74.8,Melekeok,NA
+Peru,2010,Latin America & Caribbean,30.4,39.7,8920,0.1,1.6,76.4,Lima,29.34210526
+Peru,2015,Latin America & Caribbean,31.3,40.4,9813,0.5,1.6,77.4,Lima,31.3514377
+Tunisia,2015,Middle East & North Africa,19.4,28.5,2183,0.3,1.6,68.1,Tunis,11.25257732
+Venezuela,2010,Latin America & Caribbean,10,11.3,2899,1.4,1.6,88.1,Caracas,28.99
+Anguilla,2010,Latin America & Caribbean,NA,NA,NA,0,1.7,100,The Valley,NA
+Azerbaijan,2015,Europe & Central Asia,22.9,41.9,2206,0.7,1.7,54.7,Baku,9.633187773
+Brazil,2005,Latin America & Caribbean,1.8,2.1,3301,-0.5,1.7,82.8,Brasilia,183.3888889
+Brunei Darussalam,2010,East Asia & Pacific,NA,NA,NA,-0.1,1.7,75,Bandar Seri Begawan,NA
+Caribbean,2005,NA,NA,NA,NA,-0.6,1.7,65.4,NA,NA
+Central Asia,2015,NA,NA,NA,NA,1.6,1.7,48.1,NA,NA
+Colombia,2010,Latin America & Caribbean,18.3,23.5,8418,-0.5,1.7,78,Bogota,46
+Djibouti,2010,Middle East & North Africa,57,74,485,1.5,1.7,77,Djibouti,0.850877193
+El Salvador,2015,Latin America & Caribbean,17.4,25,1099,-2.1,1.7,69.7,San Salvador,6.316091954
+Fiji,2015,East Asia & Pacific,NA,NA,NA,-0.4,1.7,54.7,Suva,NA
+Israel,2015,Middle East & North Africa,10.6,11.5,858,0.8,1.7,92.2,Jerusalem,8.094339623
+Kazakhstan,2015,Europe & Central Asia,5,8.8,894,1.4,1.7,57.2,Astana,17.88
+Latin America & the Caribbean,2005,NA,NA,NA,NA,-0.1,1.7,77.1,NA,NA
+Libya,2005,Middle East & North Africa,18.3,23.7,1058,1,1.7,77.1,Tripoli,5.781420765
+Mexico,2005,Latin America & Caribbean,17.8,23.3,19276,0,1.7,76.3,Mexico City,108.2921348
+Myanmar,2005,East Asia & Pacific,0.3,1.1,148,0.8,1.7,27.9,Nay Pyi Taw,49.33333333
+Norway,2015,Europe & Central Asia,18.6,23,969,-0.8,1.7,81.1,Oslo,5.209677419
+Palau,2015,East Asia & Pacific,NA,NA,NA,-2.1,1.7,78.2,Melekeok,NA
+Singapore,2015,East Asia & Pacific,100,100,5535,0,1.7,100,Singapore,5.535
+South America,2005,NA,NA,NA,NA,-0.2,1.7,81.1,NA,NA
+Spain,2005,Europe & Central Asia,12.2,15.8,5383,0.6,1.7,77.3,Madrid,44.12295082
+Albania,2015,Europe & Central Asia,15.4,26.8,449,-2.5,1.8,57.4,Tirana,2.915584416
+Australia and New Zealand,2010,NA,NA,NA,NA,1,1.8,85.3,NA,NA
+Djibouti,2005,Middle East & North Africa,56.5,73.6,442,1.6,1.8,76.8,Djibouti,0.782300885
+Djibouti,2015,Middle East & North Africa,57.3,74,531,1.4,1.8,77.4,Djibouti,0.926701571
+Ecuador,2015,Latin America & Caribbean,10.7,16.9,1734,1.2,1.8,63.4,Quito,16.20560748
+Egypt,2010,Middle East & North Africa,20.1,46.7,16899,1.8,1.8,43,Cairo,84.07462687
+Fiji,2010,East Asia & Pacific,NA,NA,NA,0,1.8,52.2,Suva,NA
+Iceland,2010,Europe & Central Asia,NA,NA,NA,0,1.8,93.6,Reykjavik,NA
+Kyrgyzstan,2015,Europe & Central Asia,16,44.6,936,1.4,1.8,35.8,Bishkek,5.85
+Lebanon,2010,Middle East & North Africa,45.9,52.5,1990,0.6,1.8,87.3,Beirut,4.335511983
+Mexico,2015,Latin America & Caribbean,17,21.4,21340,0,1.8,79.3,Mexico City,125.5294118
+Morocco,2005,Middle East & North Africa,5.4,9.7,1635,0.3,1.8,55.2,Rabat,30.27777778
+Oceania,2010,NA,NA,NA,NA,1.7,1.8,68.1,NA,NA
+Paraguay,2015,Latin America & Caribbean,44.7,73.6,2967,0.6,1.8,60.8,Asunción,6.637583893
+Peru,2005,Latin America & Caribbean,29.3,39,8081,-0.3,1.8,75,Lima,27.58020478
+Philippines,2005,East Asia & Pacific,12.5,27.3,10751,2.2,1.8,45.7,Manila,86.008
+Zimbabwe,2015,Sub-Saharan Africa,9.5,29.4,1500,2.5,1.8,32.4,Harare,15.78947368
+Australia,2010,East Asia & Pacific,1.8,2.1,398,1,1.9,85.2,Canberra,22.11111111
+Bahamas,2010,Latin America & Caribbean,NA,NA,NA,1.6,1.9,82.4,Nassau,NA
+Brunei Darussalam,2015,East Asia & Pacific,NA,NA,NA,0,1.9,76.7,Bandar Seri Begawan,NA
+Central African Republic,2010,Sub-Saharan Africa,16.1,41.4,717,1.2,1.9,38.9,Bangui,4.453416149
+Central America,2005,NA,NA,NA,NA,0.3,1.9,70.3,NA,NA
+Central America,2015,NA,NA,NA,NA,0.2,1.9,73.7,NA,NA
+Central Asia,2010,NA,NA,NA,NA,1,1.9,48,NA,NA
+Colombia,2005,Latin America & Caribbean,16.9,22.2,7299,-0.3,1.9,76,Bogota,43.18934911
+French Polynesia,2005,East Asia & Pacific,NA,NA,NA,0.8,1.9,57.4,Papeete,NA
+Israel,2005,Middle East & North Africa,10.9,11.9,719,1.1,1.9,91.5,Jerusalem,6.596330275
+Japan,2005,East Asia & Pacific,27.8,32.3,35622,-8.3,1.9,86,Tokyo,128.1366906
+Monaco,2010,Europe & Central Asia,NA,NA,NA,0,1.9,100,Monaco,NA
+Niue,2015,East Asia & Pacific,NA,NA,NA,-1.3,1.9,42.6,Alofi,NA
+Paraguay,2010,Latin America & Caribbean,41.7,70.3,2587,0.6,1.9,59.3,Asunción,6.20383693
+Venezuela,2005,Latin America & Caribbean,10.8,12.3,2886,1.1,1.9,88,Caracas,26.72222222
+Western Sahara,2010,NA,NA,NA,NA,1.5,1.9,86.3,El Aaiún,NA
+Western Sahara,2015,NA,NA,NA,NA,1.5,1.9,86.5,El Aaiún,NA
+Albania,2005,Europe & Central Asia,12.1,25.8,372,-2.1,2,46.7,Tirana,3.074380165
+Cabo Verde,2015,Sub-Saharan Africa,NA,NA,NA,-0.2,2,64.3,Praia,NA
+Ecuador,2010,Latin America & Caribbean,10.7,17.1,1598,1.2,2,62.7,Quito,14.93457944
+Egypt,2005,Middle East & North Africa,19.8,45.9,15174,1.8,2,43,Cairo,76.63636364
+French Polynesia,2010,East Asia & Pacific,NA,NA,NA,-0.4,2,60.3,Papeete,NA
+Iran (Islamic Republic of),2010,Middle East & North Africa,10.8,15.3,8059,-0.8,2,70.6,Tehran,74.62037037
+Iran (Islamic Republic of),2015,Middle East & North Africa,10.8,14.7,8555,-0.7,2,73.4,Tehran,79.21296296
+Mayotte,2015,Sub-Saharan Africa,NA,NA,NA,3.6,2,47,Mamoudzou,NA
+Mexico,2010,Latin America & Caribbean,17.2,22.1,20137,0.3,2,77.8,Mexico City,117.0755814
+Netherlands,2005,Europe & Central Asia,6.3,7.6,1025,-5.2,2,82.6,Amsterdam,16.26984127
+South Africa,2010,Sub-Saharan Africa,3.2,5.2,1666,-0.3,2,62.2,Pretoria,52.0625
+Tajikistan,2005,Europe & Central Asia,9.3,35.2,640,2,2,26.5,Dushanbe,6.88172043
 "Total, all countries or areas",2015,NA,NA,NA,NA,0.2,2,53.9,NA,NA
-"Total, all countries or areas",2018,NA,NA,NA,NA,NA,NA,55.3,NA,NA
-"Trinidad and Tobago",2005,"Latin America & Caribbean",42.2,76.8,547,0.9,0.1,55,"Port of Spain",1.29620853080569
-"Trinidad and Tobago",2010,"Latin America & Caribbean",41.1,76.1,546,0.9,0.1,54,"Port of Spain",1.32846715328467
-"Trinidad and Tobago",2015,"Latin America & Caribbean",40.1,75.2,545,0.8,0.2,53.3,"Port of Spain",1.35910224438903
-"Trinidad and Tobago",2018,"Latin America & Caribbean",NA,NA,544,NA,NA,53.2,"Port of Spain",NA
-"Tunisia",2005,"Middle East & North Africa",18.4,28.2,1859,-0.2,1.4,65.2,"Tunis",10.1032608695652
-"Tunisia",2010,"Middle East & North Africa",18.9,28.4,2014,0.2,1.5,66.7,"Tunis",10.6560846560847
-"Tunisia",2015,"Middle East & North Africa",19.4,28.5,2183,0.3,1.6,68.1,"Tunis",11.2525773195876
-"Tunisia",2018,"Middle East & North Africa",NA,NA,2291,NA,NA,68.9,"Tunis",NA
-"Turkey",2005,"Europe & Central Asia",5.4,7.9,3638,-0.4,2.4,67.8,"Ankara",67.3703703703704
-"Turkey",2010,"Europe & Central Asia",5.8,8.1,4166,-0.7,2.1,70.8,"Ankara",71.8275862068966
-"Turkey",2015,"Europe & Central Asia",5.9,8,4633,-0.4,2.4,73.6,"Ankara",78.5254237288135
-"Turkey",2018,"Europe & Central Asia",NA,NA,4919,NA,NA,75.1,"Ankara",NA
-"Turkmenistan",2005,"Europe & Central Asia",12.4,26.4,592,0.6,1.5,47.1,"Ashgabat",4.7741935483871
-"Turkmenistan",2010,"Europe & Central Asia",13.1,27.1,668,0.8,2,48.5,"Ashgabat",5.09923664122137
-"Turkmenistan",2015,"Europe & Central Asia",13.5,26.9,753,1.1,2.5,50.3,"Ashgabat",5.57777777777778
-"Turkmenistan",2018,"Europe & Central Asia",NA,NA,810,NA,NA,51.6,"Ashgabat",NA
-"Turks and Caicos Islands",2001,"Latin America & Caribbean",NA,NA,0,NA,NA,85.4,"Cockburn Town",NA
-"Turks and Caicos Islands",2005,"Latin America & Caribbean",NA,NA,NA,2.1,7.5,87.7,"Cockburn Town",NA
-"Turks and Caicos Islands",2010,"Latin America & Caribbean",NA,NA,NA,-1.4,3.7,90.2,"Cockburn Town",NA
-"Turks and Caicos Islands",2015,"Latin America & Caribbean",NA,NA,NA,-2.4,2.5,92.2,"Cockburn Town",NA
-"Turks and Caicos Islands",2018,"Latin America & Caribbean",NA,NA,NA,NA,NA,93.1,"Cockburn Town",NA
-"Tuvalu",2005,"East Asia & Pacific",NA,NA,NA,-0.2,2.8,49.7,"Funafuti",NA
-"Tuvalu",2010,"East Asia & Pacific",NA,NA,NA,-1.2,2.9,54.8,"Funafuti",NA
-"Tuvalu",2015,"East Asia & Pacific",NA,NA,NA,-1.4,2.6,59.7,"Funafuti",NA
-"Tuvalu",2018,"East Asia & Pacific",NA,NA,7,NA,NA,62.4,"Funafuti",NA
-"Uganda",2005,"Sub-Saharan Africa",5.5,32.6,1576,2.9,6.2,17,"Kampala",28.6545454545455
-"Uganda",2010,"Sub-Saharan Africa",5.9,30.7,2016,2.9,6.1,19.4,"Kampala",34.1694915254237
-"Uganda",2015,"Sub-Saharan Africa",6.4,29.1,2577,2.7,6,22.1,"Kampala",40.265625
-"Uganda",2018,"Sub-Saharan Africa",NA,NA,2986,NA,NA,23.8,"Kampala",NA
-"Ukraine",2005,"Europe & Central Asia",5.7,8.4,2673,-1.2,-0.6,67.8,"Kyiv",46.8947368421053
-"Ukraine",2010,"Europe & Central Asia",6.1,8.9,2795,-1,-0.2,68.6,"Kyiv",45.8196721311475
-"Ukraine",2015,"Europe & Central Asia",6.5,9.4,2895,-0.8,-0.4,69.1,"Kyiv",44.5384615384615
-"Ukraine",2018,"Europe & Central Asia",NA,NA,2957,NA,NA,69.4,"Kyiv",NA
-"United Arab Emirates",2005,"Middle East & North Africa",14.3,17.4,655,5.3,8,82.3,"Abu Dhabi",4.58041958041958
-"United Arab Emirates",2010,"Middle East & North Africa",11,13.1,912,9.7,12.3,84.1,"Abu Dhabi",8.29090909090909
-"United Arab Emirates",2015,"Middle East & North Africa",13.1,15.3,1203,-0.1,2.4,85.7,"Abu Dhabi",9.18320610687023
-"United Arab Emirates",2018,"Middle East & North Africa",NA,NA,1420,NA,NA,86.5,"Abu Dhabi",NA
-"United Kingdom",2005,"Europe & Central Asia",12.4,15.6,7501,-0.8,0.8,79.9,"London",60.491935483871
-"United Kingdom",2010,"Europe & Central Asia",12.7,15.6,8044,-0.5,1.3,81.3,"London",63.3385826771654
-"United Kingdom",2015,"Europe & Central Asia",13.2,16,8661,-0.8,1,82.6,"London",65.6136363636364
-"United Kingdom",2018,"Europe & Central Asia",NA,NA,9046,NA,NA,83.4,"London",NA
-"United Rep. of Tanzania",2005,"Sub-Saharan Africa",NA,NA,NA,2.2,5,24.8,"Dodoma",NA
-"United Rep. of Tanzania",2010,"Sub-Saharan Africa",NA,NA,NA,2.2,5.6,28.1,"Dodoma",NA
-"United Rep. of Tanzania",2015,"Sub-Saharan Africa",NA,NA,NA,2.1,5.5,31.6,"Dodoma",NA
-"United Rep. of Tanzania",2018,"Sub-Saharan Africa",NA,NA,262,NA,NA,33.8,"Dodoma",NA
-"United States of America",2005,"North America",1.4,1.8,4264,0.1,1.1,79.9,"Washington, D.C.",304.571428571429
-"United States of America",2010,"North America",1.5,1.8,4604,0,1.1,80.8,"Washington, D.C.",306.933333333333
-"United States of America",2015,"North America",1.6,1.9,4972,-0.2,0.9,81.7,"Washington, D.C.",310.75
-"United States of America",2018,"North America",NA,NA,5207,NA,NA,82.3,"Washington, D.C.",NA
-"United States Virgin Islands",2005,"Latin America & Caribbean",NA,NA,NA,-3.3,0.1,93.7,"Charlotte Amalie",NA
-"United States Virgin Islands",2010,"Latin America & Caribbean",NA,NA,NA,-3.5,-0.1,94.6,"Charlotte Amalie",NA
-"United States Virgin Islands",2015,"Latin America & Caribbean",NA,NA,NA,-3.2,-0.1,95.4,"Charlotte Amalie",NA
-"United States Virgin Islands",2018,"Latin America & Caribbean",NA,NA,52,NA,NA,95.7,"Charlotte Amalie",NA
-"Uruguay",2005,"Latin America & Caribbean",48.5,52,1613,-3.5,0.3,93.3,"Montevideo",3.32577319587629
-"Uruguay",2010,"Latin America & Caribbean",49.2,52.1,1659,-3.3,0.5,94.4,"Montevideo",3.37195121951219
-"Uruguay",2015,"Latin America & Caribbean",49.8,52.4,1707,-2.1,0.5,95,"Montevideo",3.42771084337349
-"Uruguay",2018,"Latin America & Caribbean",NA,NA,1737,NA,NA,95.3,"Montevideo",NA
-"Uzbekistan",2005,"Europe & Central Asia",8.2,16.9,2169,0.4,2.3,48.5,"Tashkent",26.4512195121951
-"Uzbekistan",2010,"Europe & Central Asia",7.8,15.4,2244,0.6,2.5,51,"Tashkent",28.7692307692308
-"Uzbekistan",2015,"Europe & Central Asia",7.7,15.1,2379,1.7,1.5,50.8,"Tashkent",30.8961038961039
-"Uzbekistan",2018,"Europe & Central Asia",NA,NA,2464,NA,NA,50.5,"Tashkent",NA
-"Vanuatu",2005,"East Asia & Pacific",NA,NA,NA,2.1,3.7,23.1,"Port Vila",NA
-"Vanuatu",2010,"East Asia & Pacific",NA,NA,NA,2.1,3.6,24.5,"Port Vila",NA
-"Vanuatu",2015,"East Asia & Pacific",NA,NA,NA,2.1,2.7,25,"Port Vila",NA
-"Vanuatu",2018,"East Asia & Pacific",NA,NA,53,NA,NA,25.3,"Port Vila",NA
-"Venezuela",2005,"Latin America & Caribbean",10.8,12.3,2886,1.1,1.9,88,"Caracas",26.7222222222222
-"Venezuela",2010,"Latin America & Caribbean",10,11.3,2899,1.4,1.6,88.1,"Caracas",28.99
-"Venezuela",2015,"Latin America & Caribbean",9.4,10.6,2920,1.3,1.4,88.2,"Caracas",31.063829787234
-"Venezuela",2018,"Latin America & Caribbean",NA,NA,2935,NA,NA,88.2,"Caracas",NA
-"Viet Nam",2005,"East Asia & Pacific",2.6,9.4,2160,0.2,3.2,27.3,"Hanoi",83.0769230769231
-"Viet Nam",2010,"East Asia & Pacific",3.2,10.4,2811,0.1,3.1,30.4,"Hanoi",87.84375
-"Viet Nam",2015,"East Asia & Pacific",3.9,11.6,3657,0.1,3.2,33.8,"Hanoi",93.7692307692308
-"Viet Nam",2018,"East Asia & Pacific",NA,NA,4283,NA,NA,35.9,"Hanoi",NA
-"Wallis and Futuna Islands",2005,"East Asia & Pacific",NA,NA,NA,0.1,0,0,"Matu-Utu",NA
-"Wallis and Futuna Islands",2010,"East Asia & Pacific",NA,NA,NA,-1.6,0,0,"Matu-Utu",NA
-"Wallis and Futuna Islands",2015,"East Asia & Pacific",NA,NA,NA,-2.1,0,0,"Matu-Utu",NA
-"Wallis and Futuna Islands",2018,"East Asia & Pacific",NA,NA,1,NA,NA,0,"Matu-Utu",NA
-"Western Africa",2005,NA,NA,NA,NA,1.6,4.4,37.8,NA,NA
-"Western Africa",2010,NA,NA,NA,NA,1.6,4.4,41.1,NA,NA
-"Western Africa",2015,NA,NA,NA,NA,1.6,4.3,44.5,NA,NA
-"Western Africa",2018,NA,NA,NA,NA,NA,NA,46.4,NA,NA
-"Western Asia",2005,NA,NA,NA,NA,1,2.7,65.8,NA,NA
-"Western Asia",2010,NA,NA,NA,NA,1,3.2,68.2,NA,NA
-"Western Asia",2015,NA,NA,NA,NA,0.7,2.7,70.4,NA,NA
-"Western Asia",2018,NA,NA,NA,NA,NA,NA,71.6,NA,NA
-"Western Europe",2005,NA,NA,NA,NA,-0.8,0.7,77.3,NA,NA
-"Western Europe",2010,NA,NA,NA,NA,-0.9,0.6,78.5,NA,NA
-"Western Europe",2015,NA,NA,NA,NA,-0.4,0.6,79.4,NA,NA
-"Western Europe",2018,NA,NA,NA,NA,NA,NA,79.9,NA,NA
-"Western Sahara",2005,NA,NA,NA,NA,6.3,6.7,86,"El Aaiún",NA
-"Western Sahara",2010,NA,NA,NA,NA,1.5,1.9,86.3,"El Aaiún",NA
-"Western Sahara",2015,NA,NA,NA,NA,1.5,1.9,86.5,"El Aaiún",NA
-"Western Sahara",2018,NA,NA,NA,232,NA,NA,86.7,"El Aaiún",NA
-"Yemen",2005,"Middle East & North Africa",8.5,29.2,1741,2.1,4.8,28.9,"Sana'a",20.4823529411765
-"Yemen",2010,"Middle East & North Africa",8.8,27.8,2084,1.9,4.6,31.8,"Sana'a",23.6818181818182
-"Yemen",2015,"Middle East & North Africa",9.3,26.7,2495,1.7,4.4,34.8,"Sana'a",26.8279569892473
-"Yemen",2018,"Middle East & North Africa",NA,NA,2779,NA,NA,36.6,"Sana'a",NA
-"Zambia",2005,"Sub-Saharan Africa",11.3,30.5,1357,2,3.9,36.9,"Lusaka",12.0088495575221
-"Zambia",2010,"Sub-Saharan Africa",12.4,31.6,1723,2,4.1,39.4,"Lusaka",13.8951612903226
-"Zambia",2015,"Sub-Saharan Africa",13.6,32.4,2187,2.2,4.3,41.9,"Lusaka",16.0808823529412
-"Zambia",2018,"Sub-Saharan Africa",NA,NA,2524,NA,NA,43.5,"Lusaka",NA
-"Zimbabwe",2005,"Sub-Saharan Africa",11.2,32.8,1450,1,1.3,34.1,"Harare",12.9464285714286
-"Zimbabwe",2010,"Sub-Saharan Africa",10.5,31.5,1475,2,1.2,33.2,"Harare",14.047619047619
-"Zimbabwe",2015,"Sub-Saharan Africa",9.5,29.4,1500,2.5,1.8,32.4,"Harare",15.7894736842105
-"Zimbabwe",2018,"Sub-Saharan Africa",NA,NA,1515,NA,NA,32.2,"Harare",NA
+Turkmenistan,2010,Europe & Central Asia,13.1,27.1,668,0.8,2,48.5,Ashgabat,5.099236641
+Bahamas,2005,Latin America & Caribbean,NA,NA,NA,1.8,2.1,82.2,Nassau,NA
+Bahrain,2015,Middle East & North Africa,32.1,36.1,441,1.4,2.1,89,Manama,1.373831776
+Bolivia,2015,Latin America & Caribbean,NA,NA,NA,0.4,2.1,68.4,Sucre,NA
+Central African Republic,2005,Sub-Saharan Africa,15.6,41,644,1.8,2.1,38.1,Bangui,4.128205128
+Central America,2010,NA,NA,NA,NA,0.4,2.1,72.1,NA,NA
+"China, Macao SAR",2010,East Asia & Pacific,100,100,537,0,2.1,100,Macao,0.537
+Ecuador,2005,Latin America & Caribbean,10.8,17.5,1479,1,2.1,61.7,Quito,13.69444444
+Egypt,2015,Middle East & North Africa,20.1,46.9,18820,2.3,2.1,42.8,Cairo,93.6318408
+Eswatini,2010,Sub-Saharan Africa,NA,NA,NA,1.6,2.1,22.5,Mbabane,NA
+Kiribati,2005,East Asia & Pacific,NA,NA,NA,1.6,2.1,43.6,Bairiki,NA
+Mongolia,2015,East Asia & Pacific,45.8,67.2,1365,1.4,2.1,68.2,Ulaanbaatar,2.980349345
+New Caledonia,2015,East Asia & Pacific,NA,NA,NA,0,2.1,69.4,Nouméa,NA
+Northern Africa,2005,NA,NA,NA,NA,1.3,2.1,49.3,NA,NA
+Northern Africa,2010,NA,NA,NA,NA,1.2,2.1,50.5,NA,NA
+Philippines,2015,East Asia & Pacific,12.6,27.3,12860,1.3,2.1,46.3,Manila,102.0634921
+Southern Africa,2010,NA,NA,NA,NA,-0.2,2.1,59.4,NA,NA
+Thailand,2015,East Asia & Pacific,13.7,28.7,9403,-1,2.1,47.7,Bangkok,68.6350365
+Turkey,2010,Europe & Central Asia,5.8,8.1,4166,-0.7,2.1,70.8,Ankara,71.82758621
+Faroe Islands,2005,Europe & Central Asia,NA,NA,NA,-0.7,2.2,39.8,Tórshavn,NA
+Ireland,2010,Europe & Central Asia,23.8,38.6,1100,1.3,2.2,61.5,Dublin,4.621848739
+Melanesia,2005,NA,NA,NA,NA,2.3,2.2,18.9,NA,NA
+Melanesia,2015,NA,NA,NA,NA,2,2.2,19.2,NA,NA
+Morocco,2010,Middle East & North Africa,5.3,9.1,1714,-0.1,2.2,58,Rabat,32.33962264
+Panama,2010,Latin America & Caribbean,41.3,63.4,1504,1,2.2,65.1,Panama City,3.641646489
+Panama,2015,Latin America & Caribbean,42.2,63.2,1673,0.8,2.2,66.7,Panama City,3.964454976
+Papua New Guinea,2010,East Asia & Pacific,4.4,33.7,312,2.4,2.2,13,Port Moresby,7.090909091
+Papua New Guinea,2015,East Asia & Pacific,4.4,33.5,345,2.2,2.2,13,Port Moresby,7.840909091
+South Africa,2005,Sub-Saharan Africa,2.7,4.6,1334,0,2.2,59.5,Pretoria,49.40740741
+South Africa,2015,Sub-Saharan Africa,3.8,5.8,2081,0,2.2,64.8,Pretoria,54.76315789
+Tajikistan,2010,Europe & Central Asia,9.4,35.6,721,2.2,2.2,26.5,Dushanbe,7.670212766
+"Total, all countries or areas",2010,NA,NA,NA,NA,0.2,2.2,51.7,NA,NA
+Belize,2015,Latin America & Caribbean,NA,NA,NA,2.2,2.3,45.4,Belmopan,NA
+"China, Macao SAR",2015,East Asia & Pacific,100,100,601,0,2.3,100,Macao,0.601
+Comoros,2005,Sub-Saharan Africa,NA,NA,NA,2.5,2.3,27.9,Moroni,NA
+Iran (Islamic Republic of),2005,Middle East & North Africa,10.9,16.1,7652,-0.8,2.3,67.6,Tehran,70.20183486
+Ireland,2005,Europe & Central Asia,24.6,40.7,1037,1.2,2.3,60.5,Dublin,4.215447154
+Kuwait,2005,Middle East & North Africa,68,68,1548,0,2.3,100,Kuwait City,2.276470588
+Melanesia,2010,NA,NA,NA,NA,2.2,2.3,19,NA,NA
+Nauru,2015,East Asia & Pacific,NA,NA,NA,0,2.3,100,Yaren,NA
+Northern Africa,2015,NA,NA,NA,NA,1.6,2.3,51.4,NA,NA
+Oman,2005,Middle East & North Africa,24.8,34.2,622,1.4,2.3,72.4,Muscat,2.508064516
+Seychelles,2005,Sub-Saharan Africa,NA,NA,NA,1.3,2.3,51.7,Victoria,NA
+Southern Africa,2005,NA,NA,NA,NA,0.1,2.3,56.5,NA,NA
+Southern Africa,2015,NA,NA,NA,NA,0.1,2.3,62.1,NA,NA
+Sudan,2010,Sub-Saharan Africa,13.1,39.7,4517,2,2.3,33.1,Khartoum,34.48091603
+"Total, all countries or areas",2005,NA,NA,NA,NA,0.3,2.3,49.2,NA,NA
+Uzbekistan,2005,Europe & Central Asia,8.2,16.9,2169,0.4,2.3,48.5,Tashkent,26.45121951
+Asia,2015,NA,NA,NA,NA,-0.2,2.4,48,NA,NA
+Bolivia,2010,Latin America & Caribbean,NA,NA,NA,0.4,2.4,66.4,Sucre,NA
+Botswana,2005,Sub-Saharan Africa,NA,NA,NA,0.2,2.4,55.9,Gaborone,NA
+Brunei Darussalam,2005,East Asia & Pacific,NA,NA,NA,0.4,2.4,73.2,Bandar Seri Begawan,NA
+Cambodia,2005,East Asia & Pacific,9.9,51.8,1317,1.6,2.4,19.2,Phnom Penh,13.3030303
+"China, Macao SAR",2005,East Asia & Pacific,100,100,483,0,2.4,100,Macao,0.483
+Eastern Asia,2015,NA,NA,NA,NA,-2,2.4,59.8,NA,NA
+India,2015,South Asia,2,6,25866,0.7,2.4,32.8,New Delhi,1293.3
+Israel,2010,Middle East & North Africa,10.5,11.5,781,1.6,2.4,91.8,Jerusalem,7.438095238
+Morocco,2015,Middle East & North Africa,5.2,8.5,1796,0,2.4,60.8,Rabat,34.53846154
+New Caledonia,2005,East Asia & Pacific,NA,NA,NA,0.7,2.4,64,Nouméa,NA
+Palestinian Territories,2005,Europe & Central Asia,NA,NA,NA,1.3,2.4,73.1,East Jerusalem,NA
+Panama,2005,Latin America & Caribbean,40.6,63.8,1352,1.1,2.4,63.7,Panama City,3.330049261
+Papua New Guinea,2005,East Asia & Pacific,4.5,34,281,2.5,2.4,13.1,Port Moresby,6.244444444
+Singapore,2010,East Asia & Pacific,100,100,5074,0,2.4,100,Singapore,5.074
+Tajikistan,2015,Europe & Central Asia,9.5,35.5,812,2.2,2.4,26.7,Dushanbe,8.547368421
+Turkey,2005,Europe & Central Asia,5.4,7.9,3638,-0.4,2.4,67.8,Ankara,67.37037037
+Turkey,2015,Europe & Central Asia,5.9,8,4633,-0.4,2.4,73.6,Ankara,78.52542373
+United Arab Emirates,2015,Middle East & North Africa,13.1,15.3,1203,-0.1,2.4,85.7,Abu Dhabi,9.183206107
+Belize,2010,Latin America & Caribbean,NA,NA,NA,2.6,2.5,45.2,Belmopan,NA
+Cabo Verde,2010,Sub-Saharan Africa,NA,NA,NA,-0.9,2.5,61.8,Praia,NA
+Comoros,2010,Sub-Saharan Africa,NA,NA,NA,2.4,2.5,28,Moroni,NA
+Costa Rica,2015,Latin America & Caribbean,27,35.1,1297,-2.9,2.5,76.9,San José,4.803703704
+Curaçao,2010,NA,NA,NA,NA,3.9,2.5,89.9,Willemstad,NA
+Dominican Republic,2015,Latin America & Caribbean,28,35.6,2945,-2.8,2.5,78.6,Santo Domingo,10.51785714
+Luxembourg,2010,Europe & Central Asia,NA,NA,NA,-1.1,2.5,88.5,Luxembourg,NA
+New Caledonia,2010,East Asia & Pacific,NA,NA,NA,-0.3,2.5,67.1,Nouméa,NA
+Réunion,2005,NA,NA,NA,NA,-16,2.5,96.3,Saint-Denis,NA
+South-eastern Asia,2015,NA,NA,NA,NA,0.2,2.5,47.2,NA,NA
+Southern Asia,2015,NA,NA,NA,NA,0.8,2.5,34.5,NA,NA
+Turkmenistan,2015,Europe & Central Asia,13.5,26.9,753,1.1,2.5,50.3,Ashgabat,5.577777778
+Turks and Caicos Islands,2015,Latin America & Caribbean,NA,NA,NA,-2.4,2.5,92.2,Cockburn Town,NA
+Uzbekistan,2010,Europe & Central Asia,7.8,15.4,2244,0.6,2.5,51,Tashkent,28.76923077
+Algeria,2005,Middle East & North Africa,6.9,10.7,2282,-0.7,2.6,63.8,Algiers,33.07246377
+Anguilla,2005,Latin America & Caribbean,NA,NA,NA,0,2.6,100,The Valley,NA
+Bolivia,2005,Latin America & Caribbean,NA,NA,NA,0.5,2.6,64.2,Sucre,NA
+Cambodia,2010,East Asia & Pacific,10.6,52.4,1523,1.2,2.6,20.3,Phnom Penh,14.36792453
+Cayman Islands,2010,Latin America & Caribbean,NA,NA,NA,0,2.6,100,George Town,NA
+Eswatini,2015,Sub-Saharan Africa,NA,NA,NA,1.6,2.6,23.3,Mbabane,NA
+India,2010,South Asia,1.8,5.8,21988,1,2.6,30.9,New Delhi,1221.555556
+Indonesia,2015,East Asia & Pacific,3.9,7.4,10173,-0.2,2.6,53.3,Jakarta,260.8461538
+Jordan,2005,Middle East & North Africa,19.2,24.1,1094,1.1,2.6,79.5,Amman,5.697916667
+Luxembourg,2015,Europe & Central Asia,NA,NA,NA,-0.9,2.6,90.2,Luxembourg,NA
+Pakistan,2010,South Asia,0.5,1.3,804,1.7,2.6,35,Islamabad,160.8
+Paraguay,2005,Latin America & Caribbean,36.8,63.9,2134,0.7,2.6,57.6,Asunción,5.798913043
+Rwanda,2010,Sub-Saharan Africa,7.8,45.9,797,2.6,2.6,16.9,Kigali,10.21794872
+Rwanda,2015,Sub-Saharan Africa,8.2,48.1,951,2.5,2.6,17,Kigali,11.59756098
+Southern Asia,2010,NA,NA,NA,NA,1,2.6,32.5,NA,NA
+Tuvalu,2015,East Asia & Pacific,NA,NA,NA,-1.4,2.6,59.7,Funafuti,NA
+Belize,2005,Latin America & Caribbean,NA,NA,NA,2.7,2.7,45.3,Belmopan,NA
+Comoros,2015,Sub-Saharan Africa,NA,NA,NA,2.3,2.7,28.5,Moroni,NA
+Guatemala,2015,Latin America & Caribbean,16.8,33.7,2738,1.5,2.7,50,Guatemala City,16.29761905
+Iraq,2010,Middle East & North Africa,18.4,26.6,5652,2.4,2.7,69.1,Baghdad,30.7173913
+Malaysia,2015,East Asia & Pacific,22.3,30,6851,-0.6,2.7,74.2,Kuala Lumpur,30.72197309
+Mayotte,2010,Sub-Saharan Africa,NA,NA,NA,3.7,2.7,49,Mamoudzou,NA
+Pakistan,2005,South Asia,0.4,1.3,676,1.8,2.7,34,Islamabad,169
+Pakistan,2015,South Asia,0.5,1.4,957,1.8,2.7,36,Islamabad,191.4
+South-eastern Asia,2010,NA,NA,NA,NA,0.1,2.7,44.3,NA,NA
+Sudan,2005,Sub-Saharan Africa,12.9,39.3,3979,2.4,2.7,32.8,Khartoum,30.84496124
+Vanuatu,2015,East Asia & Pacific,NA,NA,NA,2.1,2.7,25,Port Vila,NA
+Western Asia,2005,NA,NA,NA,NA,1,2.7,65.8,NA,NA
+Western Asia,2015,NA,NA,NA,NA,0.7,2.7,70.4,NA,NA
+Algeria,2010,Middle East & North Africa,6.7,10,2432,-0.5,2.8,67.5,Algiers,36.29850746
+Asia,2010,NA,NA,NA,NA,-0.1,2.8,44.8,NA,NA
+British Virgin Islands,2015,Latin America & Caribbean,NA,NA,NA,1.4,2.8,46.6,Road Town,NA
+Côte d’Ivoire,2005,NA,NA,NA,NA,1.1,2.8,45.2,Yamoussoukro,NA
+Guatemala,2010,Latin America & Caribbean,17.5,36.2,2560,1.6,2.8,48.4,Guatemala City,14.62857143
+Guinea,2005,Sub-Saharan Africa,13.9,43.1,1345,1.5,2.8,32.3,Conakry,9.676258993
+India,2005,South Asia,1.6,5.6,18691,1.2,2.8,29.2,New Delhi,1168.1875
+Iraq,2005,Middle East & North Africa,19.7,28.7,5327,2.6,2.8,68.8,Baghdad,27.04060914
+Mongolia,2005,East Asia & Pacific,36.9,59.1,933,-1.6,2.8,62.5,Ulaanbaatar,2.528455285
+Singapore,2005,East Asia & Pacific,100,100,4491,0,2.8,100,Singapore,4.491
+Southern Asia,2005,NA,NA,NA,NA,1.2,2.8,30.7,NA,NA
+Sudan,2015,Sub-Saharan Africa,13.3,39.2,5128,2.1,2.8,33.9,Khartoum,38.55639098
+Timor-Leste,2010,East Asia & Pacific,NA,NA,NA,1.1,2.8,27.7,Dili,NA
+Tuvalu,2005,East Asia & Pacific,NA,NA,NA,-0.2,2.8,49.7,Funafuti,NA
+Algeria,2015,Middle East & North Africa,6.5,9.2,2592,-0.2,2.9,70.8,Algiers,39.87692308
+China,2015,East Asia & Pacific,1.3,2.4,18421,-2.1,2.9,55.5,Beijing,1417
+Eastern Asia,2010,NA,NA,NA,NA,-2,2.9,54.4,NA,NA
+Lesotho,2015,Sub-Saharan Africa,NA,NA,NA,0.7,2.9,26.9,Maseru,NA
+Palestinian Territories,2010,Europe & Central Asia,NA,NA,NA,1.7,2.9,74.1,East Jerusalem,NA
+Syrian Arab Republic,2005,Middle East & North Africa,12,22.4,2200,1.4,2.9,53.8,Damascus,18.33333333
+Tuvalu,2010,East Asia & Pacific,NA,NA,NA,-1.2,2.9,54.8,Funafuti,NA
+British Virgin Islands,2005,Latin America & Caribbean,NA,NA,NA,1.8,3,43.2,Road Town,NA
+Côte d’Ivoire,2010,NA,NA,NA,NA,1.4,3,47.3,Yamoussoukro,NA
+Guatemala,2005,Latin America & Caribbean,17.6,37.5,2302,1.8,3,46.9,Guatemala City,13.07954545
+Guinea,2010,Sub-Saharan Africa,14.1,41.8,1518,1.8,3,33.7,Conakry,10.76595745
+Honduras,2015,Latin America & Caribbean,13.8,24.9,1233,0.4,3,55.2,Tegucigalpa,8.934782609
+Indonesia,2010,East Asia & Pacific,4,8,9626,-0.2,3,49.9,Jakarta,240.65
+Mongolia,2010,East Asia & Pacific,41.9,62.1,1138,-1.5,3,67.6,Ulaanbaatar,2.715990453
+Saudi Arabia,2010,Middle East & North Africa,19,23.2,5220,1.6,3,82.1,Riyadh,27.47368421
+South-eastern Asia,2005,NA,NA,NA,NA,0.3,3,41.1,NA,NA
+Asia,2005,NA,NA,NA,NA,0,3.1,41.2,NA,NA
+Cayman Islands,2005,Latin America & Caribbean,NA,NA,NA,0,3.1,100,George Town,NA
+Costa Rica,2010,Latin America & Caribbean,26.4,36.9,1202,-2.5,3.1,71.7,San José,4.553030303
+French Guiana,2015,Latin America & Caribbean,NA,NA,NA,0.8,3.1,84.5,Cayenne,NA
+Guinea,2015,Sub-Saharan Africa,14.2,40.3,1714,1.8,3.1,35.1,Conakry,12.07042254
+Guinea-Bissau,2005,Sub-Saharan Africa,24.3,63.8,336,1.5,3.1,38.2,Bissau,1.382716049
+Lesotho,2010,Sub-Saharan Africa,NA,NA,NA,0.2,3.1,24.8,Maseru,NA
+Malaysia,2010,East Asia & Pacific,20.7,29.1,5810,-0.9,3.1,70.9,Kuala Lumpur,28.06763285
+Nepal,2010,South Asia,3.6,21.3,965,0.7,3.1,16.8,Kathmandu,26.80555556
+Palestinian Territories,2015,Europe & Central Asia,NA,NA,NA,1.8,3.1,75.4,East Jerusalem,NA
+Saudi Arabia,2005,Middle East & North Africa,17.8,22,4252,1.7,3.1,81,Riyadh,23.88764045
+Saudi Arabia,2015,Middle East & North Africa,19.7,23.7,6218,1.5,3.1,83.2,Riyadh,31.56345178
+Sint Maarten (Dutch part),2015,Latin America & Caribbean,NA,NA,NA,0,3.1,100,Philipsburg,NA
+Viet Nam,2010,East Asia & Pacific,3.2,10.4,2811,0.1,3.1,30.4,Hanoi,87.84375
+"Bonaire, Saint Eustatius and Saba",2015,Latin America & Caribbean,NA,NA,NA,3.2,3.2,74.8,Kralendijk,NA
+Dominican Republic,2010,Latin America & Caribbean,26.3,35.6,2601,-3,3.2,73.8,Santo Domingo,9.88973384
+French Guiana,2010,Latin America & Caribbean,NA,NA,NA,0.8,3.2,82.9,Cayenne,NA
+Indonesia,2005,East Asia & Pacific,4,8.6,8988,0,3.2,45.9,Jakarta,224.7
+Laos,2015,East Asia & Pacific,9.6,29.1,642,0.4,3.2,33.1,Vientiane,6.6875
+Liberia,2005,Sub-Saharan Africa,36.9,80,1202,1.8,3.2,46.1,Monrovia,3.257452575
+Nepal,2015,South Asia,4.1,22.2,1179,0.7,3.2,18.6,Kathmandu,28.75609756
+Viet Nam,2005,East Asia & Pacific,2.6,9.4,2160,0.2,3.2,27.3,Hanoi,83.07692308
+Viet Nam,2015,East Asia & Pacific,3.9,11.6,3657,0.1,3.2,33.8,Hanoi,93.76923077
+Western Asia,2010,NA,NA,NA,NA,1,3.2,68.2,NA,NA
+Andorra,2005,Europe & Central Asia,NA,NA,NA,8.6,3.3,90.3,Andorra la Vella,NA
+Botswana,2015,Sub-Saharan Africa,NA,NA,NA,-0.9,3.3,67.2,Gaborone,NA
+Cabo Verde,2005,Sub-Saharan Africa,NA,NA,NA,-0.2,3.3,57.7,Praia,NA
+Congo,2015,Sub-Saharan Africa,39.2,59.8,1958,1.3,3.3,65.5,Brazzaville,4.994897959
+Dominican Republic,2005,Latin America & Caribbean,24.9,36.9,2297,-1.7,3.3,67.4,Santo Domingo,9.224899598
+Eastern Asia,2005,NA,NA,NA,NA,-1.7,3.3,48.3,NA,NA
+Haiti,2015,Latin America & Caribbean,22.8,43.4,2439,-0.6,3.3,52.4,Port-au-Prince,10.69736842
+Malawi,2005,Sub-Saharan Africa,4.5,30.1,590,2.6,3.3,15.1,Lilongwe,13.11111111
+Senegal,2005,Sub-Saharan Africa,19,45.5,2135,2.1,3.3,41.7,Dakar,11.23684211
+Sierra Leone,2015,Sub-Saharan Africa,14.4,35.3,1043,1.6,3.3,40.8,Freetown,7.243055556
+Côte d’Ivoire,2015,NA,NA,NA,NA,1.7,3.4,49.4,Yamoussoukro,NA
+Cambodia,2015,East Asia & Pacific,11.5,51.7,1779,1.1,3.4,22.2,Phnom Penh,15.46956522
+Cook Islands,2005,East Asia & Pacific,NA,NA,NA,-2,3.4,71,Avarua,NA
+Guinea-Bissau,2010,Sub-Saharan Africa,26.3,65.5,409,1.7,3.4,40.1,Bissau,1.55513308
+Honduras,2010,Latin America & Caribbean,12.7,24.5,1043,0.8,3.4,51.9,Tegucigalpa,8.212598425
+Iraq,2015,Middle East & North Africa,17.6,25.2,6351,2.7,3.4,69.9,Baghdad,36.08522727
+Lesotho,2005,Sub-Saharan Africa,NA,NA,NA,0.2,3.4,22.2,Maseru,NA
+Liberia,2015,Sub-Saharan Africa,28.2,56.6,1270,1.8,3.4,49.8,Monrovia,4.503546099
+Syrian Arab Republic,2010,Middle East & North Africa,11.4,20.5,2401,2,3.4,55.6,Damascus,21.06140351
+Africa,2005,NA,NA,NA,NA,1.9,3.5,36.9,NA,NA
+Bangladesh,2015,South Asia,10.9,31.8,17597,0,3.5,34.3,Dhaka,161.440367
+Chad,2010,Sub-Saharan Africa,8.3,37.9,991,3.3,3.5,22,N'Djamena,11.93975904
+China,2010,East Asia & Pacific,1.2,2.5,16441,-1.9,3.5,49.2,Beijing,1370.083333
+Gabon,2005,Sub-Saharan Africa,40.1,48.7,563,-1.1,3.5,82.5,Libreville,1.403990025
+Kiribati,2015,East Asia & Pacific,NA,NA,3,0.1,3.5,51.6,Bairiki,NA
+Malaysia,2005,East Asia & Pacific,19.2,28.8,4927,-0.6,3.5,66.6,Kuala Lumpur,25.66145833
+Mozambique,2005,Sub-Saharan Africa,5.1,17.1,1072,2.7,3.5,30,Maputo,21.01960784
+Timor-Leste,2015,East Asia & Pacific,NA,NA,NA,1.7,3.5,29.5,Dili,NA
+Africa,2010,NA,NA,NA,NA,1.9,3.6,38.9,NA,NA
+Congo,2005,Sub-Saharan Africa,34.1,56,1269,1.7,3.6,61,Brazzaville,3.721407625
+Eritrea,2015,Sub-Saharan Africa,16.6,43.4,803,1,3.6,38.2,Asmara,4.837349398
+Ghana,2015,Sub-Saharan Africa,8.3,15.3,2290,0.9,3.6,54.1,Accra,27.59036145
+Guinea-Bissau,2015,Sub-Saharan Africa,28.1,66.6,497,1.9,3.6,42.1,Bissau,1.768683274
+Vanuatu,2010,East Asia & Pacific,NA,NA,NA,2.1,3.6,24.5,Port Vila,NA
+Afghanistan,2010,South Asia,11.4,48.1,3289,2.5,3.7,23.7,Kabul,28.85087719
+Africa,2015,NA,NA,NA,NA,1.8,3.7,41.2,NA,NA
+Bangladesh,2010,South Asia,9.7,31.8,14731,0.2,3.7,30.5,Dhaka,151.8659794
+Bhutan,2015,South Asia,NA,NA,NA,0.3,3.7,38.7,Thimphu,NA
+Costa Rica,2005,Latin America & Caribbean,26.2,39.9,1114,-1.9,3.7,65.7,San José,4.251908397
+Haiti,2010,Latin America & Caribbean,21.4,45.1,2141,-0.2,3.7,47.5,Port-au-Prince,10.0046729
+Laos,2010,East Asia & Pacific,9.7,32.3,606,0.8,3.7,30.1,Vientiane,6.24742268
+Malawi,2010,Sub-Saharan Africa,4.8,31,731,2.9,3.7,15.5,Lilongwe,15.22916667
+Niger,2005,Sub-Saharan Africa,6,37.1,821,3.6,3.7,16.2,Niamey,13.68333333
+Niger,2010,Sub-Saharan Africa,5.8,35.8,954,3.8,3.7,16.2,Niamey,16.44827586
+Senegal,2010,Sub-Saharan Africa,18.8,42.9,2427,2,3.7,43.8,Dakar,12.90957447
+Sierra Leone,2010,Sub-Saharan Africa,14,36.1,905,2,3.7,38.9,Freetown,6.464285714
+Thailand,2010,East Asia & Pacific,12.3,28.1,8269,-1.6,3.7,43.9,Bangkok,67.22764228
+Turks and Caicos Islands,2010,Latin America & Caribbean,NA,NA,NA,-1.4,3.7,90.2,Cockburn Town,NA
+Vanuatu,2005,East Asia & Pacific,NA,NA,NA,2.1,3.7,23.1,Port Vila,NA
+Botswana,2010,Sub-Saharan Africa,NA,NA,NA,-1.5,3.8,62.4,Gaborone,NA
+Cameroon,2015,Sub-Saharan Africa,13.6,24.8,3097,1.4,3.8,54.6,Yaoundé,22.77205882
+Chad,2015,Sub-Saharan Africa,8.5,37.6,1187,3.1,3.8,22.5,N'Djamena,13.96470588
+Honduras,2005,Latin America & Caribbean,12,24.6,882,1.3,3.8,48.6,Tegucigalpa,7.35
+Kiribati,2010,East Asia & Pacific,NA,NA,NA,0.7,3.8,47.4,Bairiki,NA
+Namibia,2005,Sub-Saharan Africa,13.2,36.1,268,0.1,3.8,36.6,Windhoek,2.03030303
+Sao Tome and Principe,2015,Sub-Saharan Africa,NA,NA,NA,-1,3.8,70.2,Sao Tome,NA
+Cameroon,2005,Sub-Saharan Africa,10.2,21.1,1781,1.5,3.9,48.5,Yaoundé,17.46078431
+Cameroon,2010,Sub-Saharan Africa,11.8,22.8,2349,1.5,3.9,51.6,Yaoundé,19.90677966
+Chad,2005,Sub-Saharan Africa,8.2,37.7,827,3.7,3.9,21.8,N'Djamena,10.08536585
+Gabon,2010,Sub-Saharan Africa,39.5,46.2,649,-0.7,3.9,85.5,Libreville,1.643037975
+Gabon,2015,Sub-Saharan Africa,38.7,43.9,747,-0.7,3.9,88.1,Libreville,1.930232558
+Malawi,2015,Sub-Saharan Africa,5.2,31.6,905,2.8,3.9,16.3,Lilongwe,17.40384615
+Maldives,2015,South Asia,NA,NA,NA,2.1,3.9,38.5,Male,NA
+Namibia,2010,Sub-Saharan Africa,14.5,34.7,314,-0.3,3.9,41.6,Windhoek,2.165517241
+Niger,2015,Sub-Saharan Africa,5.6,34.3,1109,3.8,3.9,16.2,Niamey,19.80357143
+Senegal,2015,Sub-Saharan Africa,18.4,40.2,2758,2.2,3.9,45.9,Dakar,14.98913043
+Zambia,2005,Sub-Saharan Africa,11.3,30.5,1357,2,3.9,36.9,Lusaka,12.00884956
+Afghanistan,2015,South Asia,11,44.5,3724,2.9,4,24.8,Kabul,33.85454545
+Benin,2015,Sub-Saharan Africa,NA,NA,NA,1.9,4,45.7,Porto-Novo,NA
+British Virgin Islands,2010,Latin America & Caribbean,NA,NA,NA,2.7,4,44.8,Road Town,NA
+China,2005,East Asia & Pacific,1,2.3,12991,-1.6,4,42.5,Beijing,1299.1
+Congo,2010,Sub-Saharan Africa,35.9,56.8,1576,2.1,4,63.3,Brazzaville,4.389972145
+Ghana,2010,Sub-Saharan Africa,8.4,16.6,2060,1.2,4,50.7,Accra,24.52380952
+Nepal,2005,South Asia,3.1,20.3,790,1.1,4,15.1,Kathmandu,25.48387097
+Togo,2005,Sub-Saharan Africa,23.1,65.8,1315,2,4,35.2,Lomé,5.692640693
+Togo,2010,Sub-Saharan Africa,22.6,60.1,1466,2,4,37.5,Lomé,6.486725664
+Togo,2015,Sub-Saharan Africa,22,55,1635,1.8,4,40.1,Lomé,7.431818182
+Benin,2005,Sub-Saharan Africa,NA,NA,NA,2.3,4.1,40.5,Porto-Novo,NA
+Benin,2010,Sub-Saharan Africa,NA,NA,NA,2,4.1,43.1,Porto-Novo,NA
+Ethiopia,2005,Sub-Saharan Africa,3.4,21.9,2634,2.6,4.1,15.7,Addis Ababa,77.47058824
+Ghana,2005,Sub-Saharan Africa,8.6,18.2,1854,1.3,4.1,47.3,Accra,21.55813953
+Mozambique,2010,Sub-Saharan Africa,4.5,14.2,1097,2.4,4.1,31.8,Maputo,24.37777778
+Sub-Saharan Africa,2005,,NA,NA,NA,2,4.1,33.7,NA,NA
+Sub-Saharan Africa,2010,,NA,NA,NA,2,4.1,36.1,NA,NA
+Sub-Saharan Africa,2015,,NA,NA,NA,1.9,4.1,38.8,NA,NA
+Zambia,2010,Sub-Saharan Africa,12.4,31.6,1723,2,4.1,39.4,Lusaka,13.89516129
+Eastern Africa,2005,NA,NA,NA,NA,2.4,4.2,22.5,NA,NA
+Madagascar,2005,Sub-Saharan Africa,8.5,29.5,1561,2.6,4.2,28.8,Antananarivo,18.36470588
+Maldives,2010,South Asia,NA,NA,NA,1.9,4.2,36.4,Male,NA
+Sao Tome and Principe,2010,Sub-Saharan Africa,NA,NA,NA,-0.7,4.2,65,Sao Tome,NA
+Bangladesh,2005,South Asia,8.6,32.1,12331,0.9,4.3,26.8,Dhaka,143.3837209
+Democratic Republic of Congo,2005,Sub-Saharan Africa,13.9,37,7589,2.3,4.3,37.5,Kinshasa,54.5971223
+Lebanon,2005,Middle East & North Africa,44.6,51.5,1777,3.3,4.3,86.6,Beirut,3.984304933
+Middle Africa,2015,NA,NA,NA,NA,2.1,4.3,47.9,NA,NA
+Solomon Islands,2015,East Asia & Pacific,NA,NA,NA,1.6,4.3,22.4,Honiara,NA
+Thailand,2005,East Asia & Pacific,11.1,29.7,7272,-1.1,4.3,37.4,Bangkok,65.51351351
+Western Africa,2015,NA,NA,NA,NA,1.6,4.3,44.5,NA,NA
+Zambia,2015,Sub-Saharan Africa,13.6,32.4,2187,2.2,4.3,41.9,Lusaka,16.08088235
+Bhutan,2010,South Asia,NA,NA,NA,0.9,4.4,34.8,Thimphu,NA
+Eastern Africa,2010,NA,NA,NA,NA,2.4,4.4,24.4,NA,NA
+Gambia,2015,Sub-Saharan Africa,21.3,35.9,420,1.4,4.4,59.2,Banjul,1.971830986
+Kenya,2005,Sub-Saharan Africa,7.4,34.3,2677,2.3,4.4,21.7,Nairobi,36.17567568
+Kenya,2010,Sub-Saharan Africa,7.8,33.2,3237,2.3,4.4,23.6,Nairobi,41.5
+Kenya,2015,Sub-Saharan Africa,8.3,32.3,3914,2.1,4.4,25.7,Nairobi,47.15662651
+Mayotte,2005,Sub-Saharan Africa,NA,NA,NA,2.4,4.4,50.2,Mamoudzou,NA
+Middle Africa,2005,NA,NA,NA,NA,2.1,4.4,42.6,NA,NA
+Middle Africa,2010,NA,NA,NA,NA,2.3,4.4,45.2,NA,NA
+Sao Tome and Principe,2005,Sub-Saharan Africa,NA,NA,NA,-0.3,4.4,59.2,Sao Tome,NA
+South Sudan,2015,Sub-Saharan Africa,2.7,14.3,321,3.1,4.4,18.9,Juba,11.88888889
+Western Africa,2005,NA,NA,NA,NA,1.6,4.4,37.8,NA,NA
+Western Africa,2010,NA,NA,NA,NA,1.6,4.4,41.1,NA,NA
+Yemen,2015,Middle East & North Africa,9.3,26.7,2495,1.7,4.4,34.8,Sana'a,26.82795699
+Eritrea,2010,Sub-Saharan Africa,15.3,43.4,670,0.8,4.5,35.2,Asmara,4.379084967
+Gambia,2010,Sub-Saharan Africa,23.3,41.8,393,1.6,4.5,55.7,Banjul,1.686695279
+Mozambique,2015,Sub-Saharan Africa,3.9,11.4,1100,2.1,4.5,34.4,Maputo,28.20512821
+Somalia,2010,Sub-Saharan Africa,11.2,28.6,1353,2,4.5,39.3,Mogadishu,12.08035714
+Democratic Republic of Congo,2010,Sub-Saharan Africa,14.5,36.3,9382,2.5,4.6,40,Kinshasa,64.70344828
+Democratic Republic of Congo,2015,Sub-Saharan Africa,15.2,35.6,11598,2.4,4.6,42.7,Kinshasa,76.30263158
+Eastern Africa,2015,NA,NA,NA,NA,2.2,4.6,26.6,NA,NA
+Ethiopia,2010,Sub-Saharan Africa,3.6,20.6,3126,2.3,4.6,17.3,Addis Ababa,86.83333333
+Liberia,2010,Sub-Saharan Africa,26.7,55.9,1056,3.2,4.6,47.8,Monrovia,3.95505618
+Namibia,2015,Sub-Saharan Africa,15.2,32.3,368,0.3,4.6,46.9,Windhoek,2.421052632
+Nigeria,2015,Sub-Saharan Africa,1.3,2.8,2442,1.1,4.6,47.8,Abuja,187.8461538
+Oman,2010,Middle East & North Africa,23.7,31.6,721,1.7,4.6,75.2,Muscat,3.042194093
+Somalia,2005,Sub-Saharan Africa,13.6,37.4,1415,1.9,4.6,36.3,Mogadishu,10.40441176
+South Sudan,2005,Sub-Saharan Africa,2.5,14.5,202,3.7,4.6,17.2,Juba,8.08
+Yemen,2010,Middle East & North Africa,8.8,27.8,2084,1.9,4.6,31.8,Sana'a,23.68181818
+Angola,2015,Sub-Saharan Africa,25.2,39.7,7023,1.6,4.7,63.4,Luanda,27.86904762
+Madagascar,2015,Sub-Saharan Africa,10.8,30.7,2618,1.7,4.7,35.2,Antananarivo,24.24074074
+Solomon Islands,2010,East Asia & Pacific,NA,NA,NA,1.8,4.7,20,Honiara,NA
+Timor-Leste,2005,East Asia & Pacific,NA,NA,NA,2.8,4.7,26,Dili,NA
+Gambia,2005,Sub-Saharan Africa,25.5,49,368,1.5,4.8,52,Banjul,1.443137255
+Mauritania,2015,Sub-Saharan Africa,25.3,49.5,1058,1.2,4.8,51.1,Nouakchott,4.181818182
+Nigeria,2005,Sub-Saharan Africa,0.9,2.4,1316,1.2,4.8,39.1,Abuja,146.2222222
+Nigeria,2010,Sub-Saharan Africa,1.1,2.6,1814,1.1,4.8,43.5,Abuja,164.9090909
+Rwanda,2005,Sub-Saharan Africa,7.4,43.9,668,1.8,4.8,16.9,Kigali,9.027027027
+Somalia,2015,Sub-Saharan Africa,12.8,29.6,1783,1.5,4.8,43.2,Mogadishu,13.9296875
+Yemen,2005,Middle East & North Africa,8.5,29.2,1741,2.1,4.8,28.9,Sana'a,20.48235294
+Angola,2010,Sub-Saharan Africa,22.7,37.9,5300,1.8,4.9,59.8,Luanda,23.34801762
+Ethiopia,2015,Sub-Saharan Africa,3.9,19.9,3871,2.1,4.9,19.4,Addis Ababa,99.25641026
+Madagascar,2010,Sub-Saharan Africa,9.6,29.9,2021,2,4.9,31.9,Antananarivo,21.05208333
+Mauritania,2005,Sub-Saharan Africa,21.8,51.9,684,1.5,4.9,42.1,Nouakchott,3.137614679
+Mauritania,2010,Sub-Saharan Africa,23.6,50.6,851,1.2,4.9,46.6,Nouakchott,3.605932203
+Afghanistan,2005,South Asia,11.6,51,2905,4.3,5,22.7,Kabul,25.04310345
+French Guiana,2005,Latin America & Caribbean,NA,NA,NA,2.4,5,81.1,Cayenne,NA
+Mali,2015,Sub-Saharan Africa,12.7,31.8,2219,1.7,5,40,Bamako,17.47244094
+Sierra Leone,2005,Sub-Saharan Africa,13.9,37.6,786,3.9,5,36.9,Freetown,5.654676259
+Solomon Islands,2005,East Asia & Pacific,NA,NA,NA,2.1,5,17.8,Honiara,NA
+United Rep. of Tanzania,2005,Sub-Saharan Africa,NA,NA,NA,2.2,5,24.8,Dodoma,NA
+South Sudan,2010,Sub-Saharan Africa,2.5,14.2,255,4.2,5.1,17.9,Juba,10.2
+Burkina Faso,2015,Sub-Saharan Africa,12.2,44.1,2200,2.2,5.2,27.5,Ouagadougou,18.03278689
+Haiti,2005,Latin America & Caribbean,23.4,55,2171,-0.7,5.2,42.6,Port-au-Prince,9.277777778
+Kuwait,2015,Middle East & North Africa,65.3,65.3,2568,0,5.4,100,Kuwait City,3.932618683
+Burundi,2005,Sub-Saharan Africa,5.6,59.2,412,2.7,5.5,9.4,Bujumbura,7.357142857
+Kuwait,2010,Middle East & North Africa,66.5,66.5,1994,0,5.5,100,Kuwait City,2.998496241
+Mali,2005,Sub-Saharan Africa,11.6,36.2,1486,2,5.5,32.1,Bamako,12.81034483
+United Rep. of Tanzania,2015,Sub-Saharan Africa,NA,NA,NA,2.1,5.5,31.6,Dodoma,NA
+Burundi,2015,Sub-Saharan Africa,7.4,61,751,2.7,5.6,12.1,Bujumbura,10.14864865
+Equatorial Guinea,2015,Sub-Saharan Africa,NA,NA,NA,1.3,5.6,70.6,Malabo,NA
+Mali,2010,Sub-Saharan Africa,12.5,34.7,1886,2.1,5.6,36,Bamako,15.088
+United Rep. of Tanzania,2010,Sub-Saharan Africa,NA,NA,NA,2.2,5.6,28.1,Dodoma,NA
+Angola,2005,Sub-Saharan Africa,19.8,35.4,3872,0.9,5.7,56,Luanda,19.55555556
+Burkina Faso,2010,Sub-Saharan Africa,11.2,45.3,1742,2.2,5.7,24.6,Ouagadougou,15.55357143
+Bahrain,2005,Middle East & North Africa,22.3,25.2,198,5.7,5.8,88.4,Manama,0.887892377
+Jordan,2015,Middle East & North Africa,19.5,21.6,1783,-2.3,5.8,90.3,Amman,9.143589744
+Laos,2005,East Asia & Pacific,9.9,36.6,572,0.2,5.8,27.2,Vientiane,5.777777778
+Burundi,2010,Sub-Saharan Africa,6.3,59.6,556,3,5.9,10.6,Bujumbura,8.825396825
+Uganda,2015,Sub-Saharan Africa,6.4,29.1,2577,2.7,6,22.1,Kampala,40.265625
+Uganda,2010,Sub-Saharan Africa,5.9,30.7,2016,2.9,6.1,19.4,Kampala,34.16949153
+Jordan,2010,Middle East & North Africa,19.4,22.6,1397,-3.2,6.2,86.1,Amman,7.201030928
+Lebanon,2015,Middle East & North Africa,38.1,43.2,2229,4.7,6.2,88.1,Beirut,5.850393701
+Uganda,2005,Sub-Saharan Africa,5.5,32.6,1576,2.9,6.2,17,Kampala,28.65454545
+Eritrea,2005,Sub-Saharan Africa,14.1,45.2,558,1.9,6.3,31.1,Asmara,3.957446809
+Maldives,2005,South Asia,NA,NA,NA,0.8,6.5,33.8,Male,NA
+Bahrain,2010,Middle East & North Africa,23.5,26.6,292,6.3,6.7,88.6,Manama,1.242553191
+Bhutan,2005,South Asia,NA,NA,NA,1.2,6.7,31,Thimphu,NA
+Burkina Faso,2005,Sub-Saharan Africa,9.9,45.9,1328,2,6.7,21.5,Ouagadougou,13.41414141
+Qatar,2015,Middle East & North Africa,23.8,24,590,-0.4,6.7,98.9,Doha,2.478991597
+Western Sahara,2005,NA,NA,NA,NA,6.3,6.7,86,El Aaiún,NA
+Equatorial Guinea,2010,Sub-Saharan Africa,NA,NA,NA,0.2,7.2,65.9,Malabo,NA
+Equatorial Guinea,2005,Sub-Saharan Africa,NA,NA,NA,0.5,7.4,57.7,Malabo,NA
+"Bonaire, Saint Eustatius and Saba",2010,Latin America & Caribbean,NA,NA,NA,7.5,7.5,74.7,Kralendijk,NA
+Turks and Caicos Islands,2005,Latin America & Caribbean,NA,NA,NA,2.1,7.5,87.7,Cockburn Town,NA
+Qatar,2005,Middle East & North Africa,43.1,44.3,373,0.6,7.8,97.4,Doha,0.865429234
+Oman,2015,Middle East & North Africa,28.1,34.6,1180,0.7,8,81.4,Muscat,4.199288256
+United Arab Emirates,2005,Middle East & North Africa,14.3,17.4,655,5.3,8,82.3,Abu Dhabi,4.58041958
+United Arab Emirates,2010,Middle East & North Africa,11,13.1,912,9.7,12.3,84.1,Abu Dhabi,8.290909091
+Qatar,2010,Middle East & North Africa,29.4,29.9,524,3.4,14.7,98.5,Doha,1.782312925
+Montserrat,2005,Latin America & Caribbean,NA,NA,NA,-2.3,29.3,9.3,Brades Estate,NA
