@@ -15,7 +15,9 @@ var svg = d3.select("#my_dataviz")
 //Read the data
 d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
 
-    // Add X axis
+    /*********************
+     * X AXIS
+    *********************/
     var x = d3.scaleLinear()
         .domain([0, 100])
         .range([0, width]);
@@ -33,7 +35,9 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
         .style("text-anchor", "middle")
         .text("Urban Population (percent)");
 
-    // Add Y axis
+    /*********************
+     * Y AXIS
+    *********************/
     var y = d3.scaleLinear()
         .domain([-2, 9])
         .range([height, 0]);
@@ -51,7 +55,9 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
         .style("text-anchor", "middle")
         .text("Urban Population (percent growth rate per annum)");
 
-
+    /*********************
+     * GRIDLINES
+    *********************/
     // gridlines in x axis function
     function make_x_gridlines() {
         return d3.axisBottom(x)
@@ -81,6 +87,9 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
             .tickFormat("")
         )
 
+    /*********************
+     * TOOLTIP
+    *********************/
 
     // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
     // Its opacity is set to 0: we don't see it by default.
@@ -94,13 +103,18 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
         .style("border-radius", "5px")
         .style("padding", "10px")
 
-
-
     // A function that change this tooltip when the user hover a point.
     // Its opacity is set to 1: we can now see it. Plus it set the text and position of tooltip depending on the datapoint (d)
     var mouseover = function (d) {
-        tooltip
+        tooltip.transition()
+            .duration(200)
             .style("opacity", 1)
+        tooltip
+            .html("The country is: " + d.Country +
+                "<br>Urban %: " + d['Urban population (percent)'] +
+                "<br>Urban % growth is: " + d['Urban population (percent growth rate per annum)'])
+                .style("left", (d3.event.pageX + 10) + "px")             
+                .style("top", (d3.event.pageY - 50) + "px");
     }
 
     var mousemove = function (d) {
@@ -116,13 +130,17 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
     var mouseleave = function (d) {
         tooltip
             .transition()
-            .duration(200)
+            .duration(1000)
             .style("opacity", 0)
     }
 
+    /*********************
+     * LEGEND
+    *********************/
+
     // create a list of keys
     var keys = ["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean",
-     "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"]
+        "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"]
 
     // Usually you have a color scale in your chart already
     var color = d3.scaleOrdinal()
@@ -151,7 +169,9 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
         .attr("text-anchor", "left")
         .style("alignment-baseline", "middle")
 
-    // Add dots
+    /*********************
+     * SCATTER PLOT DATA 
+    *********************/
     svg.append('g')
         .selectAll("dot")
         .data(data)
@@ -166,8 +186,6 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
 
         .style("fill", "none")
         .style("stroke-width", 2)    // set the stroke width
-        .style("stroke", function (d) { return color(d['Region'])})
+        .style("stroke", function (d) { return color(d['Region']) })
         .on("mouseover", mouseover)
-        .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave)
 })
