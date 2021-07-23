@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
-var margin = { top: 10, right: 30, bottom: 30, left: 60 },
+var margin = { top: 20, right: 200, bottom: 70, left: 70 },
     width = 1000 - margin.left - margin.right,
-    height = 1000 - margin.top - margin.bottom;
+    height = 800 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -13,22 +13,74 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("/Data/Data_for_Dashboard.csv", function (data) {
+d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
 
     // Add X axis
     var x = d3.scaleLinear()
         .domain([0, 100])
         .range([0, width]);
     svg.append("g")
+        .attr("class", "axis")
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x));
 
+    // text label for the x axis
+    svg.append("text")
+        .attr("class", "axisText")
+        .attr("transform",
+            "translate(" + (width / 2) + " ," +
+            (height + margin.top + 30) + ")")
+        .style("text-anchor", "middle")
+        .text("Urban Population (percent)");
+
     // Add Y axis
     var y = d3.scaleLinear()
-        .domain([-2, 20])
+        .domain([-2, 9])
         .range([height, 0]);
     svg.append("g")
+        .attr("class", "axis")
         .call(d3.axisLeft(y));
+
+    // text label for the y axis
+    svg.append("text")
+        .attr("class", "axisText")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x", 0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Urban Population (percent growth rate per annum)");
+
+
+    // gridlines in x axis function
+    function make_x_gridlines() {
+        return d3.axisBottom(x)
+            .ticks(10)
+    }
+
+    // gridlines in y axis function
+    function make_y_gridlines() {
+        return d3.axisLeft(y)
+            .ticks(10)
+    }
+
+    // add the X gridlines
+    svg.append("g")
+        .attr("class", "grid")
+        .attr("transform", "translate(0," + height + ")")
+        .call(make_x_gridlines()
+            .tickSize(-height)
+            .tickFormat("")
+        )
+
+    // add the Y gridlines
+    svg.append("g")
+        .attr("class", "grid")
+        .call(make_y_gridlines()
+            .tickSize(-width)
+            .tickFormat("")
+        )
+
 
     // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
     // Its opacity is set to 0: we don't see it by default.
@@ -56,8 +108,8 @@ d3.csv("/Data/Data_for_Dashboard.csv", function (data) {
             .html("The country is: " + d.Country +
                 "<br>Urban %: " + d['Urban population (percent)'] +
                 "<br>Urban % growth is: " + d['Urban population (percent growth rate per annum)'])
-            .style("left", (d3.mouse(this)[0] + 90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-            .style("top", (d3.mouse(this)[1]) + "px")
+            .style("top", d3.select(this).attr("cy") + "px")
+            .style("left", d3.select(this).attr("cx") + "px")
     }
 
     // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
@@ -68,39 +120,53 @@ d3.csv("/Data/Data_for_Dashboard.csv", function (data) {
             .style("opacity", 0)
     }
 
+    // create a list of keys
+    var keys = ["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean",
+     "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"]
+
+    // Usually you have a color scale in your chart already
+    var color = d3.scaleOrdinal()
+        .domain(keys)
+        .range(d3.schemeSet2);
+
+    // Add one dot in the legend for each name.
+    svg.selectAll("mydots")
+        .data(keys)
+        .enter()
+        .append("circle")
+        .attr("cx", width + 10)
+        .attr("cy", function (d, i) { return margin.top + i * 25 }) // 100 is where the first dot appears. 25 is the distance between dots
+        .attr("r", 7)
+        .style("fill", function (d) { return color(d) })
+
+    // Add one dot in the legend for each name.
+    svg.selectAll("mylabels")
+        .data(keys)
+        .enter()
+        .append("text")
+        .attr("x", width + 30)
+        .attr("y", function (d, i) { return margin.top + i * 25 }) // 100 is where the first dot appears. 25 is the distance between dots
+        .style("fill", function (d) { return color(d) })
+        .text(function (d) { return d })
+        .attr("text-anchor", "left")
+        .style("alignment-baseline", "middle")
+
     // Add dots
     svg.append('g')
         .selectAll("dot")
         .data(data)
         .enter()
         .append("circle")
+
+        .filter(function (d) { return d['Year'] == "2005" })
+
         .attr("cx", function (d) { return x(d['Urban population (percent)']); })
         .attr("cy", function (d) { return y(d['Urban population (percent growth rate per annum)']); })
-        .attr("r", function (d) { return (x(d['Population (million)']) / 500 + 5); })
-        .style("fill", function (d) {
+        .attr("r", function (d) { return (x(d['Population (million)']) / 250 + 3); })
 
-            var returnColor;
-
-            if (d['Region'] === "East Asia & Pacific") {
-                returnColor = "green";
-            } else if (d['Region'] === "Europe & Central Asia") {
-                returnColor = "purple";
-            } else if (d['Region'] === "Latin America & Caribbean") {
-                returnColor = "red";
-            } else if (d['Region'] === "Middle East & North Africa") {
-                returnColor = "orange";
-            } else if (d['Region'] === "North America") {
-                returnColor = "blue";
-            } else if (d['Region'] === "South Asia") {
-                returnColor = "pink";
-            } else if (d['Region'] === "Sub-Saharan Africa") {
-                returnColor = "black";
-            }
-
-            return returnColor;
-        })
-        .style("opacity", 0.3)
-        .style("stroke", "white")
+        .style("fill", "none")
+        .style("stroke-width", 2)    // set the stroke width
+        .style("stroke", function (d) { return color(d['Region'])})
         .on("mouseover", mouseover)
         .on("mousemove", mousemove)
         .on("mouseleave", mouseleave)
