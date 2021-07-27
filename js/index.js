@@ -1,30 +1,37 @@
-// set the dimensions and margins of the graph
-var margin = { top: 20, right: 200, bottom: 70, left: 70 },
-    width = 1000 - margin.left - margin.right,
-    height = 800 - margin.top - margin.bottom;
+var year = "2005"
 
-// append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
-    .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+/***************** */
+function setupSVG() {
 
-//Read the data
-d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
+    document.getElementById("my_dataviz").setAttribute("current-year", year);
+
+
+    // set the dimensions and margins of the graph
+    var margin = { top: 10, right: 200, bottom: 70, left: 70 },
+        width = 1000 - margin.left - margin.right,
+        height = 800 - margin.top - margin.bottom;
+
+    // append the svg object to the body of the page
+    var svg = d3.select("#my_dataviz")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
 
     /*********************
-     * X AXIS
+    * X AXIS
     *********************/
     var x = d3.scaleLinear()
         .domain([0, 100])
         .range([0, width]);
+    var xaxis = d3.axisBottom(x)
     svg.append("g")
         .attr("class", "axis")
+        .attr("class", "Xaxis")
         .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+        .call(xaxis);
 
     // text label for the x axis
     svg.append("text")
@@ -41,9 +48,11 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
     var y = d3.scaleLinear()
         .domain([-2, 9])
         .range([height, 0]);
+    var yaxis = d3.axisLeft(y)
     svg.append("g")
         .attr("class", "axis")
-        .call(d3.axisLeft(y));
+        .attr("class", "Yaxis")
+        .call(yaxis);
 
     // text label for the y axis
     svg.append("text")
@@ -110,28 +119,11 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
             .duration(200)
             .style("opacity", 1)
         tooltip
-            .html("The country is: " + d.Country +
+            .html("<b>" + d.Country + "</b>" +
                 "<br>Urban %: " + d['Urban population (percent)'] +
                 "<br>Urban % growth is: " + d['Urban population (percent growth rate per annum)'])
             .style("left", (d3.event.pageX + 10) + "px")
             .style("top", (d3.event.pageY - 50) + "px");
-    }
-
-    var mousemove = function (d) {
-        tooltip
-            .html("The country is: " + d.Country +
-                "<br>Urban %: " + d['Urban population (percent)'] +
-                "<br>Urban % growth is: " + d['Urban population (percent growth rate per annum)'])
-            .style("top", d3.select(this).attr("cy") + "px")
-            .style("left", d3.select(this).attr("cx") + "px")
-    }
-
-    // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
-    var mouseleave = function (d) {
-        tooltip
-            .transition()
-            .duration(1000)
-            .style("opacity", 0)
     }
 
     /*********************
@@ -169,52 +161,151 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
         .attr("text-anchor", "left")
         .style("alignment-baseline", "middle")
 
-    /*********************
-     * ANNOTATIONS
-    *********************/
+    async function loadAllData() {
+        data = await d3.csv("/Data/Data_for_Dashboard.csv");
 
-    const annotations = [
-        {
-            note: {
-                label: "Steady percentage of population in Urban areas",
-                title: "Europe "
-            },
-            type: d3.annotationCalloutCircle,
-            subject: {
-                radius: 80,         // circle radius
-                radiusPadding: 20,   // white space around circle befor connector
-            },
-            color: ["red"],
-            x: width * 0.6,
-            y: height * 0.85,
-            dy: 30,
-            dx: 150
-        }
-    ]
 
-    // Add annotation to the chart
-    const makeAnnotations = d3.annotation()
-        .annotations(annotations)
-    svg.append("g")
-        .call(makeAnnotations)
+        loadPageData();
+    }
 
-    /*********************
-     * SCATTER PLOT DATA 
-    *********************/
-    svg.append('g')
-        .selectAll("dot")
-        .data(data)
-        .enter()
-        .append("circle")
+    function loadPageData() {
 
-        .filter(function (d) { return d['Year'] == "2005" })
+        let yearData = data.filter(function (d) {
+            return d.Year == document.getElementById("my_dataviz").getAttribute("current-year");
+        });
 
-        .attr("cx", function (d) { return x(d['Urban population (percent)']); })
-        .attr("cy", function (d) { return y(d['Urban population (percent growth rate per annum)']); })
-        .attr("r", function (d) { return (x(d['Population (million)']) / 250 + 3); })
+        plotData(yearData)
+    }
 
-        .style("fill", "none")
-        .style("stroke-width", 2)    // set the stroke width
-        .style("stroke", function (d) { return color(d['Region']) })
-        .on("mouseover", mouseover)
-})
+    function plotData(yearData) {
+
+        svg.selectAll(".Xaxis").transition()
+            .duration(1500)
+            .call(xaxis);
+
+        svg.selectAll(".Yaxis")
+            .transition()
+            .duration(1500)
+            .call(yaxis);
+
+        /*********************
+        * SCATTER PLOT DATA 
+        *********************/
+        const scatter = svg.append('g')
+            .selectAll("dot")
+            .data(yearData)
+            .enter()
+            .append("circle")
+
+            .attr("cx", function (d) { return x(d['Urban population (percent)']); })
+            .attr("cy", function (d) { return y(d['Urban population (percent growth rate per annum)']); })
+            .attr("r", function (d) { return (x(d['Population (million)']) / 250 + 3); })
+
+            .style("fill", "none")
+            .style("stroke-width", 2)    // set the stroke width
+            .style("stroke", function (d) { return color(d['Region']) })
+            .on("mouseover", mouseover)
+
+        scatter
+            .merge(scatter)
+            .transition()
+            .duration(1500);
+
+        /*********************
+         * ANNOTATIONS
+        *********************/
+
+        const annotations = [
+            {
+                note: {
+                    label: "Steady percentage of population in Urban areas",
+                    title: "Europe & Central Asia"
+                },
+                type: d3.annotationCalloutCircle,
+                subject: {
+                    radius: 80,         // circle radius
+                    radiusPadding: 20,   // white space around circle befor connector
+                },
+                color: ["red"],
+                x: width * 0.6,
+                y: height * 0.85,
+                dy: 0,
+                dx: 150
+            }
+        ]
+
+        // Add annotation to the chart
+        const makeAnnotations = d3.annotation()
+            .annotations(annotations)
+
+        svg.append('g')
+            .attr('class', 'annotation-group')
+            .call(makeAnnotations)
+    }
+
+    loadAllData();
+}
+
+function updateSVG(choosenYear) {
+    document.getElementById("my_dataviz").innerHTML = "";
+    year = choosenYear
+
+    setupSVG();
+}
+
+function nextYear() {
+
+    if (year == "2005") {
+        choosenYear = "2010";
+    } else if (year == "2010") {
+        choosenYear = "2015";
+    } else {
+        return
+    }
+
+    updateSVG(choosenYear)
+}
+
+function prevYear() {
+
+    if (year == "2010") {
+        choosenYear = "2005";
+    } else if (year == "2015") {
+        choosenYear = "2010";
+    } else {
+        return
+    }
+
+    updateSVG(choosenYear)
+}
+
+/*********************
+ * PAGINATION
+*********************/
+
+var pageItem = $(".pagination li").not(".prev,.next");
+var prev = $(".pagination li.prev");
+var next = $(".pagination li.next");
+
+pageItem.click(function () {
+    pageItem.removeClass("active");
+    $(this).not(".prev,.next").addClass("active");
+});
+
+next.click(function () {
+
+    if ($('li.active').next().not(".next").length == 1) {
+        $('li.active').removeClass('active').next().addClass('active');
+    }
+});
+
+prev.click(function () {
+    
+    if ($('li.active').prev().not(".prev").length == 1) {
+        $('li.active').removeClass('active').prev().addClass('active');
+    }
+});
+
+
+
+

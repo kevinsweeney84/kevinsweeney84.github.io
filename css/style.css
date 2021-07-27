@@ -2,7 +2,7 @@ div.tooltip {
     position: absolute;
     text-align: left;
     width: 200px;
-    height: 40px;
+    height: 80px;
     padding: 2px;
     font: 12px sans-serif;
     background: lightsteelblue;
@@ -32,4 +32,19 @@ div.tooltip {
     stroke-width: 5;
     stroke-dasharray: 10px;
 
+}
+
+.nonClick{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.pagination > .nonClick > a
+{
+    color: grey;
+}
+
+.pagination > .active > a
+{
+    color: white;
 }
