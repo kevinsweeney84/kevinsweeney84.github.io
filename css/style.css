@@ -27,3 +27,9 @@ div.tooltip {
   .grid path {
     stroke-width: 0;
   }
+
+.subject{
+    stroke-width: 5;
+    stroke-dasharray: 10px;
+
+}

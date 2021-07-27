@@ -113,8 +113,8 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
             .html("The country is: " + d.Country +
                 "<br>Urban %: " + d['Urban population (percent)'] +
                 "<br>Urban % growth is: " + d['Urban population (percent growth rate per annum)'])
-                .style("left", (d3.event.pageX + 10) + "px")             
-                .style("top", (d3.event.pageY - 50) + "px");
+            .style("left", (d3.event.pageX + 10) + "px")
+            .style("top", (d3.event.pageY - 50) + "px");
     }
 
     var mousemove = function (d) {
@@ -168,6 +168,35 @@ d3.csv("/Data/Data_for_Dashboard.csv").then(function (data) {
         .text(function (d) { return d })
         .attr("text-anchor", "left")
         .style("alignment-baseline", "middle")
+
+    /*********************
+     * ANNOTATIONS
+    *********************/
+
+    const annotations = [
+        {
+            note: {
+                label: "Steady percentage of population in Urban areas",
+                title: "Europe "
+            },
+            type: d3.annotationCalloutCircle,
+            subject: {
+                radius: 80,         // circle radius
+                radiusPadding: 20,   // white space around circle befor connector
+            },
+            color: ["red"],
+            x: width * 0.6,
+            y: height * 0.85,
+            dy: 30,
+            dx: 150
+        }
+    ]
+
+    // Add annotation to the chart
+    const makeAnnotations = d3.annotation()
+        .annotations(annotations)
+    svg.append("g")
+        .call(makeAnnotations)
 
     /*********************
      * SCATTER PLOT DATA 
