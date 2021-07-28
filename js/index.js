@@ -9,8 +9,6 @@ var margin = { top: 10, right: 200, bottom: 70, left: 70 },
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
     .append("svg")
-    //.attr("width", width + margin.left + margin.right)
-    //.attr("height", height + margin.top + margin.bottom)
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 1050 800")
     .append("g")
@@ -113,7 +111,7 @@ var tooltip = d3.select("#my_dataviz")
 // Its opacity is set to 1: we can now see it. Plus it set the text and position of tooltip depending on the datapoint (d)
 var mouseover = function (d) {
     tooltip.transition()
-        .duration(200)
+        .duration(1)
         .style("opacity", 1)
     tooltip
         .html("<b>" + d.Country.toUpperCase() + "</b>" +
@@ -164,9 +162,6 @@ svg.selectAll("mylabels")
 function setupSVG() {
 
     document.getElementById("my_dataviz").setAttribute("current-year", year);
-
-
-
 
     async function loadAllData() {
         data = await d3.csv("/Data/Data_for_Dashboard.csv");
