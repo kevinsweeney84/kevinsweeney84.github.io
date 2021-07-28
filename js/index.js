@@ -116,9 +116,11 @@ var mouseover = function (d) {
         .duration(200)
         .style("opacity", 1)
     tooltip
-        .html("<b>" + d.Country + "</b>" +
-            "<br>Urban %: " + d['Urban population (percent)'] +
-            "<br>Urban % growth is: " + d['Urban population (percent growth rate per annum)'])
+        .html("<b>" + d.Country.toUpperCase() + "</b>" +
+            "<br>----------" + 
+            "<br><b>Urban %: </b>" + d['Urban population (percent)'] +
+            "<br><b>Urban % growth: </b>" + d['Urban population (percent growth rate per annum)'] +
+            "<br><b>Population: </b>" + String(Number(d["Population (million)"]).toFixed(2)) + " million")
         .style("left", (d3.event.pageX + 10) + "px")
         .style("top", (d3.event.pageY - 50) + "px");
 }
