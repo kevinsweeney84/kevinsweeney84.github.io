@@ -188,6 +188,8 @@ function setupSVG() {
 
     function plotInitData(yearData) {
 
+        addAnnotations();
+
         svg
             .selectAll("dataCircles")
             .data(yearData)
@@ -203,12 +205,12 @@ function setupSVG() {
             .style("stroke-width", 2)    // set the stroke width
             .style("stroke", function (d) { return color(d['Region']) })
             .on("mouseover", mouseover)
-
-        addAnnotations();
     }
 
     // Create a function that takes a dataset as input and update the plot:
     function plotDataWithTransitions(yearData) {
+
+        addAnnotations();
 
         // Update circles
         svg.selectAll(".dataCircles")
@@ -224,8 +226,6 @@ function setupSVG() {
             .attr("r", function (d) { return (x(parseFloat(d['Population (million)'])) / 250 + 3); })
 
             .on("end", function () { });
-
-        addAnnotations();
     }
 
     function addAnnotations() {
