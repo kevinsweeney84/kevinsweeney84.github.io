@@ -186,37 +186,14 @@ function setupSVG() {
         }
     }
 
-    function updateAxisDomain(yearData) {
-        // Create the X axis:
-        x.domain([0, d3.max(yearData, function (d) { return parseFloat(d['Urban population (percent)']) })]);
-
-        // create the Y axis
-        y.domain([
-            d3.min(yearData, function (d) { return parseFloat(d['Urban population (percent growth rate per annum)']) }),
-            d3.max(yearData, function (d) { return parseFloat(d['Urban population (percent growth rate per annum)']) })]);
-
-    }
-
-    function updateAxisTransitions() {
-        svg.selectAll(".Xaxis").transition()
-            .duration(3000)
-            .call(xaxis);
-
-        svg.selectAll(".Yaxis")
-            .transition()
-            .duration(3000)
-            .call(yaxis);
-    }
-
     function plotInitData(yearData) {
 
-        updateAxisDomain(yearData);
-
         svg
-            .selectAll("circle")
+            .selectAll("dataCircles")
             .data(yearData)
             .enter()
             .append("circle")
+            .attr("class", "dataCircles")
 
             .attr("cx", function (d) { return x(parseFloat(d['Urban population (percent)'])); })
             .attr("cy", function (d) { return y(parseFloat(d['Urban population (percent growth rate per annum)'])); })
@@ -227,18 +204,14 @@ function setupSVG() {
             .style("stroke", function (d) { return color(d['Region']) })
             .on("mouseover", mouseover)
 
-        updateAxisTransitions();
-
         addAnnotations();
     }
 
     // Create a function that takes a dataset as input and update the plot:
     function plotDataWithTransitions(yearData) {
 
-        updateAxisDomain(yearData);
-
         // Update circles
-        svg.selectAll("circle")
+        svg.selectAll(".dataCircles")
             .data(yearData)  // Update with new data
             .transition()  // Transition from old to new
             .duration(1000)  // Length of animation
@@ -251,8 +224,6 @@ function setupSVG() {
             .attr("r", function (d) { return (x(parseFloat(d['Population (million)'])) / 250 + 3); })
 
             .on("end", function () { });
-
-        updateAxisTransitions();
 
         addAnnotations();
     }
@@ -294,7 +265,6 @@ function setupSVG() {
 }
 
 function updateSVG(choosenYear) {
-    //document.getElementById("my_dataviz").innerHTML = "";
     year = choosenYear
 
     setupSVG();
