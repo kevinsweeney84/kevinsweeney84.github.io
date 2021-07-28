@@ -9,8 +9,10 @@ var margin = { top: 10, right: 200, bottom: 70, left: 70 },
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
     .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    //.attr("width", width + margin.left + margin.right)
+    //.attr("height", height + margin.top + margin.bottom)
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 1050 800")
     .append("g")
     .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
@@ -139,7 +141,7 @@ svg.selectAll("mydots")
     .data(keys)
     .enter()
     .append("circle")
-    .attr("cx", width + 10)
+    .attr("cx", width + 20)
     .attr("cy", function (d, i) { return margin.top + i * 25 }) // 100 is where the first dot appears. 25 is the distance between dots
     .attr("r", 7)
     .style("fill", function (d) { return color(d) })
@@ -167,8 +169,49 @@ function setupSVG() {
     async function loadAllData() {
         data = await d3.csv("/Data/Data_for_Dashboard.csv");
 
+        data = sortData(data);
 
         loadPageData();
+    }
+
+    function sortData(data) {
+
+        // Sort based on the 2005 urban % values
+        let data2005 = data.filter(function (d) {
+            return d.Year == "2005";
+        });
+
+        // sort the data going from least densily populated urban center to most (2005)
+        data2005 = data2005.sort(function mysortfunction(a, b) {
+            var x = a['Urban population (percent)'];
+            var y = b['Urban population (percent)'];
+
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+        })
+
+        // Extract just the Country info from the object
+        var data2005sorted = data2005.map(function (value, index) { return value['Country']; });
+
+        // Function sorts an object based on a given order
+        function mapOrder(array, order, key) {
+
+            array.sort(function (a, b) {
+                var A = a[key], B = b[key];
+
+                if (order.indexOf(A) > order.indexOf(B)) {
+                    return 1;
+                } else {
+                    return -1;
+                }
+
+            });
+
+            return array;
+        };
+
+        data = mapOrder(data, data2005sorted, 'Country');
+
+        return data
     }
 
     function loadPageData() {
@@ -210,7 +253,6 @@ function setupSVG() {
     // Create a function that takes a dataset as input and update the plot:
     function plotDataWithTransitions(yearData) {
 
-        addAnnotations();
 
         // Update circles
         svg.selectAll(".dataCircles")
@@ -226,31 +268,76 @@ function setupSVG() {
             .attr("r", function (d) { return (x(parseFloat(d['Population (million)'])) / 250 + 3); })
 
             .on("end", function () { });
+
+        addAnnotations();
+
     }
 
     function addAnnotations() {
+
+        svg.selectAll(".annotation-group").remove()
         /*********************
          * ANNOTATIONS
         *********************/
 
-        const annotations = [
-            {
-                note: {
-                    label: "Steady percentage of population in Urban areas",
-                    title: "Europe & Central Asia"
-                },
-                type: d3.annotationCalloutCircle,
-                subject: {
-                    radius: 80,         // circle radius
-                    radiusPadding: 20,   // white space around circle befor connector
-                },
-                color: ["red"],
-                x: width * 0.6,
-                y: height * 0.85,
-                dy: 0,
-                dx: 150
-            }
-        ]
+        if (document.getElementById("my_dataviz").getAttribute("current-year") == "2005") {
+            annotations = [
+                {
+                    note: {
+                        label: "Still very Rural. Significant shift to urban areas",
+                        title: "Sub-Saharan Africa"
+                    },
+                    type: d3.annotationCalloutCircle,
+                    subject: {
+                        radius: 80,         // circle radius
+                        radiusPadding: 20,   // white space around circle befor connector
+                    },
+                    color: ["red"],
+                    x: width * 0.2,
+                    y: height * 0.4,
+                    dy: -100,
+                    dx: 150
+                }
+            ]
+        } else if (document.getElementById("my_dataviz").getAttribute("current-year") == "2010") {
+            annotations = [
+                {
+                    note: {
+                        label: "Many highly Urbanised societies",
+                        title: "Middle East & North Africa"
+                    },
+                    type: d3.annotationCalloutRect,
+                    subject: {
+                        width: width * 0.2,
+                        height: height * 0.5,
+                    },
+                    color: ["red"],
+                    x: width * 0.81,
+                    y: height * 0.1,
+                    dy: 200,
+                    dx: 250
+                }
+            ]
+        } else {
+            annotations = [
+                {
+                    note: {
+                        label: "Stable percentage of population in Urban areas",
+                        title: "Europe & Central Asia"
+                    },
+                    type: d3.annotationCalloutCircle,
+                    subject: {
+                        radius: 80,         // circle radius
+                        radiusPadding: 20,   // white space around circle befor connector
+                    },
+                    color: ["red"],
+                    x: width * 0.62,
+                    y: height * 0.85,
+                    dy: 0,
+                    dx: -150
+                }
+            ]
+        }
 
         // Add annotation to the chart
         const makeAnnotations = d3.annotation()

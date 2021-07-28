@@ -31,18 +31,33 @@
             </div>
 
             <h1>Examining the trend towards a more urbanised society</h1>
-            <p>This is a paragraph.</p>
+            <p>Since detailed records have been taken, there has been a general trend towards a more urbanised way of
+                living. The data presented within this visualisation (from the
+                <a href="https://datacatalog.worldbank.org/">
+                    World Bank dataset</a>)
+                details the percentage growth rate in urban population versus the urban population
+                percentage for the years 2005, 2010 and 2015 for all the available countries of the world. Some minor data cleaning has been completed. 
+            </p>
+
+            <br>
+
+            <p>This <b>Interactive Slideshow</b> visualisation allows the user to step through the three available years
+                while providing the ability to explore the data at each time point.
+                The visualisation also provides some annotations detailing some interesting findings within the data.
+            </p>
+
+            <br>
 
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-center">
-                  <li class="page-item prev"><a class="page-link" onclick="prevYear()" tabindex="-1">Previous</a></li>
-                  <li class="page-item nonClick active"><a class="page-link" onclick="updateSVG('2005')">2005</a></li>
-                  <li class="page-item nonClick"><a class="page-link" onclick="updateSVG('2010')">2010</a></li>
-                  <li class="page-item nonClick"><a class="page-link" onclick="updateSVG('2015')">2015</a></li>
-                  <li class="page-item next"><a class="page-link" onclick="nextYear()">Next</a>
-                  </li>
+                    <li class="page-item prev"><a class="page-link" onclick="prevYear()" tabindex="-1">Previous</a></li>
+                    <li class="page-item nonClick active"><a class="page-link" onclick="updateSVG('2005')">2005</a></li>
+                    <li class="page-item nonClick"><a class="page-link" onclick="updateSVG('2010')">2010</a></li>
+                    <li class="page-item nonClick"><a class="page-link" onclick="updateSVG('2015')">2015</a></li>
+                    <li class="page-item next"><a class="page-link" onclick="nextYear()">Next</a>
+                    </li>
                 </ul>
-              </nav>
+            </nav>
 
             <!-- Create a div where the graph will take place -->
             <div id="my_dataviz"></div>
