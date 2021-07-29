@@ -16,8 +16,8 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 /*********************
-* X AXIS
-*********************/
+ * X AXIS
+ *********************/
 var x = d3.scaleLinear()
     .domain([0, 100])
     .range([0, width]);
@@ -39,7 +39,7 @@ svg.append("text")
 
 /*********************
  * Y AXIS
-*********************/
+ *********************/
 var y = d3.scaleLinear()
     .domain([-2, 9])
     .range([height, 0]);
@@ -61,7 +61,7 @@ svg.append("text")
 
 /*********************
  * GRIDLINES
-*********************/
+ *********************/
 // gridlines in x axis function
 function make_x_gridlines() {
     return d3.axisBottom(x)
@@ -91,45 +91,15 @@ svg.append("g")
         .tickFormat("")
     )
 
-/*********************
- * TOOLTIP
-*********************/
-
-// Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
-// Its opacity is set to 0: we don't see it by default.
-var tooltip = d3.select("#my_dataviz")
-    .append("div")
-    .style("opacity", 0)
-    .attr("class", "tooltip")
-    .style("background-color", "white")
-    .style("border", "solid")
-    .style("border-width", "1px")
-    .style("border-radius", "5px")
-    .style("padding", "10px")
-
-// A function that change this tooltip when the user hover a point.
-// Its opacity is set to 1: we can now see it. Plus it set the text and position of tooltip depending on the datapoint (d)
-var mouseover = function (d) {
-    tooltip.transition()
-        .duration(1)
-        .style("opacity", 1)
-    tooltip
-        .html("<b>" + d.Country.toUpperCase() + "</b>" +
-            "<br>----------" + 
-            "<br><b>Urban: </b>" + d['Urban population (percent)'] + " %" +
-            "<br><b>Urban growth: </b>" + d['Urban population (percent growth rate per annum)'] + " %" +
-            "<br><b>Population: </b>" + String(Number(d["Population (million)"]).toFixed(2)) + " million")
-        .style("left", (d3.event.pageX + 10) + "px")
-        .style("top", (d3.event.pageY - 50) + "px");
-}
 
 /*********************
  * LEGEND
-*********************/
+ *********************/
 
 // create a list of keys
 var keys = ["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean",
-    "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"]
+    "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"
+]
 
 // Usually you have a color scale in your chart already
 var color = d3.scaleOrdinal()
@@ -142,7 +112,7 @@ svg.selectAll("mydots")
     .enter()
     .append("circle")
     .attr("cx", width + 20)
-    .attr("cy", function (d, i) { return margin.top + i * 25 }) // 100 is where the first dot appears. 25 is the distance between dots
+    .attr("cy", function (d, i) { return margin.top + i * 25 })
     .attr("r", 7)
     .style("fill", function (d) { return color(d) })
 
@@ -152,7 +122,7 @@ svg.selectAll("mylabels")
     .enter()
     .append("text")
     .attr("x", width + 30)
-    .attr("y", function (d, i) { return margin.top + i * 25 }) // 100 is where the first dot appears. 25 is the distance between dots
+    .attr("y", function (d, i) { return margin.top + i * 25 })
     .style("fill", function (d) { return color(d) })
     .text(function (d) { return d })
     .attr("text-anchor", "left")
@@ -193,14 +163,14 @@ function setupSVG() {
         function mapOrder(array, order, key) {
 
             array.sort(function (a, b) {
-                var A = a[key], B = b[key];
+                var A = a[key],
+                    B = b[key];
 
                 if (order.indexOf(A) > order.indexOf(B)) {
                     return 1;
                 } else {
                     return -1;
                 }
-
             });
 
             return array;
@@ -226,9 +196,110 @@ function setupSVG() {
         }
     }
 
+    function voronoiTooltip(yearData) {
+        /*********************
+         * TOOLTIP
+         *********************/
+
+        var cells = d3.voronoi()
+            .x(d => x(parseFloat(d['Urban population (percent)'])))
+            .y(d => y(parseFloat(d['Urban population (percent growth rate per annum)'])))
+            .extent([
+                [0, 0],
+                [width, height]
+            ])
+            .polygons(yearData);
+
+        const cell = svg.append("g")
+            .attr("class", "voronoiWrapper")
+            .attr("fill", "none")
+            .selectAll("path")
+            .data(cells)
+            .enter();
+
+
+        cell.append("path")
+            .style("pointer-events", "all")
+            //.attr("stroke", "#ccc")
+            .attr("d", d => `M${d.join("L")}Z`)
+            .on("mouseover", function (d, i) {
+
+                var xpos = x(parseFloat(d.data['Urban population (percent)']));
+                var ypos = y(parseFloat(d.data['Urban population (percent growth rate per annum)']));
+
+                // Create the tooltip label as an SVG group with a text and a rect inside
+                var label = svg.append("g")
+                    .attr("id", "tooltip")
+                    .style("pointer-events", "none") // prevents jittering when mouseover both label and voronoi
+                    .attr("transform", (d, i) => `translate(${xpos},${ypos})`);
+                label.append("rect")
+                    .attr("width", "250px")
+                    .attr("height", "120px")
+                    .attr("stroke", "black")
+                    .attr("fill", "white")
+                    .attr("stroke-width", "3")
+                    .attr("rx", "8px") // how much to round corners - to be transitioned below
+                    .attr("ry", "8px") // how much to round corners - to be transitioned below
+
+                label.append("text")
+                    .attr("x", 10)
+                    .attr("y", 20)
+                    .attr("fill", "black")
+                    .text(d.data['Country'].toUpperCase());
+                label.append("text")
+                    .attr("x", 10)
+                    .attr("y", 40)
+                    .attr("fill", "black")
+                    .text("--------------------");
+                label.append("text")
+                    .attr("x", 10)
+                    .attr("y", 60)
+                    .attr("fill", "black")
+                    .text("Urban: " + d.data['Urban population (percent)'] + " %");
+                label.append("text")
+                    .attr("x", 10)
+                    .attr("y", 80)
+                    .attr("fill", "black")
+                    .text("Urban growth: " + d.data['Urban population (percent growth rate per annum)'] + " %");
+                label.append("text")
+                    .attr("x", 10)
+                    .attr("y", 100)
+                    .attr("fill", "black")
+                    .text("Population: " + String(Number(d.data["Population (million)"]).toFixed(2)) + " million");
+
+                var guides = svg.append("g")
+                    .attr("id", "guides")
+                    .style("pointer-events", "none");
+                guides.append("line")
+                    .attr("x1", xpos)
+                    .attr("x2", xpos)
+                    .attr("y1", ypos)
+                    .attr("y2", height)
+                    .style("stroke", "black")
+                    .style("opacity", 0)
+                    .transition().duration(200)
+                    .style("opacity", 0.5);
+                guides.append("line")
+                    .attr("x1", xpos)
+                    .attr("x2", 0)
+                    .attr("y1", ypos)
+                    .attr("y2", ypos)
+                    .style("stroke", "black")
+                    .style("opacity", 0)
+                    .transition().duration(200)
+                    .style("opacity", 0.5);
+            })
+            .on("mouseout", function (d) {
+                d3.select("#tooltip").remove();
+                d3.select("#guides").remove();
+            });
+    }
+
     function plotInitData(yearData) {
 
         addAnnotations();
+
+        voronoiTooltip(yearData);
 
         svg
             .selectAll("dataCircles")
@@ -242,20 +313,22 @@ function setupSVG() {
             .attr("r", function (d) { return (x(parseFloat(d['Population (million)'])) / 250 + 3); })
 
             .style("fill", "none")
-            .style("stroke-width", 2)    // set the stroke width
+            .style("stroke-width", 2) // set the stroke width
             .style("stroke", function (d) { return color(d['Region']) })
-            .on("mouseover", mouseover)
     }
 
     // Create a function that takes a dataset as input and update the plot:
     function plotDataWithTransitions(yearData) {
 
+        addAnnotations();
+
+        voronoiTooltip(yearData);
 
         // Update circles
         svg.selectAll(".dataCircles")
-            .data(yearData)  // Update with new data
-            .transition()  // Transition from old to new
-            .duration(1000)  // Length of animation
+            .data(yearData) // Update with new data
+            .transition() // Transition from old to new
+            .duration(1000) // Length of animation
             .on("start", function () { })
 
             .delay(function (d, i) { return i / yearData.length * 3000; })
@@ -266,7 +339,6 @@ function setupSVG() {
 
             .on("end", function () { });
 
-        addAnnotations();
 
     }
 
@@ -275,65 +347,59 @@ function setupSVG() {
         svg.selectAll(".annotation-group").remove()
         /*********************
          * ANNOTATIONS
-        *********************/
+         *********************/
 
         if (document.getElementById("my_dataviz").getAttribute("current-year") == "2005") {
-            annotations = [
-                {
-                    note: {
-                        label: "Still very Rural. Significant shift to urban areas",
-                        title: "Sub-Saharan Africa"
-                    },
-                    type: d3.annotationCalloutCircle,
-                    subject: {
-                        radius: 80,         // circle radius
-                        radiusPadding: 20,   // white space around circle befor connector
-                    },
-                    color: ["red"],
-                    x: width * 0.2,
-                    y: height * 0.4,
-                    dy: -100,
-                    dx: 150
-                }
-            ]
+            annotations = [{
+                note: {
+                    label: "Still very Rural. Significant shift to urban areas",
+                    title: "Sub-Saharan Africa"
+                },
+                type: d3.annotationCalloutCircle,
+                subject: {
+                    radius: 80, // circle radius
+                    radiusPadding: 20, // white space around circle befor connector
+                },
+                color: ["red"],
+                x: width * 0.2,
+                y: height * 0.4,
+                dy: -100,
+                dx: 150
+            }]
         } else if (document.getElementById("my_dataviz").getAttribute("current-year") == "2010") {
-            annotations = [
-                {
-                    note: {
-                        label: "Many highly Urbanised societies",
-                        title: "Middle East & North Africa"
-                    },
-                    type: d3.annotationCalloutRect,
-                    subject: {
-                        width: width * 0.2,
-                        height: height * 0.5,
-                    },
-                    color: ["red"],
-                    x: width * 0.81,
-                    y: height * 0.1,
-                    dy: 200,
-                    dx: 250
-                }
-            ]
+            annotations = [{
+                note: {
+                    label: "Many highly Urbanised societies",
+                    title: "Middle East & North Africa"
+                },
+                type: d3.annotationCalloutRect,
+                subject: {
+                    width: width * 0.2,
+                    height: height * 0.5,
+                },
+                color: ["red"],
+                x: width * 0.81,
+                y: height * 0.1,
+                dy: 200,
+                dx: 250
+            }]
         } else {
-            annotations = [
-                {
-                    note: {
-                        label: "Stable percentage of population in Urban areas",
-                        title: "Europe & Central Asia"
-                    },
-                    type: d3.annotationCalloutCircle,
-                    subject: {
-                        radius: 80,         // circle radius
-                        radiusPadding: 20,   // white space around circle befor connector
-                    },
-                    color: ["red"],
-                    x: width * 0.62,
-                    y: height * 0.85,
-                    dy: 0,
-                    dx: -150
-                }
-            ]
+            annotations = [{
+                note: {
+                    label: "Stable percentage of population in Urban areas",
+                    title: "Europe & Central Asia"
+                },
+                type: d3.annotationCalloutCircle,
+                subject: {
+                    radius: 80, // circle radius
+                    radiusPadding: 20, // white space around circle befor connector
+                },
+                color: ["red"],
+                x: width * 0.62,
+                y: height * 0.85,
+                dy: 0,
+                dx: -150
+            }]
         }
 
         // Add annotation to the chart
@@ -382,7 +448,7 @@ function prevYear() {
 
 /*********************
  * PAGINATION
-*********************/
+ *********************/
 
 var pageItem = $(".pagination li").not(".prev,.next");
 var prev = $(".pagination li.prev");
@@ -406,7 +472,3 @@ prev.click(function () {
         $('li.active').removeClass('active').prev().addClass('active');
     }
 });
-
-
-
-
