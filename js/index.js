@@ -201,7 +201,7 @@ function setupSVG() {
          * TOOLTIP
          *********************/
 
-        var cells = d3.voronoi()
+        cells = d3.voronoi()
             .x(d => x(parseFloat(d['Urban population (percent)'])))
             .y(d => y(parseFloat(d['Urban population (percent growth rate per annum)'])))
             .extent([
@@ -210,17 +210,16 @@ function setupSVG() {
             ])
             .polygons(yearData);
 
-        const cell = svg.append("g")
+        cell = svg.append("g")
             .attr("class", "voronoiWrapper")
             .attr("fill", "none")
             .selectAll("path")
             .data(cells)
             .enter();
 
-
         cell.append("path")
             .style("pointer-events", "all")
-            //.attr("stroke", "#ccc")
+            .filter(function(d) { return d !== undefined; })
             .attr("d", d => `M${d.join("L")}Z`)
             .on("mouseover", function (d, i) {
 
@@ -238,8 +237,8 @@ function setupSVG() {
                     .attr("stroke", "black")
                     .attr("fill", "white")
                     .attr("stroke-width", "3")
-                    .attr("rx", "8px") // how much to round corners - to be transitioned below
-                    .attr("ry", "8px") // how much to round corners - to be transitioned below
+                    .attr("rx", "8px") 
+                    .attr("ry", "8px")
 
                 label.append("text")
                     .attr("x", 10)
@@ -299,8 +298,6 @@ function setupSVG() {
 
         addAnnotations();
 
-        voronoiTooltip(yearData);
-
         svg
             .selectAll("dataCircles")
             .data(yearData)
@@ -315,14 +312,14 @@ function setupSVG() {
             .style("fill", "none")
             .style("stroke-width", 2) // set the stroke width
             .style("stroke", function (d) { return color(d['Region']) })
+
+        voronoiTooltip(yearData);
     }
 
     // Create a function that takes a dataset as input and update the plot:
     function plotDataWithTransitions(yearData) {
 
         addAnnotations();
-
-        voronoiTooltip(yearData);
 
         // Update circles
         svg.selectAll(".dataCircles")
@@ -339,7 +336,7 @@ function setupSVG() {
 
             .on("end", function () { });
 
-
+        voronoiTooltip(yearData);
     }
 
     function addAnnotations() {
